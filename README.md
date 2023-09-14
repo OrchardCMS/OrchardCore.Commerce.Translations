@@ -1,1 +1,1 @@
-# OrchardCore.Commerce.Translations
+# Orchard Core Commerce Translations
