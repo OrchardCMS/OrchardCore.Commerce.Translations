@@ -1,0 +1,134 @@
+#: OrchardCore.Commerce.Payment\Controllers\PaymentController.cs:150
+#. : T["An exception has occurred during checkout form validation."].Value;
+msgctxt "OrchardCore.Commerce.Controllers.PaymentController"
+msgid "An exception has occurred during checkout form validation."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Controllers\PaymentController.cs:173
+#. await _notifier.InformationAsync(H["This Order contains no line items, so there is nothing to be paid."]);
+msgctxt "OrchardCore.Commerce.Controllers.PaymentController"
+msgid "This Order contains no line items, so there is nothing to be paid."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Controllers\PaymentController.cs:180
+#. await _notifier.InformationAsync(H["This Order is no longer pending."]);
+msgctxt "OrchardCore.Commerce.Controllers.PaymentController"
+msgid "This Order is no longer pending."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Controllers\PaymentController.cs:187
+#. await _notifier.InformationAsync(H["This Order's line items have no cost, so there is nothing to be paid."]);
+msgctxt "OrchardCore.Commerce.Controllers.PaymentController"
+msgid "This Order's line items have no cost, so there is nothing to be paid."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Controllers\PaymentController.cs:197
+#. H["There are no applicable payment providers for this site."],
+msgctxt "OrchardCore.Commerce.Controllers.PaymentController"
+msgid "There are no applicable payment providers for this site."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Controllers\PaymentController.cs:198
+#. H["Please make sure there is at least one enabled and properly configured."]));
+msgctxt "OrchardCore.Commerce.Controllers.PaymentController"
+msgid "Please make sure there is at least one enabled and properly configured."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Controllers\PaymentController.cs:216
+#. order.DisplayText = T["Success"].Value; // This is only for display, intentionally not saved.
+msgctxt "OrchardCore.Commerce.Controllers.PaymentController"
+msgid "Success"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Controllers\PaymentController.cs:263
+#. await _notifier.ErrorAsync(H["The payment has failed, please try again."]);
+msgctxt "OrchardCore.Commerce.Controllers.PaymentController"
+msgid "The payment has failed, please try again."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Services\PaymentService.cs:140
+#. H["There are no applicable payment providers for this site."],
+msgctxt "."
+msgid "There are no applicable payment providers for this site."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Services\PaymentService.cs:141
+#. H["Please make sure there is at least one enabled and properly configured."]));
+msgctxt "."
+msgid "Please make sure there is at least one enabled and properly configured."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Services\PaymentService.cs:190
+#. await _notifier.ErrorAsync(H["Invalid attempt to check out non-free order as free."]);
+msgctxt "."
+msgid "Invalid attempt to check out non-free order as free."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Services\PaymentService.cs:254
+#. errors.Select(error => H["{0}", error]).ToArray()));
+msgctxt "."
+msgid "{0}"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\CheckoutDummy.cshtml:1
+#. <shape type="PayButton" PayButtonClass="dummy" prop-Text="@T["Make a dummy payment"]" />
+msgctxt "OrchardCore.Commerce.Payment.Views.CheckoutDummy"
+msgid "Make a dummy payment"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\Payment\Index.cshtml:1
+#. <mvc-title text="@T["Checkout"]" />
+msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Index"
+msgid "Checkout"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\PayButton.cshtml:0
+msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+msgid "Pay with {0}"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\PayButton.cshtml:0
+msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+msgid "Pay"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\PayButton.cshtml:0
+msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+msgid "{0}"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\PayButton.cshtml:0
+msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+msgid "Pay {0}"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\PayButton.cshtml:44
+#. <span>@T["Processing payment..."]</span>
+msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+msgid "Processing payment..."
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\Payment\PaymentRequest.cshtml:11
+#. <mvc-title text="@T["Order Payment"]" />
+msgctxt "OrchardCore.Commerce.Payment.Views.Payment.PaymentRequest"
+msgid "Order Payment"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\Payment\Success.cshtml:9
+#. <h4 class="text-success text-center">@T["Thank you for your purchase!"]</h4>
+msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Success"
+msgid "Thank you for your purchase!"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\Payment\Success.cshtml:13
+#. <b>@T["The receipt will be sent to your email address once we have processed your order!"] </b>
+msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Success"
+msgid "The receipt will be sent to your email address once we have processed your order!"
+msgstr ""
+
+#: OrchardCore.Commerce.Payment\Views\Payment\Success.cshtml:15
+#. <a href="~/" class="btn btn-primary">@T["Return to home page"]</a>
+msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Success"
+msgid "Return to home page"
+msgstr ""
+
