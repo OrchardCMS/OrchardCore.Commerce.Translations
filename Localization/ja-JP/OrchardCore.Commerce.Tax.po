@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: orchard-core-commerce\n"
+"X-Crowdin-Project-ID: 529986\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: OrchardCore.Commerce.Tax.pot\n"
+"X-Crowdin-File-ID: 918\n"
+"Project-Id-Version: orchard-core-commerce\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"PO-Revision-Date: 2023-11-17 12:41\n"
+
+#. T["The \"{0}\" must be empty or a valid regular expression.", name]);
+#: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:98
+msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
+msgid "The \"{0}\" must be empty or a valid regular expression."
+msgstr ""
+
+#. .Add(T["Configuration"], configuration => configuration
+#: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:20
+msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxRateAdminMenu"
+msgid "Configuration"
+msgstr ""
+
+#. .Add(T["Commerce"], commerce => commerce
+#: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:21
+msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxRateAdminMenu"
+msgid "Commerce"
+msgstr ""
+
+#. .Add(T["Custom Tax Rates"], T["Custom Tax Rates"], entry => entry
+#. .Add(T["Custom Tax Rates"], T["Custom Tax Rates"], entry => entry
+#: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:22
+#: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:22
+msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxRateAdminMenu"
+msgid "Custom Tax Rates"
+msgstr ""
+
+#. <h2>@T["Recipients and Tax Codes"]</h2>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:16
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Recipients and Tax Codes"
+msgstr ""
+
+#. <label for="@addressCheckboxElementId">@T["Hide Address Columns"]</label>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:20
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Hide Address Columns"
+msgstr ""
+
+#. <th>@T["First street address"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:26
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "First street address"
+msgstr ""
+
+#. <th>@T["Second street address"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:27
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Second street address"
+msgstr ""
+
+#. <th>@T["City"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:28
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "City"
+msgstr ""
+
+#. <th>@T["State or province code"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:29
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "State or province code"
+msgstr ""
+
+#. <th>@T["Postal code"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:30
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Postal code"
+msgstr ""
+
+#. <th>@T["Country or region code"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:31
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Country or region code"
+msgstr ""
+
+#. <th>@T["Tax code"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:32
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Tax code"
+msgstr ""
+
+#. <th>@T["VAT number"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:33
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "VAT number"
+msgstr ""
+
+#. <th>@T["Tax rate (%)"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:34
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Tax rate (%)"
+msgstr ""
+
+#. <th>@T["Is Corporation"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:35
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Is Corporation"
+msgstr ""
+
+#. <th>@T["Actions"]</th>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:36
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Actions"
+msgstr ""
+
+#. <option value="@((int)MatchTaxRates.Ignored)">@T["Ignored"]</option>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:71
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Ignored"
+msgstr ""
+
+#. <option value="@((int)MatchTaxRates.Checked)">@T["Checked"]</option>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:72
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Checked"
+msgstr ""
+
+#. <option value="@((int)MatchTaxRates.Unchecked)">@T["Unchecked"]</option>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:73
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Unchecked"
+msgstr ""
+
+#. @T["All text fields in the table have to be either empty or contain a valid regular expression."]
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:99
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "All text fields in the table have to be either empty or contain a valid regular expression."
+msgstr ""
+
+#. @T["Learn more about regular expressions in .NET <a href=\"{0}\">here</a>.", regexDocsUrl]
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:100
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Learn more about regular expressions in .NET <a href=\"{0}\">here</a>."
+msgstr ""
+
+#. <button id="@addButtonElementId" class="@addButtonElement btn btn-secondary mb-3">@T["Add Row"]</button>
+#: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:104
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
+msgid "Add Row"
+msgstr ""
+

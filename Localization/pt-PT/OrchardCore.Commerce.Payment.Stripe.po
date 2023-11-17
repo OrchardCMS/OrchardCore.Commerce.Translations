@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: orchard-core-commerce\n"
+"X-Crowdin-Project-ID: 529986\n"
+"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-File: OrchardCore.Commerce.Payment.Stripe.pot\n"
+"X-Crowdin-File-ID: 914\n"
+"Project-Id-Version: orchard-core-commerce\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"PO-Revision-Date: 2023-11-17 12:41\n"
+
+#. .Add(T["Configuration"], configuration => configuration
+#: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:17
+msgctxt "OrchardCore.Commerce.Payment.Stripe.AdminMenu"
+msgid "Configuration"
+msgstr ""
+
+#. .Add(T["Commerce"], commerce => commerce
+#: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:18
+msgctxt "OrchardCore.Commerce.Payment.Stripe.AdminMenu"
+msgid "Commerce"
+msgstr ""
+
+#. .Add(T["Stripe API"], T["Stripe API"], stripeApi => stripeApi
+#. .Add(T["Stripe API"], T["Stripe API"], stripeApi => stripeApi
+#: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:19
+#: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:19
+msgctxt "OrchardCore.Commerce.Payment.Stripe.AdminMenu"
+msgid "Stripe API"
+msgstr ""
+
+#. H["Couldn't find the payment intent \"{0}\" or the order associated with it.", paymentIntent ?? string.Empty]);
+#: OrchardCore.Commerce.Payment.Stripe/Controllers/StripeController.cs:61
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Controllers.StripeController"
+msgid "Couldn't find the payment intent \"{0}\" or the order associated with it."
+msgstr ""
+
+#. await _notifier.ErrorAsync(H["The has payment failed, please try again."]);
+#: OrchardCore.Commerce.Payment.Stripe/Controllers/StripeController.cs:102
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Controllers.StripeController"
+msgid "The has payment failed, please try again."
+msgstr ""
+
+#. T["The order is empty."].Value);
+#: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentService.cs:171
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Services.StripePaymentService"
+msgid "The order is empty."
+msgstr ""
+
+#. Description = T["User checkout on {0}", siteSettings.SiteName].Value,
+#: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentService.cs:205
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Services.StripePaymentService"
+msgid "User checkout on {0}"
+msgstr ""
+
+#. <h3>@T["Stripe Payment"]</h3>
+#: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:19
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
+msgid "Stripe Payment"
+msgstr ""
+
+#. <div id="payment-form_payment">@T["Stripe payment is not configured for this site."]</div>
+#: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:23
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
+msgid "Stripe payment is not configured for this site."
+msgstr ""
+
+#. <strong>@T["Net Price: {0}", Model.NetTotal]</strong>
+#: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:29
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
+msgid "Net Price: {0}"
+msgstr ""
+
+#. <strong>@T["Gross Price: {0}", Model.GrossTotal]</strong>
+#: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:34
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
+msgid "Gross Price: {0}"
+msgstr ""
+
+#. @T["There was an error during confirming the payment, please try again."].Json(),
+#: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:53
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
+msgid "There was an error during confirming the payment, please try again."
+msgstr ""
+
+#. @T["A value is required for %LABEL%."].Json(),
+#: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:54
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
+msgid "A value is required for %LABEL%."
+msgstr ""
+
+#. <h4 class="text-success text-center">@T["Confirming payment. Reloading in 2 seconds..."]</h4>
+#: OrchardCore.Commerce.Payment.Stripe/Views/Stripe/PaymentConfirmationMiddleware.cshtml:5
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.Stripe.PaymentConfirmationMiddleware"
+msgid "Confirming payment. Reloading in 2 seconds..."
+msgstr ""
+
+#. <p class="alert alert-warning">@T["The current tenant will be reloaded when the settings are saved."]</p>
+#: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:3
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
+msgid "The current tenant will be reloaded when the settings are saved."
+msgstr ""
+
+#. <label asp-for="PublishableKey">@T["Publishable Key"]</label>
+#: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:6
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
+msgid "Publishable Key"
+msgstr ""
+
+#. <span class="hint">@T["Your Stripe's Publishable API key."]</span>
+#: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:9
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
+msgid "Your Stripe's Publishable API key."
+msgstr ""
+
+#. <label asp-for="SecretKey">@T["Secret Key"]</label>
+#: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:13
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
+msgid "Secret Key"
+msgstr ""
+
+#. @T["Your Stripe Secret API key. The field will be empty after saving it, for security reasons."]
+#: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:17
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
+msgid "Your Stripe Secret API key. The field will be empty after saving it, for security reasons."
+msgstr ""
+
+#. <label asp-for="WebhookSigningSecret">@T["Webhook Signing Secret"]</label>
+#: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:22
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
+msgid "Webhook Signing Secret"
+msgstr ""
+
+#. @T["Your Webhook Signing Secret key. The field will be empty after saving it, for security reasons."]
+#: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:26
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
+msgid "Your Webhook Signing Secret key. The field will be empty after saving it, for security reasons."
+msgstr ""
+
+#. @T["Get your Stripe API keys at <a href=\"https://stripe.com/docs/keys\" target=\"_blank\">https://stripe.com/docs/keys</a>. And your Webhook key at <a href=\"https://dashboard.stripe.com/webhooks\" target=\"_blank\">https://dashboard.stripe.com/webhooks</a>"]
+#: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:32
+msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
+msgid "Get your Stripe API keys at <a href=\"https://stripe.com/docs/keys\" target=\"_blank\">https://stripe.com/docs/keys</a>. And your Webhook key at <a href=\"https://dashboard.stripe.com/webhooks\" target=\"_blank\">https://dashboard.stripe.com/webhooks</a>"
+msgstr ""
+

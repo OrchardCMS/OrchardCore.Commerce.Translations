@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: orchard-core-commerce\n"
+"X-Crowdin-Project-ID: 529986\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: OrchardCore.Commerce.Promotion.pot\n"
+"X-Crowdin-File-ID: 920\n"
+"Project-Id-Version: orchard-core-commerce\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"PO-Revision-Date: 2023-11-17 12:41\n"
+
+#. <strong class="field-name-discount-part-new-title-title">@T["New Price with Discount after Taxes:"]</strong>
+#: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:13
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "New Price with Discount after Taxes:"
+msgstr ""
+
+#. <strong class="field-name-discount-part-discount-percentage-title">@T["Discount Percentage:"]</strong>
+#: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:21
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Percentage:"
+msgstr ""
+
+#. @T["{0}%", discountPercentageValue]
+#: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:22
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "{0}%"
+msgstr ""
+
+#. <strong class="field-name-discount-part-maximum-products-title">@T["Discount Maximum Products:"]</strong>
+#: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:29
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Maximum Products:"
+msgstr ""
+
+#. <strong class="field-name-discount-part-minimum-products-title">@T["Discount Minimum Products:"]</strong>
+#: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:37
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Minimum Products:"
+msgstr ""
+
+#. <strong class="field-name-discount-part-beginning-title">@T["Discount Beginning:"]</strong>
+#: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:45
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Beginning:"
+msgstr ""
+
+#. <strong class="field-name-discount-part-expiration-title">@T["Discount Expiration:"]</strong>
+#: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:53
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Expiration:"
+msgstr ""
+
