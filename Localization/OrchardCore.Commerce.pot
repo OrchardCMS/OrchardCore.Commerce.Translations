@@ -1,0 +1,1316 @@
+#: OrchardCore.Commerce\Activities\CartDisplayingEvent.cs:7
+#. public override LocalizedString DisplayText => T["Cart displaying"];
+msgctxt "OrchardCore.Commerce.Activities.CartDisplayingEvent"
+msgid "Cart displaying"
+msgstr ""
+
+#: OrchardCore.Commerce\Activities\CartLoadedEvent.cs:7
+#. public override LocalizedString DisplayText => T["Cart loaded"];
+msgctxt "OrchardCore.Commerce.Activities.CartLoadedEvent"
+msgid "Cart loaded"
+msgstr ""
+
+#: OrchardCore.Commerce\Activities\CartUpdatedEvent.cs:7
+#. public override LocalizedString DisplayText => T["Cart updated"];
+msgctxt "OrchardCore.Commerce.Activities.CartUpdatedEvent"
+msgid "Cart updated"
+msgstr ""
+
+#: OrchardCore.Commerce\Activities\CartVerifyingItemEvent.cs:7
+#. public override LocalizedString DisplayText => T["Verifying cart item"];
+msgctxt "OrchardCore.Commerce.Activities.CartVerifyingItemEvent"
+msgid "Verifying cart item"
+msgstr ""
+
+#: OrchardCore.Commerce\Activities\CommerceEventActivityBase.cs:8
+#. public override LocalizedString Category => T["Commerce"];
+msgctxt "OrchardCore.Commerce.Activities.CommerceEventActivityBase"
+msgid "Commerce"
+msgstr ""
+
+#: OrchardCore.Commerce\Activities\OrderCreatedEvent.cs:12
+#. public override LocalizedString DisplayText => T["Order was created"];
+msgctxt "OrchardCore.Commerce.Activities.OrderCreatedEvent"
+msgid "Order was created"
+msgstr ""
+
+#: OrchardCore.Commerce\Activities\ProductAddedToCartEvent.cs:7
+#. public override LocalizedString DisplayText => T["Product added to cart"];
+msgctxt "OrchardCore.Commerce.Activities.ProductAddedToCartEvent"
+msgid "Product added to cart"
+msgstr ""
+
+#: OrchardCore.Commerce\AdminMenu.cs:18
+#. .Add(T["Configuration"], configuration => configuration
+msgctxt "OrchardCore.Commerce.AdminMenu"
+msgid "Configuration"
+msgstr ""
+
+#: OrchardCore.Commerce\AdminMenu.cs:19
+#. .Add(T["Commerce"], commerce => commerce
+msgctxt "OrchardCore.Commerce.AdminMenu"
+msgid "Commerce"
+msgstr ""
+
+#: OrchardCore.Commerce\AdminMenu.cs:20
+#. .Add(T["Currency"], T["Currency"], entry => entry
+#: OrchardCore.Commerce\AdminMenu.cs:20
+#. .Add(T["Currency"], T["Currency"], entry => entry
+msgctxt "OrchardCore.Commerce.AdminMenu"
+msgid "Currency"
+msgstr ""
+
+#: OrchardCore.Commerce\AdminMenu.cs:24
+#. .Add(T["Price Display"], T["Price Display"], entry => entry
+#: OrchardCore.Commerce\AdminMenu.cs:24
+#. .Add(T["Price Display"], T["Price Display"], entry => entry
+msgctxt "OrchardCore.Commerce.AdminMenu"
+msgid "Price Display"
+msgstr ""
+
+#: OrchardCore.Commerce\AdminMenu.cs:28
+#. .Add(T["Region"], T["Region"], region => region
+#: OrchardCore.Commerce\AdminMenu.cs:28
+#. .Add(T["Region"], T["Region"], region => region
+msgctxt "OrchardCore.Commerce.AdminMenu"
+msgid "Region"
+msgstr ""
+
+#: OrchardCore.Commerce\Controllers\UserController.cs:77
+#. await _notifier.SuccessAsync(H["Your addresses have been updated."]);
+msgctxt "OrchardCore.Commerce.Controllers.UserController"
+msgid "Your addresses have been updated."
+msgstr ""
+
+#: OrchardCore.Commerce\Controllers\UserController.cs:82
+#. foreach (var error in errors.WhereNot(string.IsNullOrEmpty)) await _notifier.ErrorAsync(H["{0}", error]);
+#: OrchardCore.Commerce\Controllers\UserController.cs:123
+#. foreach (var error in errors.WhereNot(string.IsNullOrEmpty)) await _notifier.ErrorAsync(H["{0}", error]);
+msgctxt "OrchardCore.Commerce.Controllers.UserController"
+msgid "{0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Controllers\UserController.cs:118
+#. await _notifier.SuccessAsync(H["Your details have been updated."]);
+msgctxt "OrchardCore.Commerce.Controllers.UserController"
+msgid "Your details have been updated."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\CartEventActivityDisplayDriverBase.cs:22
+#. H["Executes after the shopping cart data is prepared, but before the shapes are rendered."];
+msgctxt "OrchardCore.Commerce.Drivers.CartDisplayingEventDisplayDriver"
+msgid "Executes after the shopping cart data is prepared, but before the shapes are rendered."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\CartEventActivityDisplayDriverBase.cs:33
+#. H["Executes before an item is added to the shopping cart to check whether it can be added based on inventory status."];
+msgctxt "OrchardCore.Commerce.Drivers.CartVerifyingItemEventDisplayDriver"
+msgid "Executes before an item is added to the shopping cart to check whether it can be added based on inventory status."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\CartEventActivityDisplayDriverBase.cs:44
+#. H["Executes before the cart is updated to check whether item quantities can be modified based on inventory status."];
+msgctxt "OrchardCore.Commerce.Drivers.CartUpdatedEventDisplayDriver"
+msgid "Executes before the cart is updated to check whether item quantities can be modified based on inventory status."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\CartEventActivityDisplayDriverBase.cs:55
+#. H["Executes after the shopping cart content is loaded from the store and before it's displayed or used for calculation."];
+msgctxt "OrchardCore.Commerce.Drivers.CartLoadedEventDisplayDriver"
+msgid "Executes after the shopping cart content is loaded from the store and before it's displayed or used for calculation."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\CartEventActivityDisplayDriverBase.cs:65
+#. public override LocalizedHtmlString Description => H["Executes when a product is added to the shopping cart."];
+msgctxt "OrchardCore.Commerce.Drivers.ProductAddedToCartEventDisplayDriver"
+msgid "Executes when a product is added to the shopping cart."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\OrderCreatedEventDisplayDriver.cs:11
+#. public override LocalizedHtmlString Description => H["Executes when an order is created on the frontend."];
+msgctxt "OrchardCore.Commerce.Drivers.OrderCreatedEventDisplayDriver"
+msgid "Executes when an order is created on the frontend."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\OrderPartDisplayDriver.cs:80
+#. T["Selected currencies must match."]);
+msgctxt "OrchardCore.Commerce.Drivers.OrderPartDisplayDriver"
+msgid "Selected currencies must match."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\OrderPartDisplayDriver.cs:107
+#. ? T["Product's SKU cannot be left empty."]
+msgctxt "OrchardCore.Commerce.Drivers.OrderPartDisplayDriver"
+msgid "Product's SKU cannot be left empty."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\OrderPartDisplayDriver.cs:108
+#. : T["SKU \"{0}\" does not belong to an existing Product.", lineItemProductSku]);
+msgctxt "OrchardCore.Commerce.Drivers.OrderPartDisplayDriver"
+msgid "SKU \"{0}\" does not belong to an existing Product."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\ProductPartDisplayDriver.cs:50
+#. updater.ModelState.AddModelError(nameof(ProductPart.Sku), T["SKU may not contain the dash character."]);
+msgctxt "OrchardCore.Commerce.Drivers.ProductPartDisplayDriver"
+msgid "SKU may not contain the dash character."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\TieredPricePartDisplayDriver.cs:70
+#. T["The given tiered prices are not valid."]);
+msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
+msgid "The given tiered prices are not valid."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\TieredPricePartDisplayDriver.cs:80
+#. T["You need to set a price for every tier."]);
+msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
+msgid "You need to set a price for every tier."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\TieredPricePartDisplayDriver.cs:87
+#. T["You need to set a default price greater than 0."]);
+msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
+msgid "You need to set a default price greater than 0."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\TieredPricePartDisplayDriver.cs:98
+#. T["There are duplicate tiers."]);
+msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
+msgid "There are duplicate tiers."
+msgstr ""
+
+#: OrchardCore.Commerce\Drivers\TieredPricePartDisplayDriver.cs:105
+#. T["You need to set a unit price greater or equal to 0 for every tier."]);
+msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
+msgid "You need to set a unit price greater or equal to 0 for every tier."
+msgstr ""
+
+#: OrchardCore.Commerce\Events\InventoryShoppingCartEvents.cs:57
+#. return H["There are not enough {0} left in stock.", title];
+msgctxt "OrchardCore.Commerce.Events.InventoryShoppingCartEvents"
+msgid "There are not enough {0} left in stock."
+msgstr ""
+
+#: OrchardCore.Commerce\Events\InventoryShoppingCartEvents.cs:65
+#. return H["The checkout quantity for {0} is more than the maximum allowed ({1}).", title, maxOrderQuantity];
+msgctxt "OrchardCore.Commerce.Events.InventoryShoppingCartEvents"
+msgid "The checkout quantity for {0} is more than the maximum allowed ({1})."
+msgstr ""
+
+#: OrchardCore.Commerce\Events\InventoryShoppingCartEvents.cs:73
+#. return H["The checkout quantity for {0} is less than the minimum allowed ({1}).", title, minOrderQuantity];
+msgctxt "OrchardCore.Commerce.Events.InventoryShoppingCartEvents"
+msgid "The checkout quantity for {0} is less than the minimum allowed ({1})."
+msgstr ""
+
+#: OrchardCore.Commerce\Events\PromotionShoppingCartEvents.cs:57
+#. newHeaders.Insert(insertIndex, H["Old Price"]);
+msgctxt "OrchardCore.Commerce.Events.PromotionShoppingCartEvents"
+msgid "Old Price"
+msgstr ""
+
+#: OrchardCore.Commerce\Events\TaxShoppingCartEvents.cs:64
+#. .Select(header => header.Name == "Price" ? H["Gross Price"] : header)
+msgctxt "OrchardCore.Commerce.Events.TaxShoppingCartEvents"
+msgid "Gross Price"
+msgstr ""
+
+#: OrchardCore.Commerce\Events\TaxShoppingCartEvents.cs:72
+#. newHeaders.Insert(grossIndex, H["Net Price"]);
+msgctxt "OrchardCore.Commerce.Events.TaxShoppingCartEvents"
+msgid "Net Price"
+msgstr ""
+
+#: OrchardCore.Commerce\Handlers\DiscountPartHandler.cs:70
+#. T["You must either provide only {0}, or {1}, or neither of them.", percentageName, amountName]);
+msgctxt "OrchardCore.Commerce.Handlers.DiscountPartHandler"
+msgid "You must either provide only {0}, or {1}, or neither of them."
+msgstr ""
+
+#: OrchardCore.Commerce\Handlers\DiscountPartHandler.cs:82
+#. T["Discount amount must be smaller than the product's original price.", amountName]);
+msgctxt "OrchardCore.Commerce.Handlers.DiscountPartHandler"
+msgid "Discount amount must be smaller than the product's original price."
+msgstr ""
+
+#: OrchardCore.Commerce\Handlers\OrderPartHandler.cs:29
+#. orderPart.ContentItem.DisplayText = T["Order {0}", guid];
+msgctxt "OrchardCore.Commerce.Handlers.OrderPartHandler"
+msgid "Order {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Handlers\SkuValidationHandler.cs:39
+#. _updateModelAccessor.ModelUpdater.ModelState.AddModelError(nameof(part.Sku), T["SKU must not be empty."]);
+msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
+msgid "SKU must not be empty."
+msgstr ""
+
+#: OrchardCore.Commerce\Handlers\SkuValidationHandler.cs:62
+#. T["SKU must be unique. A product with the given SKU already exists."]);
+msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
+msgid "SKU must be unique. A product with the given SKU already exists."
+msgstr ""
+
+#: OrchardCore.Commerce\Handlers\TaxPartAndPricePartHandler.cs:70
+#. T["You must either provide both {0} and {1}, or neither of them.", grossPriceName, taxRateName]);
+msgctxt "OrchardCore.Commerce.Handlers.TaxPartAndPricePartHandler"
+msgid "You must either provide both {0} and {1}, or neither of them."
+msgstr ""
+
+#: OrchardCore.Commerce\Services\ShoppingCartHelpers.cs:107
+#. H["Quantity"],
+msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
+msgid "Quantity"
+msgstr ""
+
+#: OrchardCore.Commerce\Services\ShoppingCartHelpers.cs:108
+#. H["Product"],
+msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
+msgid "Product"
+msgstr ""
+
+#: OrchardCore.Commerce\Services\ShoppingCartHelpers.cs:109
+#. H["Price"],
+msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
+msgid "Price"
+msgstr ""
+
+#: OrchardCore.Commerce\Services\ShoppingCartHelpers.cs:110
+#. H["Action"],
+msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
+msgid "Action"
+msgstr ""
+
+#: OrchardCore.Commerce\Services\ShoppingCartHelpers.cs:224
+#. return H["Product with SKU {0} not found.", sku];
+msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
+msgid "Product with SKU {0} not found."
+msgstr ""
+
+#: OrchardCore.Commerce\Services\ShoppingCartHelpers.cs:231
+#. : H["Can't add product {0} because it doesn't have a price, or its currency doesn't match the current display currency.", sku];
+msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
+msgid "Can't add product {0} because it doesn't have a price, or its currency doesn't match the current display currency."
+msgstr ""
+
+#: OrchardCore.Commerce\Settings\CurrencySettingsDisplayDriver.cs:64
+#. (string.IsNullOrEmpty(currency.EnglishName) ? T["Unspecified"] : T[currency.EnglishName])));
+msgctxt "OrchardCore.Commerce.Settings.CurrencySettingsDisplayDriver"
+msgid "Unspecified"
+msgstr ""
+
+#: OrchardCore.Commerce\Settings\PricePartSettingsDisplayDriver.cs:40
+#. new(CurrencySelectionMode.AllCurrencies.ToString(), T["All Currencies"]),
+msgctxt "OrchardCore.Commerce.Settings.PricePartSettingsDisplayDriver"
+msgid "All Currencies"
+msgstr ""
+
+#: OrchardCore.Commerce\Settings\PricePartSettingsDisplayDriver.cs:41
+#. new(CurrencySelectionMode.DefaultCurrency.ToString(), T["Default Currency"]),
+msgctxt "OrchardCore.Commerce.Settings.PricePartSettingsDisplayDriver"
+msgid "Default Currency"
+msgstr ""
+
+#: OrchardCore.Commerce\Settings\PricePartSettingsDisplayDriver.cs:42
+#. new(CurrencySelectionMode.SpecificCurrency.ToString(), T["Specific Currency"]),
+msgctxt "OrchardCore.Commerce.Settings.PricePartSettingsDisplayDriver"
+msgid "Specific Currency"
+msgstr ""
+
+#: OrchardCore.Commerce\Startup.cs:243
+#. T["Region settings"],
+msgctxt "OrchardCore.Commerce.DeploymentStartup"
+msgid "Region settings"
+msgstr ""
+
+#: OrchardCore.Commerce\Startup.cs:244
+#. T["Exports the region settings."]);
+msgctxt "OrchardCore.Commerce.DeploymentStartup"
+msgid "Exports the region settings."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\User\Addresses.cshtml:3
+#. <mvc-title text="@T["Your Addresses"]"/>
+msgctxt "OrchardCore.Commerce.Views.User.Addresses"
+msgid "Your Addresses"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\User\Addresses.cshtml:7
+#. <button type="submit" class="btn btn-primary">@T["Save"]</button>
+msgctxt "OrchardCore.Commerce.Views.User.Addresses"
+msgid "Save"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeField_Edit.cshtml:9
+#. <label>@name @T["(Boolean product attribute)"]</label>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
+msgid "(Boolean product attribute)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeField_Edit.cshtml:11
+#. <li class="hint">@T["Label: {0}", settings.Label]</li>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
+msgid "Label: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeField_Edit.cshtml:12
+#. <li class="hint">@(settings.DefaultValue ? T["Default value: on"] : T["Default value: off"])</li>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
+msgid "Default value: on"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeField_Edit.cshtml:12
+#. <li class="hint">@(settings.DefaultValue ? T["Default value: on"] : T["Default value: off"])</li>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
+msgid "Default value: off"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeField_Edit.cshtml:13
+#. <li class="hint">@T["Hint: {0}", settings.Hint]</li>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
+msgid "Hint: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeFieldSettings.Edit.cshtml:5
+#. <label asp-for="Hint">@T["Hint"]</label>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
+msgid "Hint"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeFieldSettings.Edit.cshtml:7
+#. <span class="hint">@T["The description text to display for this attribute in the product page."]</span>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
+msgid "The description text to display for this attribute in the product page."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeFieldSettings.Edit.cshtml:13
+#. <label asp-for="Label">@T["Label"]</label>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
+msgid "Label"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeFieldSettings.Edit.cshtml:15
+#. <span class="hint">@T["The text associated to the checkbox for this attribute in the product page."]</span>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
+msgid "The text associated to the checkbox for this attribute in the product page."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeFieldSettings.Edit.cshtml:21
+#. <label asp-for="Label">@T["Default value"]</label>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
+msgid "Default value"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeFieldSettings.Edit.cshtml:25
+#. <label class="custom-control-label" asp-for="DefaultValue">@T["On/Off"]</label>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
+msgid "On/Off"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\BooleanProductAttributeFieldSettings.Edit.cshtml:28
+#. <span class="hint">@T["The default value associated with this attribute."]</span>
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
+msgid "The default value associated with this attribute."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Checkout.cshtml:25
+#. <label asp-for="OrderPart.Email.Text">@T["E-mail *"]</label>
+msgctxt "OrchardCore.Commerce.Views.Checkout"
+msgid "E-mail *"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Checkout.cshtml:29
+#. <label asp-for="OrderPart.Phone.Text">@T["Phone Number *"]</label>
+msgctxt "OrchardCore.Commerce.Views.Checkout"
+msgid "Phone Number *"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Checkout.cshtml:33
+#. <label asp-for="OrderPart.VatNumber.Text">@T["VAT Number"]</label>
+msgctxt "OrchardCore.Commerce.Views.Checkout"
+msgid "VAT Number"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Checkout.cshtml:43
+#. @T["Buyer is a corporation"]
+msgctxt "OrchardCore.Commerce.Views.Checkout"
+msgid "Buyer is a corporation"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Checkout.cshtml:49
+#. <h3 class="address__title">@T["Billing Address"]</h3>
+msgctxt "OrchardCore.Commerce.Views.Checkout"
+msgid "Billing Address"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Checkout.cshtml:62
+#. <h3 class="address__title">@T["Shipping Address"]</h3>
+msgctxt "OrchardCore.Commerce.Views.Checkout"
+msgid "Shipping Address"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Checkout.cshtml:82
+#. @T["Shipping Address and Billing Address are the same"]
+msgctxt "OrchardCore.Commerce.Views.Checkout"
+msgid "Shipping Address and Billing Address are the same"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Checkout.cshtml:121
+#. @T["Checkout Without Payment"]
+msgctxt "OrchardCore.Commerce.Views.Checkout"
+msgid "Checkout Without Payment"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\CurrencySettings.Edit.cshtml:3
+#. <p class="alert alert-warning">@T["The current tenant will be reloaded when the settings are saved."]</p>
+msgctxt "OrchardCore.Commerce.Views.CurrencySettings.Edit"
+msgid "The current tenant will be reloaded when the settings are saved."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\CurrencySettings.Edit.cshtml:6
+#. <label asp-for="DefaultCurrency">@T["Default currency"]</label>
+msgctxt "OrchardCore.Commerce.Views.CurrencySettings.Edit"
+msgid "Default currency"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\CurrencySettings.Edit.cshtml:15
+#. <span class="hint">@T["The default currency used by the system."]</span>
+msgctxt "OrchardCore.Commerce.Views.CurrencySettings.Edit"
+msgid "The default currency used by the system."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\CurrencySettings.Edit.cshtml:19
+#. <label asp-for="CurrentDisplayCurrency">@T["Current display currency"]</label>
+msgctxt "OrchardCore.Commerce.Views.CurrencySettings.Edit"
+msgid "Current display currency"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\CurrencySettings.Edit.cshtml:28
+#. <span class="hint">@T["The currently used currency for displaying prices to customers."]</span>
+msgctxt "OrchardCore.Commerce.Views.CurrencySettings.Edit"
+msgid "The currently used currency for displaying prices to customers."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\User\Details.cshtml:3
+#. <mvc-title text="@T["Your Details"]"/>
+msgctxt "OrchardCore.Commerce.Views.User.Details"
+msgid "Your Details"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\User\Details.cshtml:7
+#. <button type="submit" class="btn btn-primary">@T["Save"]</button>
+msgctxt "OrchardCore.Commerce.Views.User.Details"
+msgid "Save"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCart\Empty.cshtml:1
+#. <mvc-title text="@T["Shopping Cart"]" />
+msgctxt "OrchardCore.Commerce.Views.ShoppingCart.Empty"
+msgid "Shopping Cart"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCart\Empty.cshtml:6
+#. <p>@T["Your shopping cart is empty."]</p>
+msgctxt "OrchardCore.Commerce.Views.ShoppingCart.Empty"
+msgid "Your shopping cart is empty."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCart\Index.cshtml:5
+#. <mvc-title text="@T["Your Cart"]"/>
+msgctxt "OrchardCore.Commerce.Views.ShoppingCart.Index"
+msgid "Your Cart"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCart\Index.cshtml:14
+#. class="btn btn-primary checkout">@T["Checkout"]</a>
+msgctxt "OrchardCore.Commerce.Views.ShoppingCart.Index"
+msgid "Checkout"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:9
+#. <label>@name @T["(Numeric product attribute)"]</label>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "(Numeric product attribute)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:12
+#. <li class="hint">@T["Required"]</li>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "Required"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:14
+#. <li class="hint">@T["Decimal places: {0}", settings.DecimalPlaces]</li>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "Decimal places: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:16
+#. <li class="hint">@T["Default value: {0}", settings.DefaultValue.Value]</li>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "Default value: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:19
+#. <li class="hint">@T["Value must be between {0} and {1}", settings.Minimum.Value, settings.Maximum.Value]</li>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "Value must be between {0} and {1}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:21
+#. <li class="hint">@T["Minimum value: {0}", settings.Minimum.Value]</li>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "Minimum value: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:23
+#. <li class="hint">@T["Maximum value: {0}", settings.Maximum.Value]</li>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "Maximum value: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:25
+#. <li class="hint">@T["Placeholder: {0}", settings.Placeholder]</li>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "Placeholder: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeField_Edit.cshtml:26
+#. <li class="hint">@T["Hint: {0}", settings.Hint]</li>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
+msgid "Hint: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:14
+#. <label class="custom-control-label" asp-for="Required">@T["Required"]</label>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "Required"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:15
+#. <span class="hint">@T["— Whether a value is required."]</span>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "— Whether a value is required."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:21
+#. <label asp-for="Hint">@T["Hint"]</label>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "Hint"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:23
+#. <span class="hint">@T["The hint text to display for this attribute in the product page."]</span>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "The hint text to display for this attribute in the product page."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:29
+#. <label asp-for="Placeholder">@T["Watermark (placeholder)"]</label>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "Watermark (placeholder)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:31
+#. <span class="hint">@T["A hint to display when the input is empty. (optional)"]</span>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "A hint to display when the input is empty. (optional)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:37
+#. <label asp-for="DecimalPlaces">@T["Decimal places"]</label>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "Decimal places"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:40
+#. <span class="hint">@T["The number of digits after the decimal point."]</span>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "The number of digits after the decimal point."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:46
+#. <label asp-for="Minimum">@T["Minimum"]</label>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "Minimum"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:49
+#. <span class="hint">@T["The minimum value allowed. (optional)"]</span>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "The minimum value allowed. (optional)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:55
+#. <label asp-for="Maximum">@T["Maximum"]</label>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "Maximum"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:58
+#. <span class="hint">@T["The maximum value allowed. (optional)"]</span>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "The maximum value allowed. (optional)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:64
+#. <label asp-for="DefaultValue">@T["Default value"]</label>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "Default value"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeFieldSettings.Edit.cshtml:74
+#. <span class="hint">@T["The default value. (optional)"]</span>
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
+msgid "The default value. (optional)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\NumericProductAttributeValue.cshtml:0
+msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeValue"
+msgid "{0}: {1}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Order-OrderPart-Status.cshtml:2
+#. @(Model.Text switch
+msgctxt "OrchardCore.Commerce.Views.Order-OrderPart-Status"
+msgid "Pending"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Order-OrderPart-Status.cshtml:2
+#. @(Model.Text switch
+msgctxt "OrchardCore.Commerce.Views.Order-OrderPart-Status"
+msgid "Ordered"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Order-OrderPart-Status.cshtml:2
+#. @(Model.Text switch
+msgctxt "OrchardCore.Commerce.Views.Order-OrderPart-Status"
+msgid "Arrived"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Order-OrderPart-Status.cshtml:2
+#. @(Model.Text switch
+msgctxt "OrchardCore.Commerce.Views.Order-OrderPart-Status"
+msgid "Shipped"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\Order-OrderPart-Status.cshtml:2
+#. @(Model.Text switch
+msgctxt "OrchardCore.Commerce.Views.Order-OrderPart-Status"
+msgid "Unknown"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:16
+#. <h3>@T["Ordered Items"]</h3>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Ordered Items"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:19
+#. <label>@T["Product properties"]</label>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Product properties"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:22
+#. @T["Product Name and Attributes cells are only populated after submitting the changes."]
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Product Name and Attributes cells are only populated after submitting the changes."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:25
+#. @T["Currencies: Selected currencies need to be the same for all Products."]
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Currencies: Selected currencies need to be the same for all Products."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:31
+#. <div class="col-xs-12 col-sm-2">@T["Product Name"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Product Name"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:32
+#. <div class="col-xs-12 col-sm-1">@T["Quantity"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Quantity"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:33
+#. <div class="col-xs-12 col-sm-2">@T["Product SKU"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Product SKU"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:34
+#. <div class="col-xs-12 col-sm-1">@T["Unit Price Value"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Unit Price Value"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:35
+#. <div class="col-xs-12 col-sm-1">@T["Unit Price Currency"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Unit Price Currency"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:36
+#. <div class="col-xs-12 col-sm-4 text-center">@T["Attributes"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Attributes"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:37
+#. <div class="col-xs-12 col-sm-1">@T["Actions"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Actions"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:102
+#. <div class="col-xs-12 col-sm-10 font-weight-bold">@T["Total"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Total"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:108
+#. <button id="addButton" class="btn btn-secondary mb-3">@T["Add Item"]</button>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Add Item"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:113
+#. <label>@T["Charges"]</label>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Charges"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:122
+#. <span>@T["Kind:"]</span>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Kind:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:131
+#. <span>@T["Amount:"]</span>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Amount:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:140
+#. <span>@T["Transaction Id:"]</span>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Transaction Id:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:149
+#. <span>@T["Created:"]</span>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Created:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:158
+#. <span>@T["Charge Text:"]</span>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "Charge Text:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_Edit.cshtml:169
+#. <p>@T["There are no charges stored in this order."]</p>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
+msgid "There are no charges stored in this order."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_TemplateLinks.cshtml:6
+#. <h3 class="mb-n1">@T["Checkout Templates"]</h3>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_TemplateLinks"
+msgid "Checkout Templates"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart_TemplateLinks.cshtml:7
+#. <span class="hint">@T["Create templates for the \"Checkout\" screen. Any existing template will be added after the addresses."]</span>
+msgctxt "OrchardCore.Commerce.Views.OrderPart_TemplateLinks"
+msgid "Create templates for the \"Checkout\" screen. Any existing template will be added after the addresses."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:11
+#. <th scope="col">@T["Quantity"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Quantity"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:12
+#. <th scope="col">@T["Product"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Product"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:13
+#. <th scope="col">@T["Attributes"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Attributes"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:14
+#. <th scope="col">@T["Price"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Price"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:0
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid " × "
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:44
+#. <div class="col-xs-12 col-sm-10 font-weight-bold">@T["Total"]</div>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Total"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:57
+#. @T["Complete Payment"]
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Complete Payment"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:66
+#. <p>@T["This order is empty."]</p>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "This order is empty."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:71
+#. <label>@T["Charges"]</label>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Charges"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:79
+#. <th scope="row">@T["Kind:"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Kind:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:83
+#. <th scope="row">@T["Amount:"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Amount:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:87
+#. <th scope="row">@T["Transaction Id:"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Transaction Id:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:91
+#. <th scope="row">@T["Created:"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Created:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:95
+#. <th scope="row">@T["Charge Text:"]</th>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "Charge Text:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\OrderPart.cshtml:103
+#. <p>@T["There are no charges stored in this order."]</p>
+msgctxt "OrchardCore.Commerce.Views.OrderPart"
+msgid "There are no charges stored in this order."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PriceDisplaySettings.Edit.cshtml:3
+#. <p class="alert alert-warning">@T["The current tenant will be reloaded when the settings are saved."]</p>
+msgctxt "OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
+msgid "The current tenant will be reloaded when the settings are saved."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PriceDisplaySettings.Edit.cshtml:7
+#. <label class="custom-control-label" asp-for="UseNetPriceDisplay">@T["Use Net Price Display"]</label>
+msgctxt "OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
+msgid "Use Net Price Display"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PriceDisplaySettings.Edit.cshtml:10
+#. <span class="hint">@T["Turn on to display prices with taxes excluded."]</span>
+msgctxt "OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
+msgid "Turn on to display prices with taxes excluded."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PriceDisplaySettings.Edit.cshtml:14
+#. <label class="custom-control-label" asp-for="UseGrossPriceDisplay">@T["Use Gross Price Display"]</label>
+msgctxt "OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
+msgid "Use Gross Price Display"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PriceDisplaySettings.Edit.cshtml:17
+#. <span class="hint">@T["Turn on to display prices with taxes included."]</span>
+msgctxt "OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
+msgid "Turn on to display prices with taxes included."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PricePartSettings.Edit.cshtml:4
+#. <label asp-for="CurrencySelectionMode">@T["Currency selection mode"]</label>
+msgctxt "OrchardCore.Commerce.Views.PricePartSettings.Edit"
+msgid "Currency selection mode"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PricePartSettings.Edit.cshtml:14
+#. <span class="hint">@T["Specifies the currency configuration for this PricePart."]</span>
+msgctxt "OrchardCore.Commerce.Views.PricePartSettings.Edit"
+msgid "Specifies the currency configuration for this PricePart."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PricePartSettings.Edit.cshtml:25
+#. <span class="hint">@T["Currency used for specific currency selection mode."]</span>
+msgctxt "OrchardCore.Commerce.Views.PricePartSettings.Edit"
+msgid "Currency used for specific currency selection mode."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\PriceVariantsPart.Edit.cshtml:10
+#. <label asp-for="VariantsValues[variantKey]">@variantKey @T["Price"] </label>
+msgctxt "OrchardCore.Commerce.Views.PriceVariantsPart.Edit"
+msgid "Price"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductList-Filter-Title.cshtml:3
+#. <label for="products-filter-title">@T["Title"]</label>
+msgctxt "OrchardCore.Commerce.Views.ProductList-Filter-Title"
+msgid "Title"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductList-Filter-Title.cshtml:4
+#. <input type="text" name="products.title" class="form-control" id="products-filter-title" placeholder="@T["Filter by title..."]" value="@Context.Request.Query["products.title"]"/>
+msgctxt "OrchardCore.Commerce.Views.ProductList-Filter-Title"
+msgid "Filter by title..."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductList-OrderBy-TitleAsc.cshtml:2
+#. <option value="@ProductListTitleFilterProvider.TitleAscOrderById" selected="@(Model.Selected)">@T["Title A-Z"]</option>
+msgctxt "OrchardCore.Commerce.Views.ProductList-OrderBy-TitleAsc"
+msgid "Title A-Z"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductList-OrderBy-TitleDesc.cshtml:2
+#. <option value="@ProductListTitleFilterProvider.TitleDescOrderById" selected="@(Model.Selected)">@T["Title Z-A"]</option>
+msgctxt "OrchardCore.Commerce.Views.ProductList-OrderBy-TitleDesc"
+msgid "Title Z-A"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductListPart.cshtml:21
+#. <p class="alert alert-warning">@T["There are no products to display."]</p>
+msgctxt "OrchardCore.Commerce.Views.ProductListPart"
+msgid "There are no products to display."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductListPart.Filters.cshtml:13
+#. <h3>@T["Filter Products"]</h3>
+msgctxt "OrchardCore.Commerce.Views.ProductListPart.Filters"
+msgid "Filter Products"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductListPart.Filters.cshtml:24
+#. <label for="products-order-by">@T["Sort By"]</label>
+msgctxt "OrchardCore.Commerce.Views.ProductListPart.Filters"
+msgid "Sort By"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductListPart.Filters.cshtml:44
+#. <button type="submit" class="btn btn-primary mb-3" id="products-filter-apply">@T["Apply"]</button>
+msgctxt "OrchardCore.Commerce.Views.ProductListPart.Filters"
+msgid "Apply"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductPart.cshtml:32
+#. <label for="@id-quantity">@T["Quantity"]</label>
+msgctxt "OrchardCore.Commerce.Views.ProductPart"
+msgid "Quantity"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductPart.cshtml:54
+#. <button type="submit" class="btn btn-primary" disabled="@(!canBeBought)">@T["Add to cart"]</button>
+msgctxt "OrchardCore.Commerce.Views.ProductPart"
+msgid "Add to cart"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductPart.Edit.cshtml:4
+#. <label asp-for="Sku">@T["SKU"] </label>
+msgctxt "OrchardCore.Commerce.Views.ProductPart.Edit"
+msgid "SKU"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ProductPart.Edit.cshtml:8
+#. @T["The SKU of the product."]
+msgctxt "OrchardCore.Commerce.Views.ProductPart.Edit"
+msgid "The SKU of the product."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\RegionSettings.Edit.cshtml:3
+#. <p class="alert alert-warning">@T["The current tenant will be reloaded when the settings are saved."]</p>
+msgctxt "OrchardCore.Commerce.Views.RegionSettings.Edit"
+msgid "The current tenant will be reloaded when the settings are saved."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\RegionSettings.Edit.cshtml:6
+#. <label asp-for="AllowedRegions">@T["Allowed Regions"]</label>
+msgctxt "OrchardCore.Commerce.Views.RegionSettings.Edit"
+msgid "Allowed Regions"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\RegionSettings.Edit.cshtml:16
+#. <span class="hint">@T["The available regions. If left empty all regions will be available."]</span>
+msgctxt "OrchardCore.Commerce.Views.RegionSettings.Edit"
+msgid "The available regions. If left empty all regions will be available."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCartCell_Action.cshtml:17
+#. <button type="submit" class="btn btn-primary">@T["Remove"]</button>
+msgctxt "OrchardCore.Commerce.Views.ShoppingCartCell_Action"
+msgid "Remove"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCartTable.cshtml:58
+#. <td class="font-weight-bold">@T["Total"]</td>
+msgctxt "OrchardCore.Commerce.Views.ShoppingCartTable"
+msgid "Total"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCartTable.cshtml:0
+msgctxt "OrchardCore.Commerce.Views.ShoppingCartTable"
+msgid "Net Price: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCartTable.cshtml:0
+msgctxt "OrchardCore.Commerce.Views.ShoppingCartTable"
+msgid "Gross Price: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\ShoppingCartTable.cshtml:88
+#. <button type="submit" class="btn btn-primary">@T["Update"]</button>
+msgctxt "OrchardCore.Commerce.Views.ShoppingCartTable"
+msgid "Update"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TaxPart_TaxRate_GrossPrice.cshtml:6
+#. title="@T["Estimate, the final value is calculated during checkout."]">
+msgctxt "OrchardCore.Commerce.Views.TaxPart_TaxRate_GrossPrice"
+msgid "Estimate, the final value is calculated during checkout."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TaxPart_TaxRate_GrossPrice.cshtml:7
+#. <strong class="tax-rate-gross-price-title">@T["Gross Price*:"]</strong>
+msgctxt "OrchardCore.Commerce.Views.TaxPart_TaxRate_GrossPrice"
+msgid "Gross Price*:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TaxPart-GrossPrice.cshtml:9
+#. <strong class="price-part-price-field-title">@T["Gross Price:"]</strong>
+msgctxt "OrchardCore.Commerce.Views.TaxPart-GrossPrice"
+msgid "Gross Price:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TaxPart-TaxRate.cshtml:8
+#. @T["{0}%", value]
+msgctxt "OrchardCore.Commerce.Views.TaxPart-TaxRate"
+msgid "{0}%"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeField_Edit.cshtml:9
+#. <label>@name @T["(Text product attribute)"]</label>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
+msgid "(Text product attribute)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeField_Edit.cshtml:12
+#. <li class="hint">@T["Required"]</li>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
+msgid "Required"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeField_Edit.cshtml:15
+#. <li class="hint">@T["Predefined values: {0}", string.Join(", ", settings.PredefinedValues)]</li>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
+msgid "Predefined values: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeField_Edit.cshtml:17
+#. <li class="hint">@T["Choice is restricted to predefined values."]</li>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
+msgid "Choice is restricted to predefined values."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeField_Edit.cshtml:19
+#. <li class="hint">@T["The user may enter a value that is not one of the predefined values."]</li>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
+msgid "The user may enter a value that is not one of the predefined values."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeField_Edit.cshtml:22
+#. <li class="hint">@T["The user may select more than one value."]</li>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
+msgid "The user may select more than one value."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeField_Edit.cshtml:25
+#. <li class="hint">@T["Placeholder: {0}", settings.Placeholder]</li>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
+msgid "Placeholder: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeField_Edit.cshtml:26
+#. <li class="hint">@T["Hint: {0}", settings.Hint]</li>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
+msgid "Hint: {0}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:6
+#. <label class="custom-control-label" asp-for="Required">@T["Required"]</label>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "Required"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:7
+#. <span class="hint">@T["— Whether a value is required."]</span>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "— Whether a value is required."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:13
+#. <label asp-for="Hint">@T["Hint"]</label>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "Hint"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:15
+#. <span class="hint">@T["The hint text to display for this attribute in the product page."]</span>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "The hint text to display for this attribute in the product page."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:21
+#. <label for="Placeholder">@T["Watermark (placeholder)"]</label>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "Watermark (placeholder)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:23
+#. <span class="hint">@T["A hint to display when the input is empty. (optional)"]</span>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "A hint to display when the input is empty. (optional)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:29
+#. <label for="PredefinedValues">@T["Predefined values"]</label>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "Predefined values"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:31
+#. <span class="hint">@T["The set of suggested or allowed values. Enter one value per line."]</span>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "The set of suggested or allowed values. Enter one value per line."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:38
+#. <label class="custom-control-label" asp-for="RestrictToPredefinedValues">@T["Restrict to predefined values"]</label>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "Restrict to predefined values"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:39
+#. <span class="hint">@T["— Whether values should be restricted to the set of predefined values."]</span>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "— Whether values should be restricted to the set of predefined values."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:46
+#. <label class="custom-control-label" asp-for="MultipleValues">@T["Multiple values"]</label>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "Multiple values"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:47
+#. <span class="hint">@T["— Whether multiple values can be selected."]</span>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "— Whether multiple values can be selected."
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:53
+#. <label for="DefaultValue">@T["Default value"]</label>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "Default value"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeFieldSettings.Edit.cshtml:55
+#. <span class="hint">@T["The default value. (optional)"]</span>
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
+msgid "The default value. (optional)"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeValue.cshtml:0
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeValue"
+msgid ", "
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TextProductAttributeValue.cshtml:0
+msgctxt "OrchardCore.Commerce.Views.TextProductAttributeValue"
+msgid "{0}: {1}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.cshtml:9
+#. <div>@T["Default Price:"] @Model.TieredPricePart.DefaultPrice.ToString()</div>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart"
+msgid "Default Price:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.cshtml:10
+#. <div>@T["Tiers:"]</div>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart"
+msgid "Tiers:"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.cshtml:14
+#. <li>@T["Starting from {0} units: {1}", tier.Quantity, MoneyService.Create(tier.UnitPrice ?? 0, Model.Currency)]</li>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart"
+msgid "Starting from {0} units: {1}"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.Edit.cshtml:3
+#. <h3>@T["Price tiers"]</h3>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart.Edit"
+msgid "Price tiers"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.Edit.cshtml:9
+#. <label asp-for="DefaultPrice">@T["Default Price"] </label>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart.Edit"
+msgid "Default Price"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.Edit.cshtml:23
+#. <input type="text" class="form-control tier-quantity-editor" v-model="tier.Quantity" placeholder="@T["Quantity"]"/>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart.Edit"
+msgid "Quantity"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.Edit.cshtml:27
+#. <input type="text" class="form-control tier-unit-price-editor" v-model="tier.UnitPrice" placeholder="@T["Unit Price"]"/>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart.Edit"
+msgid "Unit Price"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.Edit.cshtml:34
+#. <div class="btn btn-danger remove-price-tier-button" @@click="remove(tier)">@T["Remove"]</div>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart.Edit"
+msgid "Remove"
+msgstr ""
+
+#: OrchardCore.Commerce\Views\TieredPricePart.Edit.cshtml:38
+#. <div class="btn btn-primary mb-3 add-price-tier-button" @@click="add()">@T["Add Price Tier"]</div>
+msgctxt "OrchardCore.Commerce.Views.TieredPricePart.Edit"
+msgid "Add Price Tier"
+msgstr ""
+
