@@ -4,182 +4,182 @@ msgstr ""
 "X-Crowdin-Project: orchard-core-commerce\n"
 "X-Crowdin-Project-ID: 529986\n"
 "X-Crowdin-Language: el\n"
-"X-Crowdin-File: OrchardCore.Commerce.ContentFields.pot\n"
-"X-Crowdin-File-ID: 924\n"
+"X-Crowdin-File: /main/Localization/OrchardCore.Commerce.ContentFields.pot\n"
+"X-Crowdin-File-ID: 932\n"
 "Project-Id-Version: orchard-core-commerce\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2023-11-17 12:41\n"
+"PO-Revision-Date: 2023-11-17 15:02\n"
 
 #. updater.ModelState.AddModelError(key, T["A value is required for {0}.", key]);
-#: OrchardCore.Commerce.ContentFields/Drivers/AddressFieldDisplayDriver.cs:83
+#: OrchardCore.Commerce.ContentFields\Drivers\AddressFieldDisplayDriver.cs:83
 msgctxt "OrchardCore.Commerce.Drivers.AddressFieldDisplayDriver"
 msgid "A value is required for {0}."
 msgstr ""
 
 #. T["The field {0} is invalid.", label].Value);
-#: OrchardCore.Commerce.ContentFields/Drivers/PriceFieldDisplayDriver.cs:96
+#: OrchardCore.Commerce.ContentFields\Drivers\PriceFieldDisplayDriver.cs:96
 msgctxt "OrchardCore.Commerce.ContentFields.Drivers.PriceFieldDisplayDriver"
 msgid "The field {0} is invalid."
 msgstr ""
 
 #. new CurrencySelectionModeItem(CurrencySelectionMode.AllCurrencies, T["All Currencies"]),
-#: OrchardCore.Commerce.ContentFields/Settings/PriceFieldSettingsDriver.cs:40
+#: OrchardCore.Commerce.ContentFields\Settings\PriceFieldSettingsDriver.cs:40
 msgctxt "OrchardCore.Commerce.Settings.PriceFieldSettingsDriver"
 msgid "All Currencies"
 msgstr ""
 
 #. new CurrencySelectionModeItem(CurrencySelectionMode.DefaultCurrency, T["Default Currency"]),
-#: OrchardCore.Commerce.ContentFields/Settings/PriceFieldSettingsDriver.cs:41
+#: OrchardCore.Commerce.ContentFields\Settings\PriceFieldSettingsDriver.cs:41
 msgctxt "OrchardCore.Commerce.Settings.PriceFieldSettingsDriver"
 msgid "Default Currency"
 msgstr ""
 
 #. new CurrencySelectionModeItem(CurrencySelectionMode.SpecificCurrency, T["Specific Currency"]),
-#: OrchardCore.Commerce.ContentFields/Settings/PriceFieldSettingsDriver.cs:42
+#: OrchardCore.Commerce.ContentFields\Settings\PriceFieldSettingsDriver.cs:42
 msgctxt "OrchardCore.Commerce.Settings.PriceFieldSettingsDriver"
 msgid "Specific Currency"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.Name))">@T["Name *"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:26
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:26
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Name *"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.Department))">@T["Department"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:39
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:39
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Department"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.Company))">@T["Company or institution"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:51
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:51
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Company or institution"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.StreetAddress1))">@T["First street address *"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:63
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:63
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "First street address *"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.StreetAddress2))">@T["Second street address"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:76
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:76
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Second street address"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.City))">@T["City *"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:88
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:88
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "City *"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.Province))">@T["State or province"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:101
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:101
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "State or province"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.PostalCode))">@T["Postal code"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:113
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:113
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Postal code"
 msgstr ""
 
 #. <label for="@(idPrefix + nameof(Address.Region))">@T["Country or region"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:125
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:125
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Country or region"
 msgstr ""
 
 #. @T["Save this address"]
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:153
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldEditor.cshtml:153
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Save this address"
 msgstr ""
 
 #. <label asp-for="Hint">@T["Hint"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldSettings.Edit.cshtml:5
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldSettings.Edit.cshtml:5
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldSettings.Edit"
 msgid "Hint"
 msgstr ""
 
 #. <span class="hint">@T["The hint text to display for this attribute in the product page."]</span>
-#: OrchardCore.Commerce.ContentFields/Views/AddressFieldSettings.Edit.cshtml:7
+#: OrchardCore.Commerce.ContentFields\Views\AddressFieldSettings.Edit.cshtml:7
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldSettings.Edit"
 msgid "The hint text to display for this attribute in the product page."
 msgstr ""
 
-#: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:0
+#: OrchardCore.Commerce.ContentFields\Views\PriceField.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceField"
 msgid "The product doesn't have a price."
 msgstr ""
 
-#: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:0
+#: OrchardCore.Commerce.ContentFields\Views\PriceField.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceField"
 msgid "The product has a price but its currency doesn't match the current display currency which is {0}."
 msgstr ""
 
 #. @T["The current price is {0}.", price]
-#: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:31
+#: OrchardCore.Commerce.ContentFields\Views\PriceField.cshtml:31
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceField"
 msgid "The current price is {0}."
 msgstr ""
 
 #. <label asp-for="Hint">@T["Hint"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:9
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:9
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Hint"
 msgstr ""
 
 #. <span class="hint">@T["The hint text to display for this field on the editor."]</span>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:12
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:12
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "The hint text to display for this field on the editor."
 msgstr ""
 
 #. <label asp-for="Label">@T["Label"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:17
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:17
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Label"
 msgstr ""
 
 #. <span class="hint">@T["The text above the field."]</span>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:20
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:20
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "The text above the field."
 msgstr ""
 
 #. <label asp-for="Required" class="form-check-label">@T["Required"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:26
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:26
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Required"
 msgstr ""
 
 #. <span class="hint">@T["If unchecked then the field is optional, otherwise the amount is initialized to 0 on publish."]</span>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:28
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:28
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "If unchecked then the field is optional, otherwise the amount is initialized to 0 on publish."
 msgstr ""
 
 #. <label asp-for="CurrencySelectionMode">@T["Currency selection mode"]</label>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:32
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:32
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Currency selection mode"
 msgstr ""
 
 #. <span class="hint">@T["Specifies the currency configuration for this PricePart."]</span>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:42
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:42
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Specifies the currency configuration for this PricePart."
 msgstr ""
 
 #. <span class="hint">@T["Currency used for specific currency selection mode."]</span>
-#: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:53
+#: OrchardCore.Commerce.ContentFields\Views\PriceFieldSettings.Edit.cshtml:53
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Currency used for specific currency selection mode."
 msgstr ""
