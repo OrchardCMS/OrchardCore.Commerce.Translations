@@ -1,0 +1,42 @@
+#: OrchardCore.Commerce.Promotion\Views\DiscountPart.cshtml:13
+#. <strong class="field-name-discount-part-new-title-title">@T["New Price with Discount after Taxes:"]</strong>
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "New Price with Discount after Taxes:"
+msgstr ""
+
+#: OrchardCore.Commerce.Promotion\Views\DiscountPart.cshtml:21
+#. <strong class="field-name-discount-part-discount-percentage-title">@T["Discount Percentage:"]</strong>
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Percentage:"
+msgstr ""
+
+#: OrchardCore.Commerce.Promotion\Views\DiscountPart.cshtml:22
+#. @T["{0}%", discountPercentageValue]
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "{0}%"
+msgstr ""
+
+#: OrchardCore.Commerce.Promotion\Views\DiscountPart.cshtml:29
+#. <strong class="field-name-discount-part-maximum-products-title">@T["Discount Maximum Products:"]</strong>
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Maximum Products:"
+msgstr ""
+
+#: OrchardCore.Commerce.Promotion\Views\DiscountPart.cshtml:37
+#. <strong class="field-name-discount-part-minimum-products-title">@T["Discount Minimum Products:"]</strong>
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Minimum Products:"
+msgstr ""
+
+#: OrchardCore.Commerce.Promotion\Views\DiscountPart.cshtml:45
+#. <strong class="field-name-discount-part-beginning-title">@T["Discount Beginning:"]</strong>
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Beginning:"
+msgstr ""
+
+#: OrchardCore.Commerce.Promotion\Views\DiscountPart.cshtml:53
+#. <strong class="field-name-discount-part-expiration-title">@T["Discount Expiration:"]</strong>
+msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
+msgid "Discount Expiration:"
+msgstr ""
+
