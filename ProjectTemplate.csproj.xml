@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Title>Orchard Core Commerce Translation {EnglishName} ({Name})</Title>
+    <Authors>Lombiq Technologies</Authors>
+    <Copyright>Copyright © 2023 .NET Foundation</Copyright>
+    <Description>Translation for the commerce module for Orchard Core. This package provides {EnglishName} ({Name}) langauge.</Description>
+    <PackageIcon>OrchardCoreIcon.png</PackageIcon>
+    <PackageTags>OrchardCore;OrchardCore.Commerce;Commerce;e-Commerce;Localization;Translations</PackageTags>
+    <RepositoryUrl>https://github.com/OrchardCMS/OrchardCore.Commerce.Translations</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/OrchardCMS/OrchardCore.Commerce</PackageProjectUrl>
+    <PackageLicenseFile>License.md</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Localization\**" />
+    <Compile Remove="Localization\**" />
+    <None Remove="Localization\**" />
+    <Content Include="Localization\{Name}\*" />
+  </ItemGroup>
+
+</Project>
