@@ -4,6 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
+  <!-- Reset automatic content to only include the resoures for this language. This has to come first to avoid conflicts
+       with later ItemGroup entries. -->
+  <ItemGroup>
+    <EmbeddedResource Remove="Localization\**" />
+    <Compile Remove="Localization\**" />
+    <None Remove="Localization\**" />
+    <Content Include="Localization\{Name}\*" />
+  </ItemGroup>
+
   <PropertyGroup>
     <Title>Orchard Core Commerce Translation {EnglishName} ({Name})</Title>
     <Authors>Lombiq Technologies</Authors>
@@ -17,10 +26,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="Localization\**" />
-    <Compile Remove="Localization\**" />
-    <None Remove="Localization\**" />
-    <Content Include="Localization\{Name}\*" />
+    <None Include="License.md" Pack="true" PackagePath="" />
+    <None Include="Readme.md" />
+    <None Include="OrchardCoreIcon.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
