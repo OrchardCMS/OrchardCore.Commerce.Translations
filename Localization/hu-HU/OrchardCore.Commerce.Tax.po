@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2025-12-12 18:53\n"
+"PO-Revision-Date: 2025-12-12 19:33\n"
 
 #. [nameof(TaxRateSetting.DestinationStreetAddress1)] = T["First street address"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:43
@@ -22,67 +22,67 @@ msgstr "Cím első sora"
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:44
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Second street address"
-msgstr ""
+msgstr "Cím második sora"
 
 #. [nameof(TaxRateSetting.DestinationCity)] = T["City"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:45
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "City"
-msgstr ""
+msgstr "Város"
 
 #. [nameof(TaxRateSetting.DestinationProvince)] = T["State or province code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:46
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "State or province code"
-msgstr ""
+msgstr "Megye vagy állam"
 
 #. [nameof(TaxRateSetting.DestinationPostalCode)] = T["Postal code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:47
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Postal code"
-msgstr ""
+msgstr "Irányítószám"
 
 #. [nameof(TaxRateSetting.DestinationRegion)] = T["Country or region code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:48
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Country or region code"
-msgstr ""
+msgstr "Ország vagy régió kód"
 
 #. [nameof(TaxRateSetting.VatNumber)] = T["Tax code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:49
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Tax code"
-msgstr ""
+msgstr "Adó kód"
 
 #. [nameof(TaxRateSetting.TaxCode)] = T["VAT number"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:50
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "VAT number"
-msgstr ""
+msgstr "ÁFA szám"
 
 #. [nameof(TaxRateSetting.TaxRate)] = T["Tax rate (%)"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:51
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Tax rate (%)"
-msgstr ""
+msgstr "ÁFA rés (%)"
 
 #. [nameof(TaxRateSetting.IsCorporation)] = T["Is Corporation"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:52
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Is Corporation"
-msgstr ""
+msgstr "Vállalkozás"
 
 #. T["The value in column \"{0}\" in row {1} must be empty or a valid regular expression.", label, index + 1]);
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:108
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "The value in column \"{0}\" in row {1} must be empty or a valid regular expression."
-msgstr ""
+msgstr "A {1}. sor \"{0}\" oszlop helytelen. Hagyja üresen vagy írjon egy helyes reguláris kifejezést."
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:20
 msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxRateAdminMenu"
 msgid "Configuration"
-msgstr ""
+msgstr "Beállítások"
 
 #. .Add(T["Commerce"], commerce => commerce
 #: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:21
@@ -96,12 +96,12 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:22
 msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxRateAdminMenu"
 msgid "Custom Tax Rates"
-msgstr ""
+msgstr "Saját adórések"
 
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:0
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "You can define custom tax rate rules in the table below. Create a new rule by pressing the \"Add Row\" button. Any columns you fill out (besides \"{0}\") will serve as a condition (checked against the buyer's invoice address and the product's VAT number) to apply that tax rate. The first row that matches all of its listed patterns and conditions will provide the tax rate for a given product."
-msgstr ""
+msgstr "Az alábbi táblázatban megadhat adó réseket a vásárló számlázási címek és/vagy a megadott ÁFA kód alapján. Hozzon létre egy új szabályt az \"Új sor\" gombbal. Azok a sorok amiket kitölt (a \"{0}\" kivételével) segítenek eldönteni, hogy a megadott adó sáv alkalmazható-e egy adott termékre. Felülről lefelé haladva az első sikeresen kiértékelt sor adó rése lesz alkalmazva a termékre."
 
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:0
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
@@ -160,5 +160,5 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:129
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "Add Row"
-msgstr ""
+msgstr "Új sor"
 
