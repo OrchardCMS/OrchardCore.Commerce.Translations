@@ -10,33 +10,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2023-11-17 15:02\n"
+"PO-Revision-Date: 2025-12-12 14:48\n"
 
-#: OrchardCore.Commerce.Inventory\Views\InventoryPart-OutOfStockMessage.cshtml:0
+#. context.AddModelError("ProductPart.Sku", T["The Product SKU is missing."]);
+#: OrchardCore.Commerce.Inventory/Drivers/InventoryPartDisplayDriver.cs:41
+msgctxt "OrchardCore.Commerce.Inventory.Drivers.InventoryPartDisplayDriver"
+msgid "The Product SKU is missing."
+msgstr ""
+
+#: OrchardCore.Commerce.Inventory/Views/InventoryPart-OutOfStockMessage.cshtml:0
 msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart-OutOfStockMessage"
 msgid "Out of Stock"
 msgstr ""
 
 #. <strong class="field-name-inventory-part-inventory-title">@inventoryTitle @T["Inventory"]:</strong>
-#: OrchardCore.Commerce.Inventory\Views\InventoryPart.cshtml:11
+#: OrchardCore.Commerce.Inventory/Views/InventoryPart.cshtml:11
 msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart"
 msgid "Inventory"
 msgstr ""
 
 #. @T["{0}", inventoryEntry.Value]
-#: OrchardCore.Commerce.Inventory\Views\InventoryPart.cshtml:12
+#: OrchardCore.Commerce.Inventory/Views/InventoryPart.cshtml:12
 msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart"
 msgid "{0}"
 msgstr ""
 
 #. <h3>@T["Inventories"]</h3>
-#: OrchardCore.Commerce.Inventory\Views\InventoryPart.Edit.cshtml:3
+#: OrchardCore.Commerce.Inventory/Views/InventoryPart.Edit.cshtml:3
 msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart.Edit"
 msgid "Inventories"
 msgstr ""
 
 #. <label asp-for="Inventory[inventoryKey]">@inventoryTitle @T["Inventory"] </label>
-#: OrchardCore.Commerce.Inventory\Views\InventoryPart.Edit.cshtml:11
+#: OrchardCore.Commerce.Inventory/Views/InventoryPart.Edit.cshtml:11
 msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart.Edit"
 msgid "Inventory"
 msgstr ""
