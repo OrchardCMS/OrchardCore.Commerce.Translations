@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ContentTargetFolders>content</ContentTargetFolders>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -23,9 +22,11 @@
     <None Include="Readme.md" Pack="true" PackagePath="" />
     <None Include="buildTransitive/*" Pack="true" PackagePath="buildTransitive/" />
     <None Include="OrchardCoreIcon.png" Pack="true" PackagePath="" />
-    <Content Include="Localization/**/*.po"
-             Pack="true"
-             CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Localization.Core" Version="2.1.0" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="2.1.0" />
   </ItemGroup>
 
 </Project>
