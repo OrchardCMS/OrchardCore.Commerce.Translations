@@ -4,13 +4,13 @@ msgstr ""
 "X-Crowdin-Project: orchard-core-commerce\n"
 "X-Crowdin-Project-ID: 529986\n"
 "X-Crowdin-Language: ja\n"
-"X-Crowdin-File: OrchardCore.Commerce.Promotion.pot\n"
-"X-Crowdin-File-ID: 920\n"
+"X-Crowdin-File: /main/Localization/OrchardCore.Commerce.Promotion.pot\n"
+"X-Crowdin-File-ID: 940\n"
 "Project-Id-Version: orchard-core-commerce\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2023-11-17 12:41\n"
+"PO-Revision-Date: 2025-12-12 14:50\n"
 
 #. <strong class="field-name-discount-part-new-title-title">@T["New Price with Discount after Taxes:"]</strong>
 #: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:13
