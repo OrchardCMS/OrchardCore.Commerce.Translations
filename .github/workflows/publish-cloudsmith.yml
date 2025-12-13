@@ -3,7 +3,7 @@ name: Publish to CloudSmith
 on:
   push:
     branches:
-      - main
+      - l10n_main
 
 jobs:
   publish-cloudsmith:
