@@ -1,23 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
+    <ContentTargetFolders>content</ContentTargetFolders>
   </PropertyGroup>
 
-  <!-- Reset automatic content to only include the resoures for this language. This has to come first to avoid conflicts
-       with later ItemGroup entries. -->
-  <ItemGroup>
-    <EmbeddedResource Remove="Localization\**" />
-    <Compile Remove="Localization\**" />
-    <None Remove="Localization\**" />
-    <Content Include="Localization\{Name}\*" />
-  </ItemGroup>
-
   <PropertyGroup>
-    <Title>Orchard Core Commerce Translation {EnglishName} ({Name})</Title>
+    <Title>Orchard Core Commerce Translations</Title>
     <Authors>Lombiq Technologies</Authors>
-    <Copyright>Copyright © 2023 .NET Foundation</Copyright>
-    <Description>Translation for the commerce module for Orchard Core. This package provides {EnglishName} ({Name}) langauge.</Description>
+    <Copyright>Copyright © 2025 .NET Foundation</Copyright>
+    <Description>Translations for the commerce module for Orchard Core.</Description>
     <PackageIcon>OrchardCoreIcon.png</PackageIcon>
     <PackageTags>OrchardCore;OrchardCore.Commerce;Commerce;e-Commerce;Localization;Translations</PackageTags>
     <RepositoryUrl>https://github.com/OrchardCMS/OrchardCore.Commerce.Translations</RepositoryUrl>
@@ -27,8 +19,12 @@
 
   <ItemGroup>
     <None Include="License.md" Pack="true" PackagePath="" />
-    <None Include="Readme.md" />
+    <None Include="Readme.md" Pack="true" PackagePath="" />
+    <None Include="buildTransitive/*" Pack="true" PackagePath="buildTransitive/" />
     <None Include="OrchardCoreIcon.png" Pack="true" PackagePath="" />
+    <Content Include="Localization/**/*.po"
+             Pack="true"
+             CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
