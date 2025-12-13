@@ -9,4 +9,7 @@ All the localization files used for [Orchard Core Commerce](https://github.com/O
 
 ## Usage
 
-The localizations are delivered as an Orchard Core module. Include the package in your main web project, and enable the "Orchard Core Commerce - Translations" feature in the Admin dashboard or in your setup recipe.
+The localizations are delivered as an Orchard Core module.
+
+1. Include the project (either `<ProjectReference>` or `<PacakgeReference>` works) in your main web project.
+2. Enable the "Orchard Core Commerce - Translations" feature.
