@@ -19,7 +19,7 @@ The localizations are delivered as an Orchard Core module.
 1. When the `main` branch of the [`OrchardCore.Commerce`](https://www.nuget.org/packages/OrchardCore.Commerce/) repository is updated, .pot files are generated and uploaded to the `main` branch of this repository.
 2. Crowdin's GitHub integration periodically scans this repo and updates the template strings in [our project](https://crowdin.com/project/orchard-core-commerce).
 3. When new translations are added in Crowdin, its GitHub integration periodically pushes them to the `l10n_main` branch. (This is the customary branch name for such staging branches.)
-4. It also creates a pull request form `l10n_main` to `main`. 
+4. It also creates a pull request form `l10n_main` to `main`.
 5. When `l10n_main` is updated, a new [`OrchardCore.Commerce.Translations`](https://cloudsmith.io/~orchardcore/repos/commerce/packages/detail/nuget/OrchardCore.Commerce.Translations/latest/) prerelease package is published to Cloudsmith.
 6. When the pull request is reviewed, it is manually merged into `main`.
 7. When a new OCC package is manually released to NuGet, a matching translations package should also be published there.
