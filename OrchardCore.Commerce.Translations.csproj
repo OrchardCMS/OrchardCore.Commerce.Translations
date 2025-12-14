@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <Title>Orchard Core Commerce Translations</Title>
-    <Authors>Lombiq Technologies</Authors>
+    <Authors>Orchard Core Community and Contributors</Authors>
     <Copyright>Copyright © 2025 .NET Foundation</Copyright>
     <Description>Translations for the commerce module for Orchard Core.</Description>
     <PackageIcon>OrchardCoreIcon.png</PackageIcon>
