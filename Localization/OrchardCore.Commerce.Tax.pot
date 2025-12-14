@@ -35,15 +35,15 @@ msgid "Country or region code"
 msgstr ""
 
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:49
-#. [nameof(TaxRateSetting.VatNumber)] = T["Tax code"],
+#. [nameof(TaxRateSetting.VatNumber)] = T["VAT number"],
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
-msgid "Tax code"
+msgid "VAT number"
 msgstr ""
 
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:50
-#. [nameof(TaxRateSetting.TaxCode)] = T["VAT number"],
+#. [nameof(TaxRateSetting.TaxCode)] = T["Tax code"],
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
-msgid "VAT number"
+msgid "Tax code"
 msgstr ""
 
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:51
