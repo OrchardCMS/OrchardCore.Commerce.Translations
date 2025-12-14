@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2025-12-12 14:51\n"
+"PO-Revision-Date: 2025-12-14 11:57\n"
 
 #. public override LocalizedString DisplayText => T["Cart displaying"];
 #: OrchardCore.Commerce/Activities/CartDisplayingEvent.cs:7
@@ -386,16 +386,22 @@ msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
 msgid "Label: {0}"
 msgstr ""
 
-#. <li class="hint">@(settings.DefaultValue ? T["Default value: on"] : T["Default value: off"])</li>
+#. <li class="hint">@T["Default value: {0}", settings.DefaultValue ? T["on"] : T["off"]]</li>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeField_Edit.cshtml:12
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
-msgid "Default value: on"
+msgid "on"
 msgstr ""
 
-#. <li class="hint">@(settings.DefaultValue ? T["Default value: on"] : T["Default value: off"])</li>
+#. <li class="hint">@T["Default value: {0}", settings.DefaultValue ? T["on"] : T["off"]]</li>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeField_Edit.cshtml:12
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
-msgid "Default value: off"
+msgid "off"
+msgstr ""
+
+#. <li class="hint">@T["Default value: {0}", settings.DefaultValue ? T["on"] : T["off"]]</li>
+#: OrchardCore.Commerce/Views/BooleanProductAttributeField_Edit.cshtml:12
+msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
+msgid "Default value: {0}"
 msgstr ""
 
 #. <li class="hint">@T["Hint: {0}", settings.Hint]</li>
