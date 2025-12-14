@@ -6,8 +6,6 @@ bin/
 artifacts/
 is-cache/
 *.user
-.pnpm-debug.log
-*.sln
 *.placeholder
 /.editorconfig
 *.orig
