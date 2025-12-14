@@ -6,6 +6,9 @@ using OrchardCore.Modules;
 
 namespace OrchardCore.Commerce.Translations.Services;
 
+/// <summary>
+/// Loads translations from .po files embedded in this project's DLL.
+/// </summary>
 public class EmbeddedPoTranslationsProvider: ITranslationProvider
 {
     private const string Prefix = "OrchardCore.Commerce.Translations.Localization>";
