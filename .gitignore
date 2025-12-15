@@ -1,0 +1,11 @@
+.vs/
+.idea/
+.vscode/
+obj/
+bin/
+artifacts/
+is-cache/
+*.user
+*.placeholder
+/.editorconfig
+*.orig

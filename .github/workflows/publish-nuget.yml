@@ -1,0 +1,13 @@
+name: Publish to NuGet
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  publish-nuget:
+    if: contains(github.ref, 'preview') == false
+    uses: Lombiq/GitHub-Actions/.github/workflows/publish-nuget.yml@dev
+    secrets:
+      API_KEY: ${{ secrets.NUGET_API_KEY }}

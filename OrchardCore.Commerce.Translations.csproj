@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Title>Orchard Core Commerce Translations</Title>
+    <Authors>Orchard Core Community and Contributors</Authors>
+    <Copyright>Copyright © 2025 .NET Foundation</Copyright>
+    <Description>Translations for the commerce module for Orchard Core.</Description>
+    <PackageIcon>OrchardCoreIcon.png</PackageIcon>
+    <PackageTags>OrchardCore;OrchardCore.Commerce;Commerce;e-Commerce;Localization;Translations</PackageTags>
+    <RepositoryUrl>https://github.com/OrchardCMS/OrchardCore.Commerce.Translations</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/OrchardCMS/OrchardCore.Commerce</PackageProjectUrl>
+    <PackageLicenseFile>License.md</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include=".github/**/*.yml" />
+    <None Include="License.md" Pack="true" PackagePath="" />
+    <None Include="Readme.md" Pack="true" PackagePath="" />
+    <None Include="buildTransitive/*" Pack="true" PackagePath="buildTransitive/" />
+    <None Include="OrchardCoreIcon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Localization.Core" Version="2.1.0" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
