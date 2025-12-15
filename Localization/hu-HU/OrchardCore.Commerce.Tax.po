@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2025-12-12 19:33\n"
+"PO-Revision-Date: 2025-12-15 14:07\n"
 
 #. [nameof(TaxRateSetting.DestinationStreetAddress1)] = T["First street address"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:43
@@ -48,17 +48,17 @@ msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Country or region code"
 msgstr "Ország vagy régió kód"
 
-#. [nameof(TaxRateSetting.VatNumber)] = T["Tax code"],
+#. [nameof(TaxRateSetting.VatNumber)] = T["VAT number"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:49
-msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
-msgid "Tax code"
-msgstr "Adó kód"
-
-#. [nameof(TaxRateSetting.TaxCode)] = T["VAT number"],
-#: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:50
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "VAT number"
 msgstr "ÁFA szám"
+
+#. [nameof(TaxRateSetting.TaxCode)] = T["Tax code"],
+#: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:50
+msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
+msgid "Tax code"
+msgstr "Adó kód"
 
 #. [nameof(TaxRateSetting.TaxRate)] = T["Tax rate (%)"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:51
