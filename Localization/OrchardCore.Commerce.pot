@@ -282,7 +282,13 @@ msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
 msgid "SKU must be unique. A product with the given SKU already exists."
 msgstr ""
 
-#: OrchardCore.Commerce/Handlers/TaxPartAndPricePartHandler.cs:70
+#: OrchardCore.Commerce/Handlers/TaxPartAndPricePartHandler.cs:48
+#. T["Tax Rate can't be negative."]);
+msgctxt "OrchardCore.Commerce.Handlers.TaxPartAndPricePartHandler"
+msgid "Tax Rate can't be negative."
+msgstr ""
+
+#: OrchardCore.Commerce/Handlers/TaxPartAndPricePartHandler.cs:74
 #. T["You must either provide both {0} and {1}, or neither of them.", grossPriceName, taxRateName]);
 msgctxt "OrchardCore.Commerce.Handlers.TaxPartAndPricePartHandler"
 msgid "You must either provide both {0} and {1}, or neither of them."
