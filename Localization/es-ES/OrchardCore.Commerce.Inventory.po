@@ -4,13 +4,19 @@ msgstr ""
 "X-Crowdin-Project: orchard-core-commerce\n"
 "X-Crowdin-Project-ID: 529986\n"
 "X-Crowdin-Language: es-ES\n"
-"X-Crowdin-File: OrchardCore.Commerce.Inventory.pot\n"
-"X-Crowdin-File-ID: 922\n"
+"X-Crowdin-File: /main/Localization/OrchardCore.Commerce.Inventory.pot\n"
+"X-Crowdin-File-ID: 934\n"
 "Project-Id-Version: orchard-core-commerce\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
-"PO-Revision-Date: 2023-11-17 12:41\n"
+"PO-Revision-Date: 2025-12-12 14:48\n"
+
+#. context.AddModelError("ProductPart.Sku", T["The Product SKU is missing."]);
+#: OrchardCore.Commerce.Inventory/Drivers/InventoryPartDisplayDriver.cs:41
+msgctxt "OrchardCore.Commerce.Inventory.Drivers.InventoryPartDisplayDriver"
+msgid "The Product SKU is missing."
+msgstr ""
 
 #: OrchardCore.Commerce.Inventory/Views/InventoryPart-OutOfStockMessage.cshtml:0
 msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart-OutOfStockMessage"
