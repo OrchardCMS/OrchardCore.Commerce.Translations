@@ -234,7 +234,7 @@ msgctxt "OrchardCore.Commerce.Events.InventoryShoppingCartEvents"
 msgid "The checkout quantity for {0} is less than the minimum allowed ({1})."
 msgstr ""
 
-#: OrchardCore.Commerce/Events/PromotionShoppingCartEvents.cs:57
+#: OrchardCore.Commerce/Events/PromotionShoppingCartEvents.cs:58
 #. newHeaders.Insert(insertIndex, H["Old Price"]);
 msgctxt "OrchardCore.Commerce.Events.PromotionShoppingCartEvents"
 msgid "Old Price"

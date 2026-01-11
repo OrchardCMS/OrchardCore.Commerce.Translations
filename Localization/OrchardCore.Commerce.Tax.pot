@@ -84,6 +84,26 @@ msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxRateAdminMenu"
 msgid "Custom Tax Rates"
 msgstr ""
 
+#: OrchardCore.Commerce.Tax/Navigation/TaxSettingsAdminMenu.cs:19
+#. .Add(T["Configuration"], configuration => configuration
+msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxSettingsAdminMenu"
+msgid "Configuration"
+msgstr ""
+
+#: OrchardCore.Commerce.Tax/Navigation/TaxSettingsAdminMenu.cs:20
+#. .Add(T["Commerce"], commerce => commerce
+msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxSettingsAdminMenu"
+msgid "Commerce"
+msgstr ""
+
+#: OrchardCore.Commerce.Tax/Navigation/TaxSettingsAdminMenu.cs:21
+#. .Add(T["Tax"], T["Tax"], entry => entry
+#: OrchardCore.Commerce.Tax/Navigation/TaxSettingsAdminMenu.cs:21
+#. .Add(T["Tax"], T["Tax"], entry => entry
+msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxSettingsAdminMenu"
+msgid "Tax"
+msgstr ""
+
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:0
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "You can define custom tax rate rules in the table below. Create a new rule by pressing the \"Add Row\" button. Any columns you fill out (besides \"{0}\") will serve as a condition (checked against the buyer's invoice address and the product's VAT number) to apply that tax rate. The first row that matches all of its listed patterns and conditions will provide the tax rate for a given product."
@@ -146,5 +166,17 @@ msgstr ""
 #. @T["Add Row"]
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "Add Row"
+msgstr ""
+
+#: OrchardCore.Commerce.Tax/Views/TaxSettings_Edit.cshtml:6
+#. <label asp-for="IgnoreAllOrNone" class="form-check-label">@T["Skip consistent applicability check"]</label>
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxSettings_Edit"
+msgid "Skip consistent applicability check"
+msgstr ""
+
+#: OrchardCore.Commerce.Tax/Views/TaxSettings_Edit.cshtml:8
+#. <span class="hint">@T["If checked, the shop won't verify that every product in the cart has a valid Tax part. If you check this, you are responsible for verifying that all taxable product types have attached and correctly configured tax parts."]</span>
+msgctxt "OrchardCore.Commerce.Tax.Views.TaxSettings_Edit"
+msgid "If checked, the shop won't verify that every product in the cart has a valid Tax part. If you check this, you are responsible for verifying that all taxable product types have attached and correctly configured tax parts."
 msgstr ""
 
