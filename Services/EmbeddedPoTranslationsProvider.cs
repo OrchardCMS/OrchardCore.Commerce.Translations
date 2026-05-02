@@ -13,8 +13,6 @@ public class EmbeddedPoTranslationsProvider: ITranslationProvider
 {
     private const string Prefix = "OrchardCore.Commerce.Translations.Localization>";
     
-    private readonly PoParser _parser = new();
-
     public void LoadTranslations(string cultureName, CultureDictionary dictionary)
     {
         if (string.IsNullOrEmpty(cultureName)) return;
@@ -29,7 +27,7 @@ public class EmbeddedPoTranslationsProvider: ITranslationProvider
             using var stream = assembly.GetManifestResourceStream(name);
             using var reader = new StreamReader(stream);
             
-            dictionary.MergeTranslations(_parser.Parse(reader));
+            dictionary.MergeTranslations(PoParser.Parse(reader));
         }
     }
 }
