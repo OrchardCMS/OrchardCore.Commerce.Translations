@@ -10,19 +10,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 09:04\n"
+"PO-Revision-Date: 2026-06-27 10:14\n"
 
 #. [nameof(TaxRateSetting.DestinationStreetAddress1)] = T["First street address"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:43
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "First street address"
-msgstr ""
+msgstr "Primo indirizzo"
 
 #. [nameof(TaxRateSetting.DestinationStreetAddress2)] = T["Second street address"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:44
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Second street address"
-msgstr ""
+msgstr "Secondo indirizzo"
 
 #. [nameof(TaxRateSetting.DestinationCity)] = T["City"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:45
@@ -34,7 +34,7 @@ msgstr "Città"
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:46
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "State or province code"
-msgstr ""
+msgstr "Stato o provincia"
 
 #. [nameof(TaxRateSetting.DestinationPostalCode)] = T["Postal code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:47
@@ -46,7 +46,7 @@ msgstr "CAP"
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:48
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Country or region code"
-msgstr ""
+msgstr "Nazione o regione"
 
 #. [nameof(TaxRateSetting.VatNumber)] = T["VAT number"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:49
@@ -150,7 +150,7 @@ msgstr "Azioni"
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:86
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "Ignored"
-msgstr ""
+msgstr "Ignorato"
 
 #. <option value="@MatchTaxRates.Checked">@T["Checked"]</option>
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:87
