@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 10:14\n"
+"PO-Revision-Date: 2026-06-27 11:21\n"
 
 #. context.AddModelError(key, T["A value is required for {0}.", key]);
 #: OrchardCore.Commerce.ContentFields/Drivers/AddressFieldDisplayDriver.cs:113
@@ -143,7 +143,7 @@ msgstr "Città"
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:73
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "State or province"
-msgstr ""
+msgstr "Stato o provincia"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.PostalCode)" prop-Text="@T["Postal code"]" prop-Value="@address.PostalCode" ClassNames="address__postalCode" />
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:74
@@ -244,7 +244,7 @@ msgstr "Testo di suggerimento da visualizzare per questo attributo nella pagina 
 #: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceField"
 msgid "The product doesn't have a price."
-msgstr ""
+msgstr "Il prodotto non ha un prezzo."
 
 #: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceField"
@@ -267,7 +267,7 @@ msgstr "Suggerimento"
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:12
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "The hint text to display for this field on the editor."
-msgstr ""
+msgstr "Testo di suggerimento da visualizzare per questo campo nell'editor."
 
 #. <label asp-for="Label">@T["Label"]</label>
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:17
