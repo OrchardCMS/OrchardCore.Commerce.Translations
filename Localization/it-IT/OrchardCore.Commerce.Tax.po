@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 10:14\n"
+"PO-Revision-Date: 2026-06-27 11:21\n"
 
 #. [nameof(TaxRateSetting.DestinationStreetAddress1)] = T["First street address"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:43
@@ -34,7 +34,7 @@ msgstr "Città"
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:46
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "State or province code"
-msgstr "Stato o provincia"
+msgstr "Codice stato o provincia"
 
 #. [nameof(TaxRateSetting.DestinationPostalCode)] = T["Postal code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:47
@@ -46,7 +46,7 @@ msgstr "CAP"
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:48
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Country or region code"
-msgstr "Nazione o regione"
+msgstr "Codice nazione o regione"
 
 #. [nameof(TaxRateSetting.VatNumber)] = T["VAT number"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:49
@@ -174,13 +174,13 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:123
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "Learn more about regular expressions in .NET <a href=\"{0}\">here</a>."
-msgstr ""
+msgstr "Scopri di più sulle espressioni regolari in .NET, cliccando <a href=\"{0}\">qui</a>."
 
 #. @T["Add Row"]
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:129
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "Add Row"
-msgstr ""
+msgstr "Aggiungi riga"
 
 #. <label asp-for="IgnoreAllOrNone" class="form-check-label">@T["Skip consistent applicability check"]</label>
 #: OrchardCore.Commerce.Tax/Views/TaxSettings_Edit.cshtml:6
