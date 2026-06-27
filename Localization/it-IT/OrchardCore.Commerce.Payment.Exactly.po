@@ -10,19 +10,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2025-12-12 14:51\n"
+"PO-Revision-Date: 2026-06-27 09:04\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment.Exactly/AdminMenu.cs:17
 msgctxt "OrchardCore.Commerce.Payment.Exactly.AdminMenu"
 msgid "Configuration"
-msgstr ""
+msgstr "Configurazione"
 
 #. .Add(T["Commerce"], commerce => commerce
 #: OrchardCore.Commerce.Payment.Exactly/AdminMenu.cs:18
 msgctxt "OrchardCore.Commerce.Payment.Exactly.AdminMenu"
 msgid "Commerce"
-msgstr ""
+msgstr "Commercio"
 
 #. .Add(T["Exactly API"], T["Exactly API"], entry => entry
 #. .Add(T["Exactly API"], T["Exactly API"], entry => entry
@@ -48,13 +48,13 @@ msgstr ""
 #: OrchardCore.Commerce.Payment.Exactly/Controllers/ExactlyController.cs:96
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Controllers.ExactlyController"
 msgid "An API error was encountered: {0}"
-msgstr ""
+msgstr "Si è verificato un errore dell'API: {0}"
 
 #. var html = $"{H["An unknown error was encountered:"].Html()}<br>{error.Replace("\n", "<br>")}";
 #: OrchardCore.Commerce.Payment.Exactly/Controllers/ExactlyController.cs:108
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Controllers.ExactlyController"
 msgid "An unknown error was encountered:"
-msgstr ""
+msgstr "Si è verificato un errore sconosciuto:"
 
 #. ["success"] = T["processing of the transaction was successfully completed"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:32
