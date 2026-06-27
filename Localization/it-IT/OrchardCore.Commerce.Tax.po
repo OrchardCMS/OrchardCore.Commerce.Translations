@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-01-11 17:20\n"
+"PO-Revision-Date: 2026-06-27 09:04\n"
 
 #. [nameof(TaxRateSetting.DestinationStreetAddress1)] = T["First street address"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:43
@@ -28,7 +28,7 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:45
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "City"
-msgstr ""
+msgstr "Città"
 
 #. [nameof(TaxRateSetting.DestinationProvince)] = T["State or province code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:46
@@ -40,7 +40,7 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:47
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Postal code"
-msgstr ""
+msgstr "CAP"
 
 #. [nameof(TaxRateSetting.DestinationRegion)] = T["Country or region code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:48
@@ -52,19 +52,19 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:49
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "VAT number"
-msgstr ""
+msgstr "Partita IVA"
 
 #. [nameof(TaxRateSetting.TaxCode)] = T["Tax code"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:50
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Tax code"
-msgstr ""
+msgstr "Codice fiscale"
 
 #. [nameof(TaxRateSetting.TaxRate)] = T["Tax rate (%)"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:51
 msgctxt "OrchardCore.Commerce.Tax.Drivers.TaxRateSettingsDisplayDriver"
 msgid "Tax rate (%)"
-msgstr ""
+msgstr "Aliquota fiscale (%)"
 
 #. [nameof(TaxRateSetting.IsCorporation)] = T["Is Corporation"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:52
@@ -82,13 +82,13 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:20
 msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxRateAdminMenu"
 msgid "Configuration"
-msgstr ""
+msgstr "Configurazione"
 
 #. .Add(T["Commerce"], commerce => commerce
 #: OrchardCore.Commerce.Tax/Navigation/TaxRateAdminMenu.cs:21
 msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxRateAdminMenu"
 msgid "Commerce"
-msgstr ""
+msgstr "Commercio"
 
 #. .Add(T["Custom Tax Rates"], T["Custom Tax Rates"], entry => entry
 #. .Add(T["Custom Tax Rates"], T["Custom Tax Rates"], entry => entry
@@ -102,13 +102,13 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Navigation/TaxSettingsAdminMenu.cs:19
 msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxSettingsAdminMenu"
 msgid "Configuration"
-msgstr ""
+msgstr "Configurazione"
 
 #. .Add(T["Commerce"], commerce => commerce
 #: OrchardCore.Commerce.Tax/Navigation/TaxSettingsAdminMenu.cs:20
 msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxSettingsAdminMenu"
 msgid "Commerce"
-msgstr ""
+msgstr "Commercio"
 
 #. .Add(T["Tax"], T["Tax"], entry => entry
 #. .Add(T["Tax"], T["Tax"], entry => entry
@@ -116,7 +116,7 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Navigation/TaxSettingsAdminMenu.cs:21
 msgctxt "OrchardCore.Commerce.Tax.Navigation.TaxSettingsAdminMenu"
 msgid "Tax"
-msgstr ""
+msgstr "Tasse"
 
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:0
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
@@ -144,7 +144,7 @@ msgstr ""
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:51
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "Actions"
-msgstr ""
+msgstr "Azioni"
 
 #. <option value="@MatchTaxRates.Ignored">@T["Ignored"]</option>
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:86
