@@ -10,43 +10,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 09:03\n"
+"PO-Revision-Date: 2026-06-27 10:14\n"
 
 #. context.AddModelError(key, T["A value is required for {0}.", key]);
 #: OrchardCore.Commerce.ContentFields/Drivers/AddressFieldDisplayDriver.cs:113
 msgctxt "OrchardCore.Commerce.Drivers.AddressFieldDisplayDriver"
 msgid "A value is required for {0}."
-msgstr ""
+msgstr "È richiesto un valore per {0}."
 
 #. T["The field {0} is invalid.", label]);
 #: OrchardCore.Commerce.ContentFields/Drivers/PriceFieldDisplayDriver.cs:95
 msgctxt "OrchardCore.Commerce.ContentFields.Drivers.PriceFieldDisplayDriver"
 msgid "The field {0} is invalid."
-msgstr ""
+msgstr "Il campo '{0}' non è valido."
 
 #. new CurrencySelectionModeItem(CurrencySelectionMode.AllCurrencies, T["All Currencies"]),
 #: OrchardCore.Commerce.ContentFields/Settings/PriceFieldSettingsDriver.cs:40
 msgctxt "OrchardCore.Commerce.Settings.PriceFieldSettingsDriver"
 msgid "All Currencies"
-msgstr ""
+msgstr "Tutte le valute"
 
 #. new CurrencySelectionModeItem(CurrencySelectionMode.DefaultCurrency, T["Default Currency"]),
 #: OrchardCore.Commerce.ContentFields/Settings/PriceFieldSettingsDriver.cs:41
 msgctxt "OrchardCore.Commerce.Settings.PriceFieldSettingsDriver"
 msgid "Default Currency"
-msgstr ""
+msgstr "Valuta predefinita"
 
 #. new CurrencySelectionModeItem(CurrencySelectionMode.SpecificCurrency, T["Specific Currency"]),
 #: OrchardCore.Commerce.ContentFields/Settings/PriceFieldSettingsDriver.cs:42
 msgctxt "OrchardCore.Commerce.Settings.PriceFieldSettingsDriver"
 msgid "Specific Currency"
-msgstr ""
+msgstr "Valuta specifica"
 
 #. <label for="@Html.IdFor(model => model.Address.Name)">@T["Full Name"]</label>
 #: OrchardCore.Commerce.ContentFields/Views/AddressField_Edit.cshtml:27
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressField_Edit"
 msgid "Full Name"
-msgstr ""
+msgstr "Nome e cognome"
 
 #. @T["The address contains name parts that were combined into this full name (<code>{0}</code>).", $"{nameof(Address)}.{nameof(Address.Name)}"]
 #: OrchardCore.Commerce.ContentFields/Views/AddressField_Edit.cshtml:36
@@ -78,7 +78,7 @@ msgstr "Sig.ra"
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Mx"
-msgstr ""
+msgstr "Mx."
 
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
@@ -119,19 +119,19 @@ msgstr "Dipartimento"
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:69
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Company or institution"
-msgstr ""
+msgstr "Società o istituzione"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.StreetAddress1)" prop-Text="@T["First street address"]" prop-Value="@address.StreetAddress1" ClassNames="address__street address__street_first" Required="true" />
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:70
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "First street address"
-msgstr ""
+msgstr "Primo indirizzo"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.StreetAddress2)" prop-Text="@T["Second street address"]" prop-Value="@address.StreetAddress2" ClassNames="address__street address__street_second" />
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:71
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Second street address"
-msgstr ""
+msgstr "Secondo indirizzo"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.City)" prop-Text="@T["City"]" prop-Value="@address.City" Required="true" />
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:72
@@ -149,13 +149,13 @@ msgstr ""
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:74
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Postal code"
-msgstr ""
+msgstr "CAP"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Region)" prop-Text="@T["Country or region"]" prop-Value="@regions" Required="true" InputType="dropdown" />
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:75
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Country or region"
-msgstr ""
+msgstr "Nazione o regione"
 
 #. prop-Text="@T["Note for Courier"]"
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:83
@@ -167,7 +167,7 @@ msgstr "Istruzioni per il corriere di spedizione"
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:104
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Save this address"
-msgstr ""
+msgstr "Salva questo indirizzo"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Name)" prop-Text="@T["Name"]" prop-Value="@address.Name" Required="true" />
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:26
@@ -179,25 +179,25 @@ msgstr "Nome"
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:27
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Department"
-msgstr ""
+msgstr "Dipartimento"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Company)" prop-Text="@T["Company or institution"]" prop-Value="@address.Company" />
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:28
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Company or institution"
-msgstr ""
+msgstr "Società o istituzione"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.StreetAddress1)" prop-Text="@T["First street address"]" prop-Value="@address.StreetAddress1" ClassNames="address__street address__street_first" Required="true"/>
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:33
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "First street address"
-msgstr ""
+msgstr "Primo indirizzo"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.StreetAddress2)" prop-Text="@T["Second street address"]" prop-Value="@address.StreetAddress2" ClassNames="address__street address__street_second"/>
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:34
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Second street address"
-msgstr ""
+msgstr "Secondo indirizzo"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.City)" prop-Text="@T["City"]" prop-Value="@address.City" Required="true"/>
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:35
@@ -209,19 +209,19 @@ msgstr "Città"
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:36
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "State or province"
-msgstr ""
+msgstr "Stato o provincia"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.PostalCode)" prop-Text="@T["Postal code"]" prop-Value="@address.PostalCode" ClassNames="address__postalCode"/>
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:37
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Postal code"
-msgstr ""
+msgstr "CAP"
 
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Region)" prop-Text="@T["Country or region"]" prop-Value="@regions" Required="true" InputType="dropdown"/>
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:38
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Country or region"
-msgstr ""
+msgstr "Nazione o regione"
 
 #. @T["Save this address"]
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:58
@@ -239,7 +239,7 @@ msgstr "Suggerimento"
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldSettings.Edit.cshtml:7
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldSettings.Edit"
 msgid "The hint text to display for this attribute in the product page."
-msgstr ""
+msgstr "Testo di suggerimento da visualizzare per questo attributo nella pagina del prodotto."
 
 #: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceField"
@@ -255,7 +255,7 @@ msgstr ""
 #: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:31
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceField"
 msgid "The current price is {0}."
-msgstr ""
+msgstr "Il prezzo corrente è {0}."
 
 #. <label asp-for="Hint">@T["Hint"]</label>
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:9
@@ -273,7 +273,7 @@ msgstr ""
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:17
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #. <span class="hint">@T["The text above the field."]</span>
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:20
@@ -297,7 +297,7 @@ msgstr ""
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:32
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Currency selection mode"
-msgstr ""
+msgstr "Modalità di selezione valute"
 
 #. <span class="hint">@T["Specifies the currency configuration for this PricePart."]</span>
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:42
