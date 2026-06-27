@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 11:21\n"
+"PO-Revision-Date: 2026-06-27 13:37\n"
 
 #. public override LocalizedString DisplayText => T["Cart displaying"];
 #: OrchardCore.Commerce/Activities/CartDisplayingEvent.cs:7
@@ -80,7 +80,7 @@ msgstr "Valuta"
 #: OrchardCore.Commerce/AdminMenu.cs:24
 msgctxt "OrchardCore.Commerce.AdminMenu"
 msgid "Price Display"
-msgstr ""
+msgstr "Visualizzazione prezzi"
 
 #. .Add(T["Region"], T["Region"], region => region
 #. .Add(T["Region"], T["Region"], region => region
