@@ -10,13 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2025-12-15 22:15\n"
+"PO-Revision-Date: 2026-06-27 06:09\n"
 
 #. public override LocalizedString DisplayText => T["Cart displaying"];
 #: OrchardCore.Commerce/Activities/CartDisplayingEvent.cs:7
 msgctxt "OrchardCore.Commerce.Activities.CartDisplayingEvent"
 msgid "Cart displaying"
-msgstr ""
+msgstr "Visualizzazione del carrello"
 
 #. public override LocalizedString DisplayText => T["Cart loaded"];
 #: OrchardCore.Commerce/Activities/CartLoadedEvent.cs:7
@@ -28,7 +28,7 @@ msgstr ""
 #: OrchardCore.Commerce/Activities/CartUpdatedEvent.cs:7
 msgctxt "OrchardCore.Commerce.Activities.CartUpdatedEvent"
 msgid "Cart updated"
-msgstr ""
+msgstr "Carrello aggiornato"
 
 #. public override LocalizedString DisplayText => T["Verifying cart item"];
 #: OrchardCore.Commerce/Activities/CartVerifyingItemEvent.cs:7
@@ -249,7 +249,7 @@ msgid "The checkout quantity for {0} is less than the minimum allowed ({1})."
 msgstr ""
 
 #. newHeaders.Insert(insertIndex, H["Old Price"]);
-#: OrchardCore.Commerce/Events/PromotionShoppingCartEvents.cs:57
+#: OrchardCore.Commerce/Events/PromotionShoppingCartEvents.cs:58
 msgctxt "OrchardCore.Commerce.Events.PromotionShoppingCartEvents"
 msgid "Old Price"
 msgstr ""
