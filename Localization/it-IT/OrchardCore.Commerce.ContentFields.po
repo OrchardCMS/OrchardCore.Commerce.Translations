@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 13:37\n"
+"PO-Revision-Date: 2026-06-27 14:35\n"
 
 #. context.AddModelError(key, T["A value is required for {0}.", key]);
 #: OrchardCore.Commerce.ContentFields/Drivers/AddressFieldDisplayDriver.cs:113
@@ -309,5 +309,5 @@ msgstr "Specifica la configurazione della valuta per questo PricePart."
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:53
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Currency used for specific currency selection mode."
-msgstr ""
+msgstr "Valuta utilizzata per la modalità di selezione valuta specifica."
 
