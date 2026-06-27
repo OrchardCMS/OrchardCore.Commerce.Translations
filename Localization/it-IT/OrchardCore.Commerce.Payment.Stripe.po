@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 11:21\n"
+"PO-Revision-Date: 2026-06-27 13:37\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:17
@@ -36,13 +36,13 @@ msgstr "Stripe API"
 #: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentIntentService.cs:57
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Services.StripePaymentIntentService"
 msgid "User checkout on {0}"
-msgstr ""
+msgstr "Checkout utente su {0}"
 
 #. ShowMessage = H["You have paid the bill, but this system did not record it. Please contact the administrators."],
 #: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentService.cs:123
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Services.StripePaymentService"
 msgid "You have paid the bill, but this system did not record it. Please contact the administrators."
-msgstr ""
+msgstr "Hai pagato la fattura, ma questo sistema non l'ha registrata. Contatta gli amministratori."
 
 #. T["The order is empty."]);
 #: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentService.cs:201
@@ -54,7 +54,7 @@ msgstr "L'ordine è vuoto."
 #: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentService.cs:236
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Services.StripePaymentService"
 msgid "Couldn't find the payment intent \"{0}\" or the order associated with it."
-msgstr ""
+msgstr "Impossibile trovare l'intento di pagamento \"{0}\" o l'ordine ad esso associato."
 
 #. ShowMessage = H["The payment has failed, please try again."],
 #. ShowMessage = H["The payment has failed, please try again."],
@@ -92,7 +92,7 @@ msgstr "Prezzo lordo: {0}"
 #: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:64
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
 msgid "There was an error during confirming the payment, please try again."
-msgstr ""
+msgstr "Si è verificato un errore durante la conferma del pagamento, per favore riprova."
 
 #. @T["A value is required for %LABEL%."].Json(),
 #: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:65
@@ -104,12 +104,12 @@ msgstr "È richiesto un valore per %LABEL%."
 #: OrchardCore.Commerce.Payment.Stripe/Views/Stripe/PaymentConfirmationMiddleware.cshtml:5
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.Stripe.PaymentConfirmationMiddleware"
 msgid "Confirming payment. Reloading in 2 seconds..."
-msgstr ""
+msgstr "Pagamento confermato. Ricaricamento in 2 secondi..."
 
 #: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:0
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
 msgid "The field will be empty after saving it, for security reasons."
-msgstr ""
+msgstr "Il campo sarà vuoto dopo averlo salvato per motivi di sicurezza."
 
 #. label="@T["Publishable Key"]"
 #: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:11
@@ -133,7 +133,7 @@ msgstr "Chiave segreta"
 #: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:16
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
 msgid "Your Stripe Secret API key."
-msgstr "Chiave segreta di Stripe API."
+msgstr "La tua chiave segreta di Stripe API."
 
 #. label="@T["Account ID"]"
 #: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:20
@@ -145,23 +145,23 @@ msgstr "ID account"
 #: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:21
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
 msgid "Your Stripe Connect Account ID. This is necessary when using a Stripe connected account."
-msgstr "Il tuo ID account di Stripe Connect. Necessario quando si utilizza un account connesso di Stripe."
+msgstr "ID account di Stripe Connect. Necessario quando si utilizza un account connesso di Stripe."
 
 #. label="@T["Webhook Signing Secret"]"
 #: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:24
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
 msgid "Webhook Signing Secret"
-msgstr ""
+msgstr "Segreto di firma del webhook"
 
 #. hint="@(new HtmlString(" ").Join(T["Your Webhook Signing Secret key."], emptyAfterSaving))"
 #: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:25
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
 msgid "Your Webhook Signing Secret key."
-msgstr ""
+msgstr "Il tuo segreto di firma del webhook."
 
 #. @T["Get your Stripe API keys at <a href=\"https://stripe.com/docs/keys\" target=\"_blank\">https://stripe.com/docs/keys</a>. And your Webhook key at <a href=\"https://dashboard.stripe.com/webhooks\" target=\"_blank\">https://dashboard.stripe.com/webhooks</a>"]
 #: OrchardCore.Commerce.Payment.Stripe/Views/StripeApiSettings.Edit.cshtml:30
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.StripeApiSettings.Edit"
 msgid "Get your Stripe API keys at <a href=\"https://stripe.com/docs/keys\" target=\"_blank\">https://stripe.com/docs/keys</a>. And your Webhook key at <a href=\"https://dashboard.stripe.com/webhooks\" target=\"_blank\">https://dashboard.stripe.com/webhooks</a>"
-msgstr "Ottieni le chiavi API di Stripe su <a href=\"https://stripe.com/docs/keys\" target=\"_blank\">https://stripe.com/docs/keys</a>. E la tua chiave di Webhook su <a href=\"https://dashboard.stripe.com/webhooks\" target=\"_blank\">https://dashboard.stripe.com/webhooks</a>"
+msgstr "Ottieni le chiavi API di Stripe su <a href=\"https://stripe.com/docs/keys\" target=\"_blank\">https://stripe.com/docs/keys</a>. E la tua chiave del webhook su <a href=\"https://dashboard.stripe.com/webhooks\" target=\"_blank\">https://dashboard.stripe.com/webhooks</a>"
 
