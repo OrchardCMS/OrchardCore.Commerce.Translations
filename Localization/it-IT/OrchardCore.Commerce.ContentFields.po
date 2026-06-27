@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 11:21\n"
+"PO-Revision-Date: 2026-06-27 13:37\n"
 
 #. context.AddModelError(key, T["A value is required for {0}.", key]);
 #: OrchardCore.Commerce.ContentFields/Drivers/AddressFieldDisplayDriver.cs:113
@@ -46,19 +46,19 @@ msgstr "Valuta specifica"
 #: OrchardCore.Commerce.ContentFields/Views/AddressField_Edit.cshtml:27
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressField_Edit"
 msgid "Full Name"
-msgstr "Nome e cognome"
+msgstr "Nome completo"
 
 #. @T["The address contains name parts that were combined into this full name (<code>{0}</code>).", $"{nameof(Address)}.{nameof(Address.Name)}"]
 #: OrchardCore.Commerce.ContentFields/Views/AddressField_Edit.cshtml:36
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressField_Edit"
 msgid "The address contains name parts that were combined into this full name (<code>{0}</code>)."
-msgstr ""
+msgstr "L'indirizzo contiene parti di nome che sono state combinate in questo nome completo (<code>{0}</code>)."
 
 #. @T["Most features use this unified name string instead of the name parts, as those can be region dependent."]
 #: OrchardCore.Commerce.ContentFields/Views/AddressField_Edit.cshtml:37
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressField_Edit"
 msgid "Most features use this unified name string instead of the name parts, as those can be region dependent."
-msgstr ""
+msgstr "La maggior parte delle funzionalità usa questa stringa di nome unificata invece delle parti di nome, poiché queste possono dipendere dalla regione."
 
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
@@ -249,7 +249,7 @@ msgstr "Il prodotto non ha un prezzo."
 #: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceField"
 msgid "The product has a price but its currency doesn't match the current display currency which is {0}."
-msgstr ""
+msgstr "Il prodotto ha un prezzo, ma la sua valuta non corrisponde alla valuta di visualizzazione corrente, che è {0}."
 
 #. @T["The current price is {0}.", price]
 #: OrchardCore.Commerce.ContentFields/Views/PriceField.cshtml:31
@@ -279,7 +279,7 @@ msgstr "Label"
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:20
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "The text above the field."
-msgstr ""
+msgstr "Il testo sopra il campo."
 
 #. <label asp-for="Required" class="form-check-label">@T["Required"]</label>
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:26
@@ -291,7 +291,7 @@ msgstr "Obbligatorio"
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:28
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "If unchecked then the field is optional, otherwise the amount is initialized to 0 on publish."
-msgstr ""
+msgstr "Se deselezionato allora il campo è opzionale, altrimenti l'importo viene inizializzato a 0 al momento della pubblicazione."
 
 #. <label asp-for="CurrencySelectionMode">@T["Currency selection mode"]</label>
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:32
@@ -303,7 +303,7 @@ msgstr "Modalità di selezione valute"
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:42
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "Specifies the currency configuration for this PricePart."
-msgstr ""
+msgstr "Specifica la configurazione della valuta per questo PricePart."
 
 #. <span class="hint">@T["Currency used for specific currency selection mode."]</span>
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:53
