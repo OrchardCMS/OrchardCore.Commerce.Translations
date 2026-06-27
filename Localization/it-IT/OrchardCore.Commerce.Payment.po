@@ -10,19 +10,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2025-12-12 14:49\n"
+"PO-Revision-Date: 2026-06-27 09:03\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment/AdminMenu.cs:17
 msgctxt "OrchardCore.Commerce.Payment.AdminMenu"
 msgid "Configuration"
-msgstr ""
+msgstr "Configurazione"
 
 #. .Add(T["Commerce"], commerce => commerce
 #: OrchardCore.Commerce.Payment/AdminMenu.cs:18
 msgctxt "OrchardCore.Commerce.Payment.AdminMenu"
 msgid "Commerce"
-msgstr ""
+msgstr "Commercio"
 
 #. .Add(T["Address Display"], T["Address Display"], entry => entry
 #. .Add(T["Address Display"], T["Address Display"], entry => entry
@@ -149,22 +149,22 @@ msgstr ""
 #: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
 msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "Pay with {0}"
-msgstr ""
+msgstr "Paga con {0}"
 
 #: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
 msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "Pay"
-msgstr ""
+msgstr "Paga"
 
 #: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
 msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
 msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "Pay {0}"
-msgstr ""
+msgstr "Paga {0}"
 
 #. <span>@T["Processing payment..."]</span>
 #: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:43
@@ -194,7 +194,7 @@ msgstr ""
 #: OrchardCore.Commerce.Payment/Views/Payment/Success.cshtml:13
 msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Success"
 msgid "Return to home page"
-msgstr ""
+msgstr "Torna alla pagina principale"
 
 #. <h4 class="text-success text-center">@T["Your transaction is being processed..."]</h4>
 #: OrchardCore.Commerce.Payment/Views/Payment/Wait.cshtml:7
