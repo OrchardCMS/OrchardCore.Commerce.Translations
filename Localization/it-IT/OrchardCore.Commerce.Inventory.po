@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 09:03\n"
+"PO-Revision-Date: 2026-06-27 11:21\n"
 
 #. context.AddModelError("ProductPart.Sku", T["The Product SKU is missing."]);
 #: OrchardCore.Commerce.Inventory/Drivers/InventoryPartDisplayDriver.cs:41
@@ -21,7 +21,7 @@ msgstr "Il codice SKU del prodotto è mancante."
 #: OrchardCore.Commerce.Inventory/Views/InventoryPart-OutOfStockMessage.cshtml:0
 msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart-OutOfStockMessage"
 msgid "Out of Stock"
-msgstr "Non disponibile"
+msgstr "Esaurito"
 
 #. <strong class="field-name-inventory-part-inventory-title">@inventoryTitle @T["Inventory"]:</strong>
 #: OrchardCore.Commerce.Inventory/Views/InventoryPart.cshtml:11
