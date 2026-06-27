@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 10:14\n"
+"PO-Revision-Date: 2026-06-27 11:21\n"
 
 #. public override LocalizedString DisplayText => T["Cart displaying"];
 #: OrchardCore.Commerce/Activities/CartDisplayingEvent.cs:7
@@ -34,7 +34,7 @@ msgstr "Carrello aggiornato"
 #: OrchardCore.Commerce/Activities/CartVerifyingItemEvent.cs:7
 msgctxt "OrchardCore.Commerce.Activities.CartVerifyingItemEvent"
 msgid "Verifying cart item"
-msgstr ""
+msgstr "Verifica articolo in carrello"
 
 #. public override LocalizedString Category => T["Commerce"];
 #: OrchardCore.Commerce/Activities/CommerceEventActivityBase.cs:8
@@ -52,7 +52,7 @@ msgstr "L'ordine è stato creato"
 #: OrchardCore.Commerce/Activities/ProductAddedToCartEvent.cs:7
 msgctxt "OrchardCore.Commerce.Activities.ProductAddedToCartEvent"
 msgid "Product added to cart"
-msgstr ""
+msgstr "Prodotto aggiunto al carrello"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce/AdminMenu.cs:18
@@ -156,25 +156,25 @@ msgstr ""
 #: OrchardCore.Commerce/Drivers/OrderPartDisplayDriver.cs:78
 msgctxt "OrchardCore.Commerce.Drivers.OrderPartDisplayDriver"
 msgid "Selected currencies must match."
-msgstr ""
+msgstr "Le valute selezionate devono corrispondere."
 
 #. ? T["Product's SKU cannot be left empty."]
 #: OrchardCore.Commerce/Drivers/OrderPartDisplayDriver.cs:104
 msgctxt "OrchardCore.Commerce.Drivers.OrderPartDisplayDriver"
 msgid "Product's SKU cannot be left empty."
-msgstr ""
+msgstr "Il codice SKU del prodotto non può essere lasciato vuoto."
 
 #. : T["SKU \"{0}\" does not belong to an existing Product.", lineItemProductSku]);
 #: OrchardCore.Commerce/Drivers/OrderPartDisplayDriver.cs:105
 msgctxt "OrchardCore.Commerce.Drivers.OrderPartDisplayDriver"
 msgid "SKU \"{0}\" does not belong to an existing Product."
-msgstr ""
+msgstr "Il codice SKU \"{0}\" non appartiene a un prodotto esistente."
 
 #. context.AddModelError(nameof(ProductPart.Sku), T["SKU may not contain the dash character."]);
 #: OrchardCore.Commerce/Drivers/ProductPartDisplayDriver.cs:48
 msgctxt "OrchardCore.Commerce.Drivers.ProductPartDisplayDriver"
 msgid "SKU may not contain the dash character."
-msgstr ""
+msgstr "Il codice SKU potrebbe non contenere il carattere -."
 
 #. T["The given tiered prices are not valid."]);
 #: OrchardCore.Commerce/Drivers/TieredPricePartDisplayDriver.cs:69
@@ -186,19 +186,19 @@ msgstr ""
 #: OrchardCore.Commerce/Drivers/TieredPricePartDisplayDriver.cs:79
 msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
 msgid "You need to set a price for every tier."
-msgstr ""
+msgstr "È necessario fissare un prezzo per ogni livello."
 
 #. T["You need to set a default price greater than 0."]);
 #: OrchardCore.Commerce/Drivers/TieredPricePartDisplayDriver.cs:86
 msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
 msgid "You need to set a default price greater than 0."
-msgstr ""
+msgstr "È necessario impostare un prezzo predefinito maggiore di 0."
 
 #. T["There are duplicate tiers."]);
 #: OrchardCore.Commerce/Drivers/TieredPricePartDisplayDriver.cs:97
 msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
 msgid "There are duplicate tiers."
-msgstr ""
+msgstr "Ci sono dei livelli duplicati."
 
 #. T["You need to set a unit price greater or equal to 0 for every tier."]);
 #: OrchardCore.Commerce/Drivers/TieredPricePartDisplayDriver.cs:104
@@ -216,7 +216,7 @@ msgstr "Si è verificato un errore."
 #: OrchardCore.Commerce/Endpoints/Services/ShoppingCartService.cs:68
 msgctxt "OrchardCore.Commerce.Endpoints.ShoppingCartService"
 msgid "Not Found"
-msgstr ""
+msgstr "Non trovato"
 
 #. errored = H["Empty. Your shopping cart is broken and had to be replaced. We apologize for the inconvenience."].Value;
 #: OrchardCore.Commerce/Endpoints/Services/ShoppingCartService.cs:112
@@ -228,7 +228,7 @@ msgstr ""
 #: OrchardCore.Commerce/Events/InventoryShoppingCartEvents.cs:35
 msgctxt "OrchardCore.Commerce.Events.InventoryShoppingCartEvents"
 msgid "An item in cart is out of stock."
-msgstr ""
+msgstr "Un articolo nel carrello è esaurito."
 
 #. return H["There are not enough {0} left in stock.", title];
 #: OrchardCore.Commerce/Events/InventoryShoppingCartEvents.cs:71
@@ -336,7 +336,7 @@ msgstr "Azione"
 #: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:226
 msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
 msgid "Product with SKU {0} not found."
-msgstr ""
+msgstr "Il prodotto con codice SKU {0} non è stato trovato."
 
 #. : H["Can't add product {0} because it doesn't have a price, or its currency doesn't match the current display currency.", sku];
 #: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:233
@@ -554,7 +554,7 @@ msgstr "Carrello"
 #: OrchardCore.Commerce/Views/ShoppingCart/Empty.cshtml:6
 msgctxt "OrchardCore.Commerce.Views.ShoppingCart.Empty"
 msgid "Your shopping cart is empty."
-msgstr ""
+msgstr "Il tuo carrello è vuoto."
 
 #. <mvc-title text="@T["Your Cart"]"/>
 #: OrchardCore.Commerce/Views/ShoppingCart/Index.cshtml:5
@@ -1276,7 +1276,7 @@ msgstr ""
 #: OrchardCore.Commerce/Views/TextProductAttributeFieldSettings.Edit.cshtml:46
 msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
 msgid "Multiple values"
-msgstr ""
+msgstr "Valori multipli"
 
 #. <span class="hint">@T["— Whether multiple values can be selected."]</span>
 #: OrchardCore.Commerce/Views/TextProductAttributeFieldSettings.Edit.cshtml:47
@@ -1299,7 +1299,7 @@ msgstr ""
 #: OrchardCore.Commerce/Views/TextProductAttributeValue.cshtml:0
 msgctxt "OrchardCore.Commerce.Views.TextProductAttributeValue"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: OrchardCore.Commerce/Views/TextProductAttributeValue.cshtml:0
 msgctxt "OrchardCore.Commerce.Views.TextProductAttributeValue"
