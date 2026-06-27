@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 07:53\n"
+"PO-Revision-Date: 2026-06-27 10:14\n"
 
 #. public override LocalizedString DisplayText => T["Cart displaying"];
 #: OrchardCore.Commerce/Activities/CartDisplayingEvent.cs:7
@@ -40,13 +40,13 @@ msgstr ""
 #: OrchardCore.Commerce/Activities/CommerceEventActivityBase.cs:8
 msgctxt "OrchardCore.Commerce.Activities.CommerceEventActivityBase"
 msgid "Commerce"
-msgstr ""
+msgstr "Commercio"
 
 #. public override LocalizedString DisplayText => T["Order was created"];
 #: OrchardCore.Commerce/Activities/OrderCreatedEvent.cs:12
 msgctxt "OrchardCore.Commerce.Activities.OrderCreatedEvent"
 msgid "Order was created"
-msgstr ""
+msgstr "L'ordine è stato creato"
 
 #. public override LocalizedString DisplayText => T["Product added to cart"];
 #: OrchardCore.Commerce/Activities/ProductAddedToCartEvent.cs:7
@@ -64,7 +64,7 @@ msgstr "Configurazione"
 #: OrchardCore.Commerce/AdminMenu.cs:19
 msgctxt "OrchardCore.Commerce.AdminMenu"
 msgid "Commerce"
-msgstr ""
+msgstr "Commercio"
 
 #. .Add(T["Currency"], T["Currency"], entry => entry
 #. .Add(T["Currency"], T["Currency"], entry => entry
@@ -1310,7 +1310,7 @@ msgstr "{0}: {1}"
 #: OrchardCore.Commerce/Views/TieredPricePart.cshtml:9
 msgctxt "OrchardCore.Commerce.Views.TieredPricePart"
 msgid "Default Price:"
-msgstr ""
+msgstr "Prezzo predefinito:"
 
 #. <div>@T["Tiers:"]</div>
 #: OrchardCore.Commerce/Views/TieredPricePart.cshtml:10
