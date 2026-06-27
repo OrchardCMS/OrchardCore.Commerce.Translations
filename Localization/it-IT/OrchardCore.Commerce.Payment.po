@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 09:03\n"
+"PO-Revision-Date: 2026-06-27 10:14\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment/AdminMenu.cs:17
@@ -72,7 +72,7 @@ msgstr ""
 #: OrchardCore.Commerce.Payment/Controllers/PaymentController.cs:162
 msgctxt "OrchardCore.Commerce.Payment.Controllers.PaymentController"
 msgid "Success"
-msgstr ""
+msgstr "Successo"
 
 #. ShowMessage = H["You have paid the bill, but this system did not record it. Please contact the administrators."],
 #: OrchardCore.Commerce.Payment/Services/DummyPaymentProvider.cs:76
