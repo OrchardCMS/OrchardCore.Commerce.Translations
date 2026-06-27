@@ -10,19 +10,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2025-12-12 14:49\n"
+"PO-Revision-Date: 2026-06-27 09:03\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:17
 msgctxt "OrchardCore.Commerce.Payment.Stripe.AdminMenu"
 msgid "Configuration"
-msgstr ""
+msgstr "Configurazione"
 
 #. .Add(T["Commerce"], commerce => commerce
 #: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:18
 msgctxt "OrchardCore.Commerce.Payment.Stripe.AdminMenu"
 msgid "Commerce"
-msgstr ""
+msgstr "Commercio"
 
 #. .Add(T["Stripe API"], T["Stripe API"], stripeApi => stripeApi
 #. .Add(T["Stripe API"], T["Stripe API"], stripeApi => stripeApi
@@ -80,13 +80,13 @@ msgstr ""
 #: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:30
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
 msgid "Net Price: {0}"
-msgstr ""
+msgstr "Prezzo netto: {0}"
 
 #. <strong>@T["Gross Price: {0}", Model.GrossTotal]</strong>
 #: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:35
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
 msgid "Gross Price: {0}"
-msgstr ""
+msgstr "Prezzo lordo: {0}"
 
 #. @T["There was an error during confirming the payment, please try again."].Json(),
 #: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:64
