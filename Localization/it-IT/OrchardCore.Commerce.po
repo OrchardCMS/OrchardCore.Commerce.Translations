@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 16:29\n"
+"PO-Revision-Date: 2026-06-27 18:00\n"
 
 #. public override LocalizedString DisplayText => T["Cart displaying"];
 #: OrchardCore.Commerce/Activities/CartDisplayingEvent.cs:7
@@ -94,7 +94,7 @@ msgstr "Regioni"
 #: OrchardCore.Commerce/Controllers/ShoppingCartController.cs:140
 msgctxt "OrchardCore.Commerce.Controllers.ShoppingCartController"
 msgid "Your shopping cart is broken and had to be replaced. We apologize for the inconvenience."
-msgstr ""
+msgstr "Il tuo carrello è rotto ed deve essere sostituito. Ci scusiamo per l'inconveniente."
 
 #. await _notifier.SuccessAsync(H["Your addresses have been updated."]);
 #: OrchardCore.Commerce/Controllers/UserController.cs:77
@@ -120,7 +120,7 @@ msgstr "I tuoi dati sono stati aggiornati."
 #: OrchardCore.Commerce/Drivers/CartEventActivityDisplayDriverBase.cs:22
 msgctxt "OrchardCore.Commerce.Drivers.CartDisplayingEventDisplayDriver"
 msgid "Executes after the shopping cart data is prepared, but before the shapes are rendered."
-msgstr ""
+msgstr "Esegue dopo che i dati del carrello della spesa sono preparati, ma prima che le forme siano renderizzate."
 
 #. H["Executes before an item is added to the shopping cart to check whether it can be added based on inventory status."];
 #: OrchardCore.Commerce/Drivers/CartEventActivityDisplayDriverBase.cs:33
@@ -132,13 +132,13 @@ msgstr "Esegue prima che un articolo venga aggiunto al carrello per verificare s
 #: OrchardCore.Commerce/Drivers/CartEventActivityDisplayDriverBase.cs:44
 msgctxt "OrchardCore.Commerce.Drivers.CartUpdatedEventDisplayDriver"
 msgid "Executes before the cart is updated to check whether item quantities can be modified based on inventory status."
-msgstr ""
+msgstr "Esegue prima che il carrello venga aggiornato, per verificare se le quantità di articoli possono essere modificate in base allo stato dell'inventario."
 
 #. H["Executes after the shopping cart content is loaded from the store and before it's displayed or used for calculation."];
 #: OrchardCore.Commerce/Drivers/CartEventActivityDisplayDriverBase.cs:55
 msgctxt "OrchardCore.Commerce.Drivers.CartLoadedEventDisplayDriver"
 msgid "Executes after the shopping cart content is loaded from the store and before it's displayed or used for calculation."
-msgstr ""
+msgstr "Esegue dopo che il contenuto del carrello viene caricato dal negozio e prima che venga visualizzato o utilizzato per il calcolo."
 
 #. public override LocalizedHtmlString Description => H["Executes when a product is added to the shopping cart."];
 #: OrchardCore.Commerce/Drivers/CartEventActivityDisplayDriverBase.cs:65
@@ -204,7 +204,7 @@ msgstr "Ci sono dei livelli duplicati."
 #: OrchardCore.Commerce/Drivers/TieredPricePartDisplayDriver.cs:104
 msgctxt "OrchardCore.Commerce.Drivers.TieredPricePartDisplayDriver"
 msgid "You need to set a unit price greater or equal to 0 for every tier."
-msgstr ""
+msgstr "È necessario impostare un prezzo unitario maggiore o uguale a 0 per ogni livello."
 
 #. errored = H["An error has occurred."].Value;
 #: OrchardCore.Commerce/Endpoints/Services/ShoppingCartService.cs:58
@@ -222,7 +222,7 @@ msgstr "Non trovato"
 #: OrchardCore.Commerce/Endpoints/Services/ShoppingCartService.cs:112
 msgctxt "OrchardCore.Commerce.Endpoints.ShoppingCartService"
 msgid "Empty. Your shopping cart is broken and had to be replaced. We apologize for the inconvenience."
-msgstr ""
+msgstr "Vuoto. Il tuo carrello è rotto e deve essere sostituito. Ci scusiamo per l'inconveniente."
 
 #. viewModel.InvalidReasons.Add(H["An item in cart is out of stock."]);
 #: OrchardCore.Commerce/Events/InventoryShoppingCartEvents.cs:35
@@ -276,7 +276,7 @@ msgstr "Devi scrivere solo {0}, oppure {1}, oppure nessuno di essi."
 #: OrchardCore.Commerce/Handlers/DiscountPartHandler.cs:82
 msgctxt "OrchardCore.Commerce.Handlers.DiscountPartHandler"
 msgid "Discount amount must be smaller than the product's original price."
-msgstr ""
+msgstr "L'importo dello sconto deve essere inferiore al prezzo originario del prodotto."
 
 #. orderPart.ContentItem.DisplayText = T["Order {0}", guid];
 #: OrchardCore.Commerce/Handlers/OrderPartHandler.cs:31
@@ -384,25 +384,25 @@ msgstr "Salva"
 #: OrchardCore.Commerce/Views/BooleanProductAttributeField_Edit.cshtml:9
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
 msgid "(Boolean product attribute)"
-msgstr ""
+msgstr "(attributo booleano del prodotto)"
 
 #. <li class="hint">@T["Label: {0}", settings.Label]</li>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeField_Edit.cshtml:11
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
 msgid "Label: {0}"
-msgstr ""
+msgstr "Label: {0}"
 
 #. <li class="hint">@T["Default value: {0}", settings.DefaultValue ? T["on"] : T["off"]]</li>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeField_Edit.cshtml:12
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
 msgid "on"
-msgstr ""
+msgstr "attivato"
 
 #. <li class="hint">@T["Default value: {0}", settings.DefaultValue ? T["on"] : T["off"]]</li>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeField_Edit.cshtml:12
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeField_Edit"
 msgid "off"
-msgstr ""
+msgstr "disattivato"
 
 #. <li class="hint">@T["Default value: {0}", settings.DefaultValue ? T["on"] : T["off"]]</li>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeField_Edit.cshtml:12
@@ -426,13 +426,13 @@ msgstr "Suggerimento"
 #: OrchardCore.Commerce/Views/BooleanProductAttributeFieldSettings.Edit.cshtml:7
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
 msgid "The description text to display for this attribute in the product page."
-msgstr ""
+msgstr "Il testo della descrizione da visualizzare per questo attributo nella pagina del prodotto."
 
 #. <label asp-for="Label">@T["Label"]</label>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeFieldSettings.Edit.cshtml:13
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #. <span class="hint">@T["The text associated to the checkbox for this attribute in the product page."]</span>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeFieldSettings.Edit.cshtml:15
@@ -450,7 +450,7 @@ msgstr "Valore predefinito"
 #: OrchardCore.Commerce/Views/BooleanProductAttributeFieldSettings.Edit.cshtml:25
 msgctxt "OrchardCore.Commerce.Views.BooleanProductAttributeFieldSettings.Edit"
 msgid "On/Off"
-msgstr ""
+msgstr "Attivato/Disattivato"
 
 #. <span class="hint">@T["The default value associated with this attribute."]</span>
 #: OrchardCore.Commerce/Views/BooleanProductAttributeFieldSettings.Edit.cshtml:28
@@ -506,7 +506,7 @@ msgstr "Indirizzo di spedizione"
 #: OrchardCore.Commerce/Views/Checkout.cshtml:116
 msgctxt "OrchardCore.Commerce.Views.Checkout"
 msgid "Shipping Address and Billing Address are the same"
-msgstr ""
+msgstr "Indirizzo di spedizione e indirizzo di fatturazione sono gli stessi"
 
 #. <label asp-for="DefaultCurrency">@T["Default currency"]</label>
 #: OrchardCore.Commerce/Views/CurrencySettings.Edit.cshtml:4
@@ -524,13 +524,13 @@ msgstr "La valuta predefinita usata dal sistema."
 #: OrchardCore.Commerce/Views/CurrencySettings.Edit.cshtml:17
 msgctxt "OrchardCore.Commerce.Views.CurrencySettings.Edit"
 msgid "Current display currency"
-msgstr ""
+msgstr "Valuta di visualizzazione corrente"
 
 #. <span class="hint">@T["The currently used currency for displaying prices to customers."]</span>
 #: OrchardCore.Commerce/Views/CurrencySettings.Edit.cshtml:26
 msgctxt "OrchardCore.Commerce.Views.CurrencySettings.Edit"
 msgid "The currently used currency for displaying prices to customers."
-msgstr ""
+msgstr "La valuta attualmente utilizzata per visualizzare i prezzi ai clienti."
 
 #. <mvc-title text="@T["Your Details"]"/>
 #: OrchardCore.Commerce/Views/User/Details.cshtml:3
@@ -578,7 +578,7 @@ msgstr "Procedi all'acquisto"
 #: OrchardCore.Commerce/Views/NumericProductAttributeField_Edit.cshtml:9
 msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeField_Edit"
 msgid "(Numeric product attribute)"
-msgstr ""
+msgstr "(attributo numerico del prodotto)"
 
 #. <li class="hint">@T["Required"]</li>
 #: OrchardCore.Commerce/Views/NumericProductAttributeField_Edit.cshtml:12
@@ -650,7 +650,7 @@ msgstr "Suggerimento"
 #: OrchardCore.Commerce/Views/NumericProductAttributeFieldSettings.Edit.cshtml:23
 msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
 msgid "The hint text to display for this attribute in the product page."
-msgstr ""
+msgstr "Il testo di suggerimento da visualizzare per questo attributo nella pagina del prodotto."
 
 #. <label asp-for="Placeholder">@T["Watermark (placeholder)"]</label>
 #: OrchardCore.Commerce/Views/NumericProductAttributeFieldSettings.Edit.cshtml:29
@@ -662,7 +662,7 @@ msgstr "Testo di suggerimento (placeholder)"
 #: OrchardCore.Commerce/Views/NumericProductAttributeFieldSettings.Edit.cshtml:31
 msgctxt "OrchardCore.Commerce.Views.NumericProductAttributeFieldSettings.Edit"
 msgid "A hint to display when the input is empty. (optional)"
-msgstr ""
+msgstr "Un testo suggerimento da visualizzare quando l'input è vuoto. (opzionale)"
 
 #. <label asp-for="DecimalPlaces">@T["Decimal places"]</label>
 #: OrchardCore.Commerce/Views/NumericProductAttributeFieldSettings.Edit.cshtml:37
@@ -763,13 +763,13 @@ msgstr "Proprietà del prodotto"
 #: OrchardCore.Commerce/Views/OrderPart_Edit.cshtml:21
 msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
 msgid "Product Name and Attributes cells are only populated after submitting the changes."
-msgstr ""
+msgstr "Il nome e gli attributi del prodotto sono popolati solo dopo aver inviato le modifiche."
 
 #. @T["Currencies: Selected currencies need to be the same for all Products."]
 #: OrchardCore.Commerce/Views/OrderPart_Edit.cshtml:24
 msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
 msgid "Currencies: Selected currencies need to be the same for all Products."
-msgstr ""
+msgstr "Valute: Le valute selezionate devono essere le stesse per tutti i prodotti."
 
 #. <div class="col-xs-12 col-sm-2">@T["Product Name"]</div>
 #: OrchardCore.Commerce/Views/OrderPart_Edit.cshtml:30
@@ -835,7 +835,7 @@ msgstr "Costi"
 #: OrchardCore.Commerce/Views/OrderPart_Edit.cshtml:121
 msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
 msgid "Kind:"
-msgstr ""
+msgstr "Tipo:"
 
 #. <span>@T["Amount:"]</span>
 #: OrchardCore.Commerce/Views/OrderPart_Edit.cshtml:130
@@ -859,7 +859,7 @@ msgstr "Creato:"
 #: OrchardCore.Commerce/Views/OrderPart_Edit.cshtml:157
 msgctxt "OrchardCore.Commerce.Views.OrderPart_Edit"
 msgid "Charge Text:"
-msgstr ""
+msgstr "Dettagli sui pagamenti:"
 
 #. <p>@T["There are no charges stored in this order."]</p>
 #: OrchardCore.Commerce/Views/OrderPart_Edit.cshtml:168
@@ -871,7 +871,7 @@ msgstr "Non ci sono costi registrati in questo ordine."
 #: OrchardCore.Commerce/Views/OrderPart_TemplateLinks.cshtml:6
 msgctxt "OrchardCore.Commerce.Views.OrderPart_TemplateLinks"
 msgid "Checkout Templates"
-msgstr ""
+msgstr "Template per il checkout"
 
 #. <span class="hint">@T["Create templates for the \"Checkout\" screen. Any existing template will be added after the addresses."]</span>
 #: OrchardCore.Commerce/Views/OrderPart_TemplateLinks.cshtml:7
@@ -936,7 +936,7 @@ msgstr "Costi"
 #: OrchardCore.Commerce/Views/OrderPart.cshtml:79
 msgctxt "OrchardCore.Commerce.Views.OrderPart"
 msgid "Kind:"
-msgstr ""
+msgstr "Tipo:"
 
 #. <th scope="row">@T["Amount:"]</th>
 #: OrchardCore.Commerce/Views/OrderPart.cshtml:83
@@ -960,19 +960,19 @@ msgstr "Creato:"
 #: OrchardCore.Commerce/Views/OrderPart.cshtml:95
 msgctxt "OrchardCore.Commerce.Views.OrderPart"
 msgid "Charge Text:"
-msgstr ""
+msgstr "Dettagli sui pagamenti:"
 
 #. <p>@T["There are no charges stored in this order."]</p>
 #: OrchardCore.Commerce/Views/OrderPart.cshtml:103
 msgctxt "OrchardCore.Commerce.Views.OrderPart"
 msgid "There are no charges stored in this order."
-msgstr ""
+msgstr "Non ci sono pagamenti registrati in questo ordine."
 
 #. <label class="custom-control-label" asp-for="UseNetPriceDisplay">@T["Use Net Price Display"]</label>
 #: OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:6
 msgctxt "OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
 msgid "Use Net Price Display"
-msgstr ""
+msgstr "Utilizza la visualizzazione del prezzo netto"
 
 #. <span class="hint">@T["Turn on to display prices with taxes excluded."]</span>
 #: OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:9
@@ -984,7 +984,7 @@ msgstr "Attiva per visualizzare i prezzi con tasse escluse."
 #: OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:13
 msgctxt "OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
 msgid "Use Gross Price Display"
-msgstr ""
+msgstr "Utilizza la visualizzazione del prezzo lordo"
 
 #. <span class="hint">@T["Turn on to display prices with taxes included."]</span>
 #: OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:16
@@ -1002,7 +1002,7 @@ msgstr "Modalità selezione valuta"
 #: OrchardCore.Commerce/Views/PricePartSettings.Edit.cshtml:14
 msgctxt "OrchardCore.Commerce.Views.PricePartSettings.Edit"
 msgid "Specifies the currency configuration for this PricePart."
-msgstr ""
+msgstr "Specifica la configurazione della valuta per questo PricePart."
 
 #. <span class="hint">@T["Currency used for specific currency selection mode."]</span>
 #: OrchardCore.Commerce/Views/PricePartSettings.Edit.cshtml:25
@@ -1168,7 +1168,7 @@ msgstr "{0}%"
 #: OrchardCore.Commerce/Views/TextProductAttributeField_Edit.cshtml:9
 msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
 msgid "(Text product attribute)"
-msgstr ""
+msgstr "(attributo testuale del prodotto)"
 
 #. <li class="hint">@T["Required"]</li>
 #: OrchardCore.Commerce/Views/TextProductAttributeField_Edit.cshtml:12
@@ -1186,19 +1186,19 @@ msgstr "Valori predefiniti: {0}"
 #: OrchardCore.Commerce/Views/TextProductAttributeField_Edit.cshtml:17
 msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
 msgid "Choice is restricted to predefined values."
-msgstr ""
+msgstr "La scelta è limitata a valori predefiniti."
 
 #. <li class="hint">@T["The user may enter a value that is not one of the predefined values."]</li>
 #: OrchardCore.Commerce/Views/TextProductAttributeField_Edit.cshtml:19
 msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
 msgid "The user may enter a value that is not one of the predefined values."
-msgstr ""
+msgstr "L'utente può inserire un valore che non è uno dei valori predefiniti."
 
 #. <li class="hint">@T["The user may select more than one value."]</li>
 #: OrchardCore.Commerce/Views/TextProductAttributeField_Edit.cshtml:22
 msgctxt "OrchardCore.Commerce.Views.TextProductAttributeField_Edit"
 msgid "The user may select more than one value."
-msgstr ""
+msgstr "L'utente può selezionare più di un valore."
 
 #. <li class="hint">@T["Placeholder: {0}", settings.Placeholder]</li>
 #: OrchardCore.Commerce/Views/TextProductAttributeField_Edit.cshtml:25
@@ -1234,7 +1234,7 @@ msgstr "Suggerimento"
 #: OrchardCore.Commerce/Views/TextProductAttributeFieldSettings.Edit.cshtml:15
 msgctxt "OrchardCore.Commerce.Views.TextProductAttributeFieldSettings.Edit"
 msgid "The hint text to display for this attribute in the product page."
-msgstr ""
+msgstr "Il testo di suggerimento da visualizzare per questo attributo nella pagina del prodotto."
 
 #. <label for="Placeholder">@T["Watermark (placeholder)"]</label>
 #: OrchardCore.Commerce/Views/TextProductAttributeFieldSettings.Edit.cshtml:21
