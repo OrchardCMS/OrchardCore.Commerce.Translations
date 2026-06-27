@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 09:03\n"
+"PO-Revision-Date: 2026-06-27 10:14\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:17
@@ -30,7 +30,7 @@ msgstr "Commercio"
 #: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:19
 msgctxt "OrchardCore.Commerce.Payment.Stripe.AdminMenu"
 msgid "Stripe API"
-msgstr ""
+msgstr "Stripe API"
 
 #. Description = T["User checkout on {0}", siteSettings.SiteName].Value,
 #: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentIntentService.cs:57
@@ -48,7 +48,7 @@ msgstr ""
 #: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentService.cs:201
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Services.StripePaymentService"
 msgid "The order is empty."
-msgstr ""
+msgstr "L'ordine è vuoto."
 
 #. ShowMessage = H[
 #: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentService.cs:236
