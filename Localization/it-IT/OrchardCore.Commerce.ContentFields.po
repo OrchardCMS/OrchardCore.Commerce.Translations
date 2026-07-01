@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 14:35\n"
+"PO-Revision-Date: 2026-07-01 18:15\n"
 
 #. context.AddModelError(key, T["A value is required for {0}.", key]);
 #: OrchardCore.Commerce.ContentFields/Drivers/AddressFieldDisplayDriver.cs:113
@@ -58,7 +58,7 @@ msgstr "L'indirizzo contiene parti di nome che sono state combinate in questo no
 #: OrchardCore.Commerce.ContentFields/Views/AddressField_Edit.cshtml:37
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressField_Edit"
 msgid "Most features use this unified name string instead of the name parts, as those can be region dependent."
-msgstr "La maggior parte delle funzionalità usa questa stringa di nome unificata invece delle parti di nome, poiché queste possono dipendere dalla regione."
+msgstr "La maggior parte delle funzionalità usa questa stringa di nome unificata invece delle parti di nome, poiché possono dipendere dalla regione."
 
 #: OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:0
 msgctxt "OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
@@ -291,7 +291,7 @@ msgstr "Obbligatorio"
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:28
 msgctxt "OrchardCore.Commerce.ContentFields.Views.PriceFieldSettings.Edit"
 msgid "If unchecked then the field is optional, otherwise the amount is initialized to 0 on publish."
-msgstr "Se deselezionato allora il campo è opzionale, altrimenti l'importo viene inizializzato a 0 al momento della pubblicazione."
+msgstr "Se deselezionato, allora il campo è opzionale. Altrimenti l'importo viene inizializzato a 0 al momento della pubblicazione."
 
 #. <label asp-for="CurrencySelectionMode">@T["Currency selection mode"]</label>
 #: OrchardCore.Commerce.ContentFields/Views/PriceFieldSettings.Edit.cshtml:32
