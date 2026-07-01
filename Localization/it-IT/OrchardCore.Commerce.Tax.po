@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 14:35\n"
+"PO-Revision-Date: 2026-07-01 16:49\n"
 
 #. [nameof(TaxRateSetting.DestinationStreetAddress1)] = T["First street address"],
 #: OrchardCore.Commerce.Tax/Drivers/TaxRateSettingsDisplayDriver.cs:43
@@ -121,12 +121,12 @@ msgstr "Tasse"
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:0
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "You can define custom tax rate rules in the table below. Create a new rule by pressing the \"Add Row\" button. Any columns you fill out (besides \"{0}\") will serve as a condition (checked against the buyer's invoice address and the product's VAT number) to apply that tax rate. The first row that matches all of its listed patterns and conditions will provide the tax rate for a given product."
-msgstr "Nella tabella sottostante puoi definire le regole sulle aliquote fiscali personalizzate. Crea una nuova regola premendo il pulsante \"Aggiungi riga\". Qualsiasi colonna che compili (oltre a \"{0}\") servirà come condizione (verificata rispetto all'indirizzo della fattura dell'acquirente e al numero IVA del prodotto) per applicare tale aliquota. La prima riga che corrisponde a tutti i suoi modelli e condizioni elencati fornirà l'aliquota fiscale per un dato prodotto."
+msgstr "Nella tabella sottostante puoi definire le regole personalizzate sulle aliquote fiscali. Crea una nuova regola premendo il pulsante \"Aggiungi riga\". Qualsiasi colonna che compili (oltre a \"{0}\") servirà come condizione (verificata rispetto all'indirizzo della fattura dell'acquirente e alla partita IVA) per applicare tale aliquota. La prima riga che corrisponde a tutti i suoi modelli e condizioni elencati fornirà l'aliquota fiscale per un dato prodotto."
 
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:0
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "Matches the value of the &quot;Buyer is a corporation&quot; checkbox during checkout.&#13;If set to &quot;Ignored&quot; then the value of the checkbox doesn't matter to match this rule.&#13;Otherwise the checkbox has to be either &quot;Checked&quot; or &quot;Unchecked&quot; to apply this rule."
-msgstr "Corrisponde al valore del campo &quot;L'acquirente è una società&quot; durante il checkout.&#13;Se impostato su &quot;Ignorato&quot; allora il valore del campo non è importante per corrispondere a questa regola.&#13;Altrimenti il campo deve essere &quot;Selezionato&quot; o &quot;Non selezionato&quot; per applicare questa regola."
+msgstr "Corrisponde al valore del campo &quot;L'acquirente è una società&quot; durante il checkout.&#13;Se impostato su &quot;Ignorato&quot;, il valore del campo non è importante per corrispondere a questa regola.&#13;Altrimenti, il campo deve essere &quot;Selezionato&quot; oppure &quot;Non selezionato&quot; per applicare questa regola."
 
 #. <h2>@T["Recipients and Tax Codes"]</h2>
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:28
@@ -138,7 +138,7 @@ msgstr "Destinatari e codici fiscali"
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:34
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxRateSettings_Edit"
 msgid "Hide Address Columns"
-msgstr "Nascondi colonne indirizzo"
+msgstr "Nascondi le colonne indirizzo"
 
 #. <th scope="col">@T["Actions"]</th>
 #: OrchardCore.Commerce.Tax/Views/TaxRateSettings_Edit.cshtml:51
@@ -192,5 +192,5 @@ msgstr "Salta il controllo coerente di applicabilità"
 #: OrchardCore.Commerce.Tax/Views/TaxSettings_Edit.cshtml:8
 msgctxt "OrchardCore.Commerce.Tax.Views.TaxSettings_Edit"
 msgid "If checked, the shop won't verify that every product in the cart has a valid Tax part. If you check this, you are responsible for verifying that all taxable product types have attached and correctly configured tax parts."
-msgstr "Se selezionato, il negozio non verificherà che ogni prodotto in carrello abbia una TaxPart valida. Se si verifica questo, sei responsabile di verificare che tutti i tipi di prodotti imponibili abbiano allegato e correttamente configurato le TaxPart."
+msgstr "Se selezionato, il negozio non verificherà che ogni prodotto in carrello abbia una TaxPart valida. Se selezioni questa opzione, sei responsabile di verificare che tutti i tipi di prodotti tassabili abbiano allegato e correttamente configurato le TaxPart."
 
