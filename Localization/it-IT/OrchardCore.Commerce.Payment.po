@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-07-01 16:49\n"
+"PO-Revision-Date: 2026-07-01 18:15\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment/AdminMenu.cs:17
@@ -206,5 +206,5 @@ msgstr "La tua transazione è in fase di elaborazione..."
 #: OrchardCore.Commerce.Payment/Views/Payment/Wait.cshtml:11
 msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Wait"
 msgid "Please wait a moment, this page will automatically reload."
-msgstr "Attendere un momento, questa pagina verrà ricaricata automaticamente."
+msgstr "Attendere un momento. Questa pagina verrà ricaricata automaticamente."
 
