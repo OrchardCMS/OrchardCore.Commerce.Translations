@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 13:37\n"
+"PO-Revision-Date: 2026-07-01 16:49\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment.Stripe/AdminMenu.cs:17
@@ -62,7 +62,7 @@ msgstr "Impossibile trovare l'intento di pagamento \"{0}\" o l'ordine ad esso as
 #: OrchardCore.Commerce.Payment.Stripe/Services/StripePaymentService.cs:294
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Services.StripePaymentService"
 msgid "The payment has failed, please try again."
-msgstr "Il pagamento non è riuscito, riprova un'altra volta."
+msgstr "Il pagamento non è riuscito. Riprova un'altra volta."
 
 #. <h3>@T["Stripe Payment"]</h3>
 #: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:20
@@ -92,7 +92,7 @@ msgstr "Prezzo lordo: {0}"
 #: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:64
 msgctxt "OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
 msgid "There was an error during confirming the payment, please try again."
-msgstr "Si è verificato un errore durante la conferma del pagamento, per favore riprova."
+msgstr "Si è verificato un errore durante la conferma del pagamento. Riprova ancora."
 
 #. @T["A value is required for %LABEL%."].Json(),
 #: OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:65
