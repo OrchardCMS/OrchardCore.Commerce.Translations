@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 15:31\n"
+"PO-Revision-Date: 2026-07-01 18:15\n"
 
 #. .Add(T["Configuration"], configuration => configuration
 #: OrchardCore.Commerce.Payment.Exactly/AdminMenu.cs:17
@@ -126,7 +126,7 @@ msgstr "la quantità di acquisizione supera la quantità dell'autorizzazione ori
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:43
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "customer failed 3DS or any other authentication"
-msgstr "client 3DS fallito o qualsiasi altra autenticazione"
+msgstr "client 3DS o qualsiasi altra autenticazione fallito"
 
 #. ["authentication_expired"] = T["customer didn't complete 3DS or any other authentication in expected time"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:44
@@ -138,7 +138,7 @@ msgstr "il cliente non ha completato il 3DS o qualsiasi altra autenticazione ent
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:45
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "invalid card details were provided"
-msgstr "sono stati forniti dati non validi sulla carta"
+msgstr "sono stati forniti dei dati non validi sulla carta"
 
 #. ["cancelled_by_customer"] = T["customer canceled the transaction"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:46
@@ -150,13 +150,13 @@ msgstr "il cliente ha annullato la transazione"
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:47
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was blocked by the issuer"
-msgstr "l'operazione è stata bloccata dall'emittente"
+msgstr "la transazione è stata bloccata dall'emittente"
 
 #. ["declined_by_issuer"] = T["the transaction was declined by the issuer"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:48
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was declined by the issuer"
-msgstr "l'operazione è stata rifiutata dall'emittente"
+msgstr "la transazione è stata rifiutata dall'emittente"
 
 #. ["insufficient_funds"] = T["customer's account doesn't have enough funds for the payment"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:49
@@ -192,7 +192,7 @@ msgstr "transazione rifiutata, nessun dettaglio aggiuntivo fornito"
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:54
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "transaction declined, please contact Support Team providing the transaction ID"
-msgstr "transazione rifiutata, si prega di contattare il Team di Supporto, fornendo l'ID della transazione"
+msgstr "transazione rifiutata, contatta il Team di Supporto, fornendo l'ID della transazione"
 
 #. ["country_not_allowed"] = T["customer location or issuer country is not allowed"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:55
@@ -228,13 +228,13 @@ msgstr "l'importo della transazione è troppo basso"
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:61
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "invalid transaction attributes provided by customer or merchant, e.g. card details, customer details"
-msgstr "gli attributi della transazione forniti dal cliente o dal commerciante non sono validi, ad esempio dettagli della carta, dettagli del cliente"
+msgstr "gli attributi della transazione forniti dal cliente o dal venditore non sono validi, ad esempio dettagli della carta, dettagli del cliente"
 
 #. ["fraud_suspected"] = T["the transaction was declined due to suspected fraud"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:62
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was declined due to suspected fraud"
-msgstr "la transazione è stata rifiutata a causa di una sospetta frode"
+msgstr "la transazione è stata rifiutata a causa di una frode sospetta"
 
 #. ["risk_check_failed"] = T["the transaction was declined due to failed risk check"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:63
@@ -299,19 +299,19 @@ msgstr "Paga con Exactly®️"
 #: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:9
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Please be sure to use <a href=\"{0}\">this link</a> to create your exactly account. That way <a href=\"https://lombiq.com/\">Lombiq</a> (the steward of the Orchard Core Commerce project) will get a commission on the payment fees, which helps cover some of the development costs of OCC. This is at no cost to you; the fees you pay are the same either way."
-msgstr "Assicurati di utilizzare <a href=\"{0}\">questo link</a> per creare il tuo account di Exactly. In questo modo <a href=\"https://lombiq.com/\">Lombiq</a> (l'amministratore del progetto Orchard Core Commerce) riceverà una commissione sulle commissioni di pagamento, che contribuisce a coprire alcuni dei costi di sviluppo della OCC. Questo è senza alcun costo per voi; le tasse che paghi sono le stesse in entrambi i modi."
+msgstr "Assicurati di utilizzare <a href=\"{0}\">questo link</a> per creare il tuo account di Exactly. In questo modo <a href=\"https://lombiq.com/\">Lombiq</a> (l'amministratore del progetto Orchard Core Commerce) riceverà una commissione sulle commissioni di pagamento, che contribuisce a coprire alcuni dei costi di sviluppo di OCC. Non ci costi aggiuntivi per te; le tasse che paghi sono le stesse in entrambi i modi."
 
 #. @T["Verify currently saved API configuration"]
 #: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:17
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Verify currently saved API configuration"
-msgstr "Verifica la configurazione attualmente salvata delle API"
+msgstr "Verifica la configurazione delle API attualmente salvata"
 
 #. @T["Warning: pressing this button won't save the current page. If you have edited any fields it gets disabled."]
 #: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:21
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Warning: pressing this button won't save the current page. If you have edited any fields it gets disabled."
-msgstr "Attenzione: premendo questo pulsante non salverà la pagina corrente. Se hai modificato qualsiasi campo, questo campo viene disabilitato."
+msgstr "Attenzione: premendo questo pulsante, non salverà la pagina corrente. Se hai modificato qualsiasi campo, questo campo viene disabilitato."
 
 #. label="@T["Project ID"]"
 #: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:26
@@ -347,5 +347,5 @@ msgstr "Il campo sarà vuoto, dopo averlo salvato per motivi di sicurezza."
 #: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:38
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "You can find your project information at <a href=\"https://dashboard.exactly.com/projects/\" target=\"_blank\">https://dashboard.exactly.com/projects/</a>."
-msgstr "Puoi trovare le informazioni sul tuo progetto andando al link <a href=\"https://dashboard.exactly.com/projects/\" target=\"_blank\">https://dashboard.exactly.com/projects/</a>."
+msgstr "Puoi trovare le informazioni sul tuo progetto, cliccando sul link <a href=\"https://dashboard.exactly.com/projects/\" target=\"_blank\">https://dashboard.exactly.com/projects/</a>."
 
