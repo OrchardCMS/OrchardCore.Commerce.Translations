@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-06-27 10:14\n"
+"PO-Revision-Date: 2026-07-01 16:49\n"
 
 #. <strong class="field-name-discount-part-new-title-title">@T["New Price with Discount after Taxes:"]</strong>
 #: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:13
@@ -34,13 +34,13 @@ msgstr "{0}%"
 #: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:29
 msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
 msgid "Discount Maximum Products:"
-msgstr "Quantità massima per lo sconto:"
+msgstr "Quantità massima per lo sconto sui prodotti:"
 
 #. <strong class="field-name-discount-part-minimum-products-title">@T["Discount Minimum Products:"]</strong>
 #: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:37
 msgctxt "OrchardCore.Commerce.Promotion.Views.DiscountPart"
 msgid "Discount Minimum Products:"
-msgstr "Quantità minima per lo sconto:"
+msgstr "Quantità minima per lo sconto sui prodotti:"
 
 #. <strong class="field-name-discount-part-beginning-title">@T["Discount Beginning:"]</strong>
 #: OrchardCore.Commerce.Promotion/Views/DiscountPart.cshtml:45
