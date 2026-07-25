@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: orchard-core-commerce\n"
+"X-Crowdin-Project-ID: 529986\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /main/Localization/OrchardCore.Commerce.Abstractions.pot\n"
+"X-Crowdin-File-ID: 987\n"
+"Project-Id-Version: orchard-core-commerce\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"PO-Revision-Date: 2026-07-25 12:13\n"
+
+#. .Add(T["Settings"], settings => settings
+#: OrchardCore.Commerce.Abstractions/Extensions/NavigationBuilderExtensions.cs:21
+msgctxt "OrchardCore.Navigation.NavigationBuilderExtensions"
+msgid "Settings"
+msgstr ""
+
+#. .Add(T["Commerce"], commerce => callback(commerce.Id("settings-commerce"))));
+#: OrchardCore.Commerce.Abstractions/Extensions/NavigationBuilderExtensions.cs:22
+msgctxt "OrchardCore.Navigation.NavigationBuilderExtensions"
+msgid "Commerce"
+msgstr ""
+
