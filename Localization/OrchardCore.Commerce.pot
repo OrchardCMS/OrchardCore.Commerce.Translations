@@ -144,7 +144,7 @@ msgctxt "OrchardCore.Commerce.Drivers.OrderPartDisplayDriver"
 msgid "SKU \"{0}\" does not belong to an existing Product."
 msgstr ""
 
-#: OrchardCore.Commerce/Drivers/ProductPartDisplayDriver.cs:52
+#: OrchardCore.Commerce/Drivers/ProductPartDisplayDriver.cs:51
 #. context.AddModelError(nameof(ProductPart.Sku), T["SKU may not contain the dash character."]);
 msgctxt "OrchardCore.Commerce.Drivers.ProductPartDisplayDriver"
 msgid "SKU may not contain the dash character."
@@ -258,13 +258,13 @@ msgctxt "OrchardCore.Commerce.Handlers.OrderPartHandler"
 msgid "Order {0}"
 msgstr ""
 
-#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:66
+#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:64
 #. _updateModelAccessor.ModelUpdater.ModelState.AddModelError(nameof(part.Sku), T["SKU must not be empty."]);
 msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
 msgid "SKU must not be empty."
 msgstr ""
 
-#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:86
+#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:84
 #. T["SKU must be unique. A product with the given SKU already exists."]);
 msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
 msgid "SKU must be unique. A product with the given SKU already exists."
