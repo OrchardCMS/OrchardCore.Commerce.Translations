@@ -1,0 +1,12 @@
+#: OrchardCore.Commerce.Abstractions/Extensions/NavigationBuilderExtensions.cs:21
+#. .Add(T["Settings"], settings => settings
+msgctxt "OrchardCore.Navigation.NavigationBuilderExtensions"
+msgid "Settings"
+msgstr ""
+
+#: OrchardCore.Commerce.Abstractions/Extensions/NavigationBuilderExtensions.cs:22
+#. .Add(T["Commerce"], commerce => callback(commerce.Id("settings-commerce"))));
+msgctxt "OrchardCore.Navigation.NavigationBuilderExtensions"
+msgid "Commerce"
+msgstr ""
+
