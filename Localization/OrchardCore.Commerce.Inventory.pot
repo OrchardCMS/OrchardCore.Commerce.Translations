@@ -4,32 +4,32 @@ msgctxt "OrchardCore.Commerce.Inventory.Drivers.InventoryPartDisplayDriver"
 msgid "The Product SKU is missing."
 msgstr ""
 
-#: OrchardCore.Commerce.Inventory/Views/InventoryPart-OutOfStockMessage.cshtml:0
-msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart-OutOfStockMessage"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Inventory/Views/InventoryPart-OutOfStockMessage.cshtml:0
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Inventory.Views.InventoryPart-OutOfStockMessage"
 msgid "Out of Stock"
 msgstr ""
 
-#: OrchardCore.Commerce.Inventory/Views/InventoryPart.cshtml:11
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Inventory/Views/InventoryPart.cshtml:11
 #. <strong class="field-name-inventory-part-inventory-title">@inventoryTitle @T["Inventory"]:</strong>
-msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart"
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Inventory.Views.InventoryPart"
 msgid "Inventory"
 msgstr ""
 
-#: OrchardCore.Commerce.Inventory/Views/InventoryPart.cshtml:12
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Inventory/Views/InventoryPart.cshtml:12
 #. @T["{0}", inventoryEntry.Value]
-msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart"
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Inventory.Views.InventoryPart"
 msgid "{0}"
 msgstr ""
 
-#: OrchardCore.Commerce.Inventory/Views/InventoryPart.Edit.cshtml:3
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Inventory/Views/InventoryPart.Edit.cshtml:3
 #. <h3>@T["Inventories"]</h3>
-msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart.Edit"
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Inventory.Views.InventoryPart.Edit"
 msgid "Inventories"
 msgstr ""
 
-#: OrchardCore.Commerce.Inventory/Views/InventoryPart.Edit.cshtml:11
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Inventory/Views/InventoryPart.Edit.cshtml:11
 #. <label asp-for="Inventory[inventoryKey]">@inventoryTitle @T["Inventory"] </label>
-msgctxt "OrchardCore.Commerce.Inventory.Views.InventoryPart.Edit"
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Inventory.Views.InventoryPart.Edit"
 msgid "Inventory"
 msgstr ""
 
