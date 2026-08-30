@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2026-07-25 12:10\n"
+"PO-Revision-Date: 2026-08-30 22:55\n"
 
 #. public override LocalizedString DisplayText => T["Cart displaying"];
 #: OrchardCore.Commerce/Activities/CartDisplayingEvent.cs:7
@@ -159,7 +159,7 @@ msgid "SKU \"{0}\" does not belong to an existing Product."
 msgstr "Il codice SKU \"{0}\" non appartiene a un prodotto esistente."
 
 #. context.AddModelError(nameof(ProductPart.Sku), T["SKU may not contain the dash character."]);
-#: OrchardCore.Commerce/Drivers/ProductPartDisplayDriver.cs:52
+#: OrchardCore.Commerce/Drivers/ProductPartDisplayDriver.cs:51
 msgctxt "OrchardCore.Commerce.Drivers.ProductPartDisplayDriver"
 msgid "SKU may not contain the dash character."
 msgstr "Il codice SKU potrebbe non contenere il carattere -."
@@ -273,13 +273,13 @@ msgid "Order {0}"
 msgstr "Ordine {0}"
 
 #. _updateModelAccessor.ModelUpdater.ModelState.AddModelError(nameof(part.Sku), T["SKU must not be empty."]);
-#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:66
+#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:64
 msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
 msgid "SKU must not be empty."
 msgstr "Il codice SKU non deve essere vuoto."
 
 #. T["SKU must be unique. A product with the given SKU already exists."]);
-#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:86
+#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:84
 msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
 msgid "SKU must be unique. A product with the given SKU already exists."
 msgstr "Il codice SKU deve essere univoco. Un prodotto con il codice SKU dato esiste già."
@@ -288,7 +288,7 @@ msgstr "Il codice SKU deve essere univoco. Un prodotto con il codice SKU dato es
 #: OrchardCore.Commerce/Handlers/TaxPartAndPricePartHandler.cs:47
 msgctxt "OrchardCore.Commerce.Handlers.TaxPartAndPricePartHandler"
 msgid "Tax Rate can't be negative."
-msgstr "L'aliquota fiscale non può essere negativa."
+msgstr ""
 
 #. T["You must either provide both {0} and {1}, or neither of them.", grossPriceName, taxRateName]);
 #: OrchardCore.Commerce/Handlers/TaxPartAndPricePartHandler.cs:73
