@@ -8,6 +8,7 @@ on:
 jobs:
   publish-nuget:
     name: Publish to NuGet
+    if: contains(github.ref, 'preview') == false
     uses: Lombiq/GitHub-Actions/.github/workflows/publish-nuget.yml@dev
     secrets:
       API_KEY: ${{ secrets.NUGET_API_KEY }}
