@@ -10,342 +10,330 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2025-12-12 14:51\n"
+"PO-Revision-Date: 2026-07-25 12:10\n"
 
-#. .Add(T["Configuration"], configuration => configuration
+#. .Add(T["Exactly API"], T["Exactly API"], entry => entry
+#. .Add(T["Exactly API"], T["Exactly API"], entry => entry
+#: OrchardCore.Commerce.Payment.Exactly/AdminMenu.cs:17
 #: OrchardCore.Commerce.Payment.Exactly/AdminMenu.cs:17
 msgctxt "OrchardCore.Commerce.Payment.Exactly.AdminMenu"
-msgid "Configuration"
-msgstr ""
-
-#. .Add(T["Commerce"], commerce => commerce
-#: OrchardCore.Commerce.Payment.Exactly/AdminMenu.cs:18
-msgctxt "OrchardCore.Commerce.Payment.Exactly.AdminMenu"
-msgid "Commerce"
-msgstr ""
-
-#. .Add(T["Exactly API"], T["Exactly API"], entry => entry
-#. .Add(T["Exactly API"], T["Exactly API"], entry => entry
-#: OrchardCore.Commerce.Payment.Exactly/AdminMenu.cs:19
-#: OrchardCore.Commerce.Payment.Exactly/AdminMenu.cs:19
-msgctxt "OrchardCore.Commerce.Payment.Exactly.AdminMenu"
 msgid "Exactly API"
-msgstr ""
+msgstr "Exactly API"
 
 #. order.DisplayText = S["Exactly API test order"];
 #: OrchardCore.Commerce.Payment.Exactly/Controllers/ExactlyController.cs:84
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Controllers.ExactlyController"
 msgid "Exactly API test order"
-msgstr ""
+msgstr "Test pagamento ordine tramite Exactly API"
 
 #. H["The Exactly API access works correctly. You can test the redirection by clicking <a href=\"{0}\">here</a>", action.Url]);
 #: OrchardCore.Commerce.Payment.Exactly/Controllers/ExactlyController.cs:91
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Controllers.ExactlyController"
 msgid "The Exactly API access works correctly. You can test the redirection by clicking <a href=\"{0}\">here</a>"
-msgstr ""
+msgstr "L'accesso all'API di Exactly funziona correttamente. Puoi testare il reindirizzamento cliccando <a href=\"{0}\">qui</a>"
 
 #. await _notifier.ErrorAsync(H["An API error was encountered: {0}", exception.Message]);
 #: OrchardCore.Commerce.Payment.Exactly/Controllers/ExactlyController.cs:96
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Controllers.ExactlyController"
 msgid "An API error was encountered: {0}"
-msgstr ""
+msgstr "Si è verificato un errore dell'API: {0}"
 
 #. var html = $"{H["An unknown error was encountered:"].Html()}<br>{error.Replace("\n", "<br>")}";
 #: OrchardCore.Commerce.Payment.Exactly/Controllers/ExactlyController.cs:108
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Controllers.ExactlyController"
 msgid "An unknown error was encountered:"
-msgstr ""
+msgstr "Si è verificato un errore sconosciuto:"
 
 #. ["success"] = T["processing of the transaction was successfully completed"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:32
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "processing of the transaction was successfully completed"
-msgstr ""
+msgstr "il processamento della transazione è stato completato con successo"
 
 #. ["transaction_failed"] = T["transaction failed, no specific details could be provided"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:33
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "transaction failed, no specific details could be provided"
-msgstr ""
+msgstr "transazione non riuscita, non è possibile fornire dettagli specifici"
 
 #. ["refund_not_allowed_for_transaction_in_progress"] = T["refund is not allowed for the payment in progress"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:34
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "refund is not allowed for the payment in progress"
-msgstr ""
+msgstr "il rimborso non è consentito per il pagamento in corso"
 
 #. ["refundable_amount_exceeded"] = T["refund amount exceeds the amount of the original payment"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:35
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "refund amount exceeds the amount of the original payment"
-msgstr ""
+msgstr "l'importo del rimborso supera l'importo del pagamento originario"
 
 #. ["refunds_restricted_for_transaction"] = T["refunds not allowed for the original payment"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:36
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "refunds not allowed for the original payment"
-msgstr ""
+msgstr "rimborsi non consentiti per il pagamento originario"
 
 #. ["reversals_restricted_for_transaction"] = T["reversals not allowed for the original payment"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:37
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "reversals not allowed for the original payment"
-msgstr ""
+msgstr "inversione contabile non consentita per il pagamento originale"
 
 #. ["reversible_amount_exceeded"] = T["amount to reverse exceeds the amount of the original payment"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:38
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "amount to reverse exceeds the amount of the original payment"
-msgstr ""
+msgstr "l'importo da invertire supera l'importo del pagamento originario"
 
 #. ["not_allowed_for_failed_transaction"] = T["the operation is not allowed for the failed transaction"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:39
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the operation is not allowed for the failed transaction"
-msgstr ""
+msgstr "l'operazione non è consentita per la transazione fallita"
 
 #. ["sub_recurrings_restricted_for_transaction"] = T["subsequent recurring payments are not allowed for the initial payment"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:40
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "subsequent recurring payments are not allowed for the initial payment"
-msgstr ""
+msgstr "i pagamenti ricorrenti successivi non sono ammessi per il pagamento iniziale"
 
 #. ["already_captured"] = T["payment was already captured"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:41
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "payment was already captured"
-msgstr ""
+msgstr "il pagamento è già stato acquisito"
 
 #. ["capture_amount_exceeded"] = T["capture amount exceeds the amount of the original authorize"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:42
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "capture amount exceeds the amount of the original authorize"
-msgstr ""
+msgstr "la quantità di acquisizione supera la quantità dell'autorizzazione originale"
 
 #. ["authentication_failed"] = T["customer failed 3DS or any other authentication"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:43
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "customer failed 3DS or any other authentication"
-msgstr ""
+msgstr "client 3DS o qualsiasi altra autenticazione fallito"
 
 #. ["authentication_expired"] = T["customer didn't complete 3DS or any other authentication in expected time"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:44
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "customer didn't complete 3DS or any other authentication in expected time"
-msgstr ""
+msgstr "il cliente non ha completato il 3DS o qualsiasi altra autenticazione entro il tempo previsto"
 
 #. ["invalid_card_data"] = T["invalid card details were provided"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:45
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "invalid card details were provided"
-msgstr ""
+msgstr "sono stati forniti dei dati non validi sulla carta"
 
 #. ["cancelled_by_customer"] = T["customer canceled the transaction"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:46
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "customer canceled the transaction"
-msgstr ""
+msgstr "il cliente ha annullato la transazione"
 
 #. ["blocked_by_issuer"] = T["the transaction was blocked by the issuer"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:47
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was blocked by the issuer"
-msgstr ""
+msgstr "la transazione è stata bloccata dall'emittente"
 
 #. ["declined_by_issuer"] = T["the transaction was declined by the issuer"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:48
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was declined by the issuer"
-msgstr ""
+msgstr "la transazione è stata rifiutata dall'emittente"
 
 #. ["insufficient_funds"] = T["customer's account doesn't have enough funds for the payment"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:49
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "customer's account doesn't have enough funds for the payment"
-msgstr ""
+msgstr "il conto del cliente non dispone di fondi sufficienti per il pagamento"
 
 #. ["insufficient_balance"] = T["merchant's account doesn't have enough funds for the transaction"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:50
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "merchant's account doesn't have enough funds for the transaction"
-msgstr ""
+msgstr "il conto del commerciante non dispone di fondi sufficienti per la transazione"
 
 #. ["try_again_later"] = T["transaction declined, wait for some time before re-trying the transaction"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:51
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "transaction declined, wait for some time before re-trying the transaction"
-msgstr ""
+msgstr "transazione rifiutata, attendere un po' di tempo prima di riprovare la transazione"
 
 #. ["try_again"] = T["transaction declined, re-try the transaction"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:52
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "transaction declined, re-try the transaction"
-msgstr ""
+msgstr "transazione rifiutata, riprova la transazione"
 
 #. ["transaction_declined"] = T["transaction declined, no additional details provided"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:53
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "transaction declined, no additional details provided"
-msgstr ""
+msgstr "transazione rifiutata, nessun dettaglio aggiuntivo fornito"
 
 #. ["contact_support"] = T["transaction declined, please contact Support Team providing the transaction ID"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:54
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "transaction declined, please contact Support Team providing the transaction ID"
-msgstr ""
+msgstr "transazione rifiutata, contatta il Team di Supporto, fornendo l'ID della transazione"
 
 #. ["country_not_allowed"] = T["customer location or issuer country is not allowed"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:55
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "customer location or issuer country is not allowed"
-msgstr ""
+msgstr "la posizione del cliente o il paese dell'emittente non è consentito"
 
 #. ["count_limit_exceeded"] = T["allowed limit for total number of transactions was reached"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:56
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "allowed limit for total number of transactions was reached"
-msgstr ""
+msgstr "è stato raggiunto il limite consentito per il numero totale di transazioni"
 
 #. ["volume_limit_exceeded"] = T["allowed limit for total volume was reached"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:57
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "allowed limit for total volume was reached"
-msgstr ""
+msgstr "è stato raggiunto il limite consentito per il volume totale"
 
 #. ["amount_too_large"] = T["amount of the transaction is too large"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:58
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "amount of the transaction is too large"
-msgstr ""
+msgstr "l'importo della transazione è troppo alto"
 
 #. ["amount_too_small"] = T["amount of the transaction is too small"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:59
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "amount of the transaction is too small"
-msgstr ""
+msgstr "l'importo della transazione è troppo basso"
 
 #. T["invalid transaction attributes provided by customer or merchant, e.g. card details, customer details"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:61
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "invalid transaction attributes provided by customer or merchant, e.g. card details, customer details"
-msgstr ""
+msgstr "gli attributi della transazione forniti dal cliente o dal venditore non sono validi, ad esempio dettagli della carta, dettagli del cliente"
 
 #. ["fraud_suspected"] = T["the transaction was declined due to suspected fraud"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:62
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was declined due to suspected fraud"
-msgstr ""
+msgstr "la transazione è stata rifiutata a causa di una frode sospetta"
 
 #. ["risk_check_failed"] = T["the transaction was declined due to failed risk check"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:63
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was declined due to failed risk check"
-msgstr ""
+msgstr "la transazione è stata rifiutata a causa del mancato controllo del rischio"
 
 #. ["volume_limit_per_source_exceeded"] = T["allowed limit was reached for total volume per source, e.g. card, wallet account, etc."],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:64
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "allowed limit was reached for total volume per source, e.g. card, wallet account, etc."
-msgstr ""
+msgstr "è stato raggiunto il limite consentito per il volume totale per sorgente, ad esempio carta, conto portafoglio, ecc."
 
 #. ["card_blocked"] = T["the card is blocked"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:65
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the card is blocked"
-msgstr ""
+msgstr "la carta è bloccata"
 
 #. ["expire_timeout"] = T["exceeded default allowed time for transaction processing"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:66
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "exceeded default allowed time for transaction processing"
-msgstr ""
+msgstr "è stato superato il tempo predefinito per l'elaborazione delle transazioni"
 
 #. ["custom_expire_timeout"] = T["exceeded allowed time for transaction processing"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:67
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "exceeded allowed time for transaction processing"
-msgstr ""
+msgstr "è stato superato il tempo consentito per l'elaborazione della transazione"
 
 #. ["contact_issuer"] = T["the transaction was declined, the customer should contact issuer"],
 #: OrchardCore.Commerce.Payment.Exactly/Models/ChargeResponse.cs:68
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was declined, the customer should contact issuer"
-msgstr ""
+msgstr "l'operazione è stata rifiutata, il cliente dovrebbe contattare l'emittente"
 
 #. return await FailAsync(order, H["Your transaction has failed: {0}.", resultMessage]);
-#: OrchardCore.Commerce.Payment.Exactly/Services/ExactlyPaymentProvider.cs:109
+#: OrchardCore.Commerce.Payment.Exactly/Services/ExactlyPaymentProvider.cs:100
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Services.ExactlyPaymentProvider"
 msgid "Your transaction has failed: {0}."
-msgstr ""
+msgstr "La tua transazione non è riuscita: {0}."
 
 #. return await FailAsync(order, H["Your transaction has failed."]);
-#: OrchardCore.Commerce.Payment.Exactly/Services/ExactlyPaymentProvider.cs:112
+#: OrchardCore.Commerce.Payment.Exactly/Services/ExactlyPaymentProvider.cs:103
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Services.ExactlyPaymentProvider"
 msgid "Your transaction has failed."
-msgstr ""
+msgstr "La tua transazione non è riuscita."
 
-#: OrchardCore.Commerce.Payment.Exactly/Views/CheckoutExactly.cshtml:0
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.CheckoutExactly"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/CheckoutExactly.cshtml:0
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.CheckoutExactly"
 msgid "An error has occurred while trying to connect to the payment service. Please try again later."
 msgstr ""
 
 #. <shape type="PayButton" PayButtonClass="exactly" prop-Text="@T["Pay with Exactly\u00ae"]" />
-#: OrchardCore.Commerce.Payment.Exactly/Views/CheckoutExactly.cshtml:11
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.CheckoutExactly"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/CheckoutExactly.cshtml:11
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.CheckoutExactly"
 msgid "Pay with Exactly®"
 msgstr ""
 
 #. @T["Please be sure to use <a href=\"{0}\">this link</a> to create your exactly account. That way <a href=\"https://lombiq.com/\">Lombiq</a> (the steward of the Orchard Core Commerce project) will get a commission on the payment fees, which helps cover some of the development costs of OCC. This is at no cost to you; the fees you pay are the same either way.", ExactlySettingsDisplayDriver.SignUpLink]
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:9
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:9
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Please be sure to use <a href=\"{0}\">this link</a> to create your exactly account. That way <a href=\"https://lombiq.com/\">Lombiq</a> (the steward of the Orchard Core Commerce project) will get a commission on the payment fees, which helps cover some of the development costs of OCC. This is at no cost to you; the fees you pay are the same either way."
 msgstr ""
 
 #. @T["Verify currently saved API configuration"]
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:17
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:17
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Verify currently saved API configuration"
 msgstr ""
 
 #. @T["Warning: pressing this button won't save the current page. If you have edited any fields it gets disabled."]
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:21
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:21
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Warning: pressing this button won't save the current page. If you have edited any fields it gets disabled."
 msgstr ""
 
 #. label="@T["Project ID"]"
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:26
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:26
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Project ID"
 msgstr ""
 
 #. hint="@T["The GUID identifying the project."]"></fieldset>
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:27
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:27
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "The GUID identifying the project."
 msgstr ""
 
 #. label="@T["API key"]"
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:30
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:30
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "API key"
 msgstr ""
 
 #. hint="@(new HtmlString(" ").Join(
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:31
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:31
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "The secret API key for the project."
 msgstr ""
 
 #. hint="@(new HtmlString(" ").Join(
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:31
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:31
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "The field will be empty after saving it, for security reasons."
 msgstr ""
 
 #. @T["You can find your project information at <a href=\"https://dashboard.exactly.com/projects/\" target=\"_blank\">https://dashboard.exactly.com/projects/</a>."]
-#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:38
-msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:38
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "You can find your project information at <a href=\"https://dashboard.exactly.com/projects/\" target=\"_blank\">https://dashboard.exactly.com/projects/</a>."
 msgstr ""
 
