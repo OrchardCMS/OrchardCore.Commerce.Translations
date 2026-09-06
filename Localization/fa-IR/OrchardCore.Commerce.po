@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
-"PO-Revision-Date: 2026-07-25 12:14\n"
+"PO-Revision-Date: 2026-08-30 22:56\n"
 
 #. public override LocalizedString DisplayText => T["Cart displaying"];
 #: OrchardCore.Commerce/Activities/CartDisplayingEvent.cs:7
@@ -159,7 +159,7 @@ msgid "SKU \"{0}\" does not belong to an existing Product."
 msgstr ""
 
 #. context.AddModelError(nameof(ProductPart.Sku), T["SKU may not contain the dash character."]);
-#: OrchardCore.Commerce/Drivers/ProductPartDisplayDriver.cs:52
+#: OrchardCore.Commerce/Drivers/ProductPartDisplayDriver.cs:51
 msgctxt "OrchardCore.Commerce.Drivers.ProductPartDisplayDriver"
 msgid "SKU may not contain the dash character."
 msgstr ""
@@ -273,13 +273,13 @@ msgid "Order {0}"
 msgstr ""
 
 #. _updateModelAccessor.ModelUpdater.ModelState.AddModelError(nameof(part.Sku), T["SKU must not be empty."]);
-#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:66
+#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:64
 msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
 msgid "SKU must not be empty."
 msgstr ""
 
 #. T["SKU must be unique. A product with the given SKU already exists."]);
-#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:86
+#: OrchardCore.Commerce/Handlers/SkuValidationHandler.cs:84
 msgctxt "OrchardCore.Commerce.Handlers.SkuValidationHandler"
 msgid "SKU must be unique. A product with the given SKU already exists."
 msgstr ""
