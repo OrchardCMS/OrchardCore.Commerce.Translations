@@ -258,68 +258,68 @@ msgctxt "OrchardCore.Commerce.Payment.Exactly.Services.ExactlyPaymentProvider"
 msgid "Your transaction has failed."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/CheckoutExactly.cshtml:0
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.CheckoutExactly"
+#: OrchardCore.Commerce.Payment.Exactly/Views/CheckoutExactly.cshtml:0
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.CheckoutExactly"
 msgid "An error has occurred while trying to connect to the payment service. Please try again later."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/CheckoutExactly.cshtml:11
+#: OrchardCore.Commerce.Payment.Exactly/Views/CheckoutExactly.cshtml:11
 #. <shape type="PayButton" PayButtonClass="exactly" prop-Text="@T["Pay with Exactly\u00ae"]" />
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.CheckoutExactly"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.CheckoutExactly"
 msgid "Pay with Exactly®"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:9
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:9
 #. @T["Please be sure to use <a href=\"{0}\">this link</a> to create your exactly account. That way <a href=\"https://lombiq.com/\">Lombiq</a> (the steward of the Orchard Core Commerce project) will get a commission on the payment fees, which helps cover some of the development costs of OCC. This is at no cost to you; the fees you pay are the same either way.", ExactlySettingsDisplayDriver.SignUpLink]
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Please be sure to use <a href=\"{0}\">this link</a> to create your exactly account. That way <a href=\"https://lombiq.com/\">Lombiq</a> (the steward of the Orchard Core Commerce project) will get a commission on the payment fees, which helps cover some of the development costs of OCC. This is at no cost to you; the fees you pay are the same either way."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:17
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:17
 #. @T["Verify currently saved API configuration"]
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Verify currently saved API configuration"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:21
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:21
 #. @T["Warning: pressing this button won't save the current page. If you have edited any fields it gets disabled."]
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Warning: pressing this button won't save the current page. If you have edited any fields it gets disabled."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:26
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:26
 #. label="@T["Project ID"]"
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "Project ID"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:27
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:27
 #. hint="@T["The GUID identifying the project."]"></fieldset>
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "The GUID identifying the project."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:30
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:30
 #. label="@T["API key"]"
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "API key"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:31
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:31
 #. hint="@(new HtmlString(" ").Join(
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "The secret API key for the project."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:31
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:31
 #. hint="@(new HtmlString(" ").Join(
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "The field will be empty after saving it, for security reasons."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:38
+#: OrchardCore.Commerce.Payment.Exactly/Views/ExactlySettings.Edit.cshtml:38
 #. @T["You can find your project information at <a href=\"https://dashboard.exactly.com/projects/\" target=\"_blank\">https://dashboard.exactly.com/projects/</a>."]
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
+msgctxt "OrchardCore.Commerce.Payment.Exactly.Views.ExactlySettings.Edit"
 msgid "You can find your project information at <a href=\"https://dashboard.exactly.com/projects/\" target=\"_blank\">https://dashboard.exactly.com/projects/</a>."
 msgstr ""
 
