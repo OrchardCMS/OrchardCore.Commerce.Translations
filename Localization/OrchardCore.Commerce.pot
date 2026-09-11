@@ -318,25 +318,25 @@ msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
 msgid "Can't add product {0} because it doesn't have a price, or its currency doesn't match the current display currency."
 msgstr ""
 
-#: OrchardCore.Commerce/Settings/CurrencySettingsDisplayDriver.cs:61
+#: OrchardCore.Commerce/Settings/CurrencySettingsDisplayDriver.cs:60
 #. (string.IsNullOrEmpty(currency.EnglishName) ? T["Unspecified"] : T[currency.EnglishName])));
 msgctxt "OrchardCore.Commerce.Settings.CurrencySettingsDisplayDriver"
 msgid "Unspecified"
 msgstr ""
 
-#: OrchardCore.Commerce/Settings/PricePartSettingsDisplayDriver.cs:40
+#: OrchardCore.Commerce/Settings/PricePartSettingsDisplayDriver.cs:39
 #. new(CurrencySelectionMode.AllCurrencies.ToString(), T["All Currencies"]),
 msgctxt "OrchardCore.Commerce.Settings.PricePartSettingsDisplayDriver"
 msgid "All Currencies"
 msgstr ""
 
-#: OrchardCore.Commerce/Settings/PricePartSettingsDisplayDriver.cs:41
+#: OrchardCore.Commerce/Settings/PricePartSettingsDisplayDriver.cs:40
 #. new(CurrencySelectionMode.DefaultCurrency.ToString(), T["Default Currency"]),
 msgctxt "OrchardCore.Commerce.Settings.PricePartSettingsDisplayDriver"
 msgid "Default Currency"
 msgstr ""
 
-#: OrchardCore.Commerce/Settings/PricePartSettingsDisplayDriver.cs:42
+#: OrchardCore.Commerce/Settings/PricePartSettingsDisplayDriver.cs:41
 #. new(CurrencySelectionMode.SpecificCurrency.ToString(), T["Specific Currency"]),
 msgctxt "OrchardCore.Commerce.Settings.PricePartSettingsDisplayDriver"
 msgid "Specific Currency"
@@ -1032,19 +1032,19 @@ msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules
 msgid "There are no products to display."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ProductListPart.Filters.cshtml:17
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ProductListPart.Filters.cshtml:15
 #. <h3>@T["Filter Products"]</h3>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.ProductListPart.Filters"
 msgid "Filter Products"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ProductListPart.Filters.cshtml:28
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ProductListPart.Filters.cshtml:26
 #. <label for="products-order-by">@T["Sort By"]</label>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.ProductListPart.Filters"
 msgid "Sort By"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ProductListPart.Filters.cshtml:48
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ProductListPart.Filters.cshtml:46
 #. <button type="submit" class="btn btn-primary mb-3" id="products-filter-apply">@T["Apply"]</button>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.ProductListPart.Filters"
 msgid "Apply"

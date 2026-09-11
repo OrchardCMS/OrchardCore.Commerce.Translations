@@ -71,145 +71,145 @@ msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules
 msgid "Dr"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:54
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:51
 #. <label for="@titleId">@T["Title"]</label>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Title"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:64
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:61
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@NameForNamePart(GivenName)" prop-Text="@T["Given Name"]" prop-Value="@GetNamePart(GivenName)" prop-ClassNames="@ClassesForNamePart(GivenName)" Required="true" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Given Name"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:65
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:62
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@NameForNamePart(MiddleName)" prop-Text="@T["Middle Name"]" prop-Value="@GetNamePart(MiddleName)" prop-ClassNames="@ClassesForNamePart(MiddleName)" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Middle Name"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:66
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:63
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@NameForNamePart(FamilyName)" prop-Text="@T["Family Name"]" prop-Value="@GetNamePart(FamilyName)" prop-ClassNames="@ClassesForNamePart(FamilyName)" Required="true" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Family Name"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:68
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:65
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Department)" prop-Text="@T["Department"]" prop-Value="@address.Department" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Department"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:69
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:66
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Company)" prop-Text="@T["Company or institution"]" prop-Value="@address.Company" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Company or institution"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:70
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:67
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.StreetAddress1)" prop-Text="@T["First street address"]" prop-Value="@address.StreetAddress1" ClassNames="address__street address__street_first" Required="true" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "First street address"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:71
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:68
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.StreetAddress2)" prop-Text="@T["Second street address"]" prop-Value="@address.StreetAddress2" ClassNames="address__street address__street_second" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Second street address"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:72
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:69
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.City)" prop-Text="@T["City"]" prop-Value="@address.City" Required="true" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "City"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:73
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:70
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Province)" prop-Text="@T["State or province"]" prop-Value="@address.Province" Required="true" InputType="dropdown" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "State or province"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:74
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:71
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.PostalCode)" prop-Text="@T["Postal code"]" prop-Value="@address.PostalCode" ClassNames="address__postalCode" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Postal code"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:75
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:72
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Region)" prop-Text="@T["Country or region"]" prop-Value="@regions" Required="true" InputType="dropdown" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Country or region"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:83
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:80
 #. prop-Text="@T["Note for Courier"]"
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Note for Courier"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:104
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor-WesternCommonNameParts.cshtml:101
 #. @T["Save this address"]
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor-WesternCommonNameParts"
 msgid "Save this address"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:26
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:25
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Name)" prop-Text="@T["Name"]" prop-Value="@address.Name" Required="true" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Name"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:27
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:26
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Department)" prop-Text="@T["Department"]" prop-Value="@address.Department" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Department"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:28
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:27
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Company)" prop-Text="@T["Company or institution"]" prop-Value="@address.Company" />
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Company or institution"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:33
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:32
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.StreetAddress1)" prop-Text="@T["First street address"]" prop-Value="@address.StreetAddress1" ClassNames="address__street address__street_first" Required="true"/>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "First street address"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:34
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:33
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.StreetAddress2)" prop-Text="@T["Second street address"]" prop-Value="@address.StreetAddress2" ClassNames="address__street address__street_second"/>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Second street address"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:35
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:34
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.City)" prop-Text="@T["City"]" prop-Value="@address.City" Required="true"/>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "City"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:36
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:35
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Province)" prop-Text="@T["State or province"]" prop-Value="@address.Province" Required="true" InputType="dropdown"/>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "State or province"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:37
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:36
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.PostalCode)" prop-Text="@T["Postal code"]" prop-Value="@address.PostalCode" ClassNames="address__postalCode"/>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Postal code"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:38
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:37
 #. <shape type="InputRow" prop-Prefix="@namePrefix" prop-Name="@nameof(Address.Region)" prop-Text="@T["Country or region"]" prop-Value="@regions" Required="true" InputType="dropdown"/>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Country or region"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:58
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.ContentFields/Views/AddressFieldEditor.cshtml:57
 #. @T["Save this address"]
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.ContentFields.Views.AddressFieldEditor"
 msgid "Save this address"

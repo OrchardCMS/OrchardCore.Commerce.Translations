@@ -246,13 +246,13 @@ msgctxt "OrchardCore.Commerce.Payment.Exactly.Models.ChargeResponse"
 msgid "the transaction was declined, the customer should contact issuer"
 msgstr ""
 
-#: OrchardCore.Commerce.Payment.Exactly/Services/ExactlyPaymentProvider.cs:100
+#: OrchardCore.Commerce.Payment.Exactly/Services/ExactlyPaymentProvider.cs:95
 #. return await FailAsync(order, H["Your transaction has failed: {0}.", resultMessage]);
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Services.ExactlyPaymentProvider"
 msgid "Your transaction has failed: {0}."
 msgstr ""
 
-#: OrchardCore.Commerce.Payment.Exactly/Services/ExactlyPaymentProvider.cs:103
+#: OrchardCore.Commerce.Payment.Exactly/Services/ExactlyPaymentProvider.cs:98
 #. return await FailAsync(order, H["Your transaction has failed."]);
 msgctxt "OrchardCore.Commerce.Payment.Exactly.Services.ExactlyPaymentProvider"
 msgid "Your transaction has failed."
