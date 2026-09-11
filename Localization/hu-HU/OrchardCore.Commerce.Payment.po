@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2026-07-25 12:10\n"
+"PO-Revision-Date: 2026-09-06 10:17\n"
 
 #. .Add(T["Address Display"], T["Address Display"], entry => entry
 #. .Add(T["Address Display"], T["Address Display"], entry => entry
@@ -111,88 +111,88 @@ msgid "An exception has occurred during checkout form validation for shopping ca
 msgstr ""
 
 #. <label asp-for="ShouldIgnoreAddress" class="form-check-label">@T["Ignore billing and shipping addresses"]</label>
-#: OrchardCore.Commerce.Payment/Views/CheckoutAddressSettings.Edit.cshtml:6
-msgctxt "OrchardCore.Commerce.Payment.Views.CheckoutAddressSettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/CheckoutAddressSettings.Edit.cshtml:6
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.CheckoutAddressSettings.Edit"
 msgid "Ignore billing and shipping addresses"
 msgstr ""
 
 #. <span class="hint">@T["If the site should ignore the billing and shipping addresses."]</span>
-#: OrchardCore.Commerce.Payment/Views/CheckoutAddressSettings.Edit.cshtml:8
-msgctxt "OrchardCore.Commerce.Payment.Views.CheckoutAddressSettings.Edit"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/CheckoutAddressSettings.Edit.cshtml:8
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.CheckoutAddressSettings.Edit"
 msgid "If the site should ignore the billing and shipping addresses."
 msgstr ""
 
 #. <shape type="PayButton" PayButtonClass="dummy" prop-Text="@T["Make a dummy payment"]" />
-#: OrchardCore.Commerce.Payment/Views/CheckoutDummy.cshtml:1
-msgctxt "OrchardCore.Commerce.Payment.Views.CheckoutDummy"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/CheckoutDummy.cshtml:1
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.CheckoutDummy"
 msgid "Make a dummy payment"
 msgstr ""
 
 #. <mvc-title text="@T["Checkout"]" />
-#: OrchardCore.Commerce.Payment/Views/Payment/Index.cshtml:1
-msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Index"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/Payment/Index.cshtml:1
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.Payment.Index"
 msgid "Checkout"
 msgstr ""
 
-#: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
-msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "Pay with {0}"
 msgstr ""
 
-#: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
-msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "Pay"
 msgstr ""
 
-#: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
-msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "{0}"
 msgstr ""
 
-#: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
-msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/PayButton.cshtml:0
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "Pay {0}"
 msgstr ""
 
 #. <span>@T["Processing payment..."]</span>
-#: OrchardCore.Commerce.Payment/Views/PayButton.cshtml:43
-msgctxt "OrchardCore.Commerce.Payment.Views.PayButton"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/PayButton.cshtml:43
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.PayButton"
 msgid "Processing payment..."
 msgstr ""
 
 #. <mvc-title text="@T["Order Payment"]" />
-#: OrchardCore.Commerce.Payment/Views/Payment/PaymentRequest.cshtml:10
-msgctxt "OrchardCore.Commerce.Payment.Views.Payment.PaymentRequest"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/Payment/PaymentRequest.cshtml:10
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.Payment.PaymentRequest"
 msgid "Order Payment"
 msgstr ""
 
 #. <h4 class="text-success text-center">@T["Thank you for your purchase!"]</h4>
-#: OrchardCore.Commerce.Payment/Views/Payment/Success.cshtml:7
-msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Success"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/Payment/Success.cshtml:7
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.Payment.Success"
 msgid "Thank you for your purchase!"
 msgstr ""
 
 #. <b>@T["The receipt will be sent to your email address once we have processed your order!"] </b>
-#: OrchardCore.Commerce.Payment/Views/Payment/Success.cshtml:11
-msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Success"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/Payment/Success.cshtml:11
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.Payment.Success"
 msgid "The receipt will be sent to your email address once we have processed your order!"
 msgstr ""
 
 #. <a href="~/" class="btn btn-primary">@T["Return to home page"]</a>
-#: OrchardCore.Commerce.Payment/Views/Payment/Success.cshtml:13
-msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Success"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/Payment/Success.cshtml:13
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.Payment.Success"
 msgid "Return to home page"
 msgstr ""
 
 #. <h4 class="text-success text-center">@T["Your transaction is being processed..."]</h4>
-#: OrchardCore.Commerce.Payment/Views/Payment/Wait.cshtml:7
-msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Wait"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/Payment/Wait.cshtml:7
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.Payment.Wait"
 msgid "Your transaction is being processed..."
 msgstr ""
 
 #. <b>@T["Please wait a moment, this page will automatically reload."] </b>
-#: OrchardCore.Commerce.Payment/Views/Payment/Wait.cshtml:11
-msgctxt "OrchardCore.Commerce.Payment.Views.Payment.Wait"
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment/Views/Payment/Wait.cshtml:11
+msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Views.Payment.Wait"
 msgid "Please wait a moment, this page will automatically reload."
 msgstr ""
 
