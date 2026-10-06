@@ -38,28 +38,16 @@ msgctxt "OrchardCore.Commerce.Payment.Stripe.Services.StripePaymentService"
 msgid "The payment has failed, please try again."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:12
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:18
 #. <h3>@T["Stripe Payment"]</h3>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
 msgid "Stripe Payment"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:16
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:22
 #. <div id="payment-form_payment">@T["Stripe payment is not configured for this site."]</div>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
 msgid "Stripe payment is not configured for this site."
-msgstr ""
-
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:22
-#. <strong>@T["Net Price: {0}", Model.NetTotal]</strong>
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
-msgid "Net Price: {0}"
-msgstr ""
-
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripe.cshtml:27
-#. <strong>@T["Gross Price: {0}", Model.GrossTotal]</strong>
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Payment.Stripe.Views.CheckoutStripe"
-msgid "Gross Price: {0}"
 msgstr ""
 
 #: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce.Payment.Stripe/Views/CheckoutStripeScript.cshtml:0

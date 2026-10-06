@@ -222,24 +222,6 @@ msgctxt "OrchardCore.Commerce.Events.InventoryShoppingCartEvents"
 msgid "The checkout quantity for {0} is less than the minimum allowed ({1})."
 msgstr ""
 
-#: OrchardCore.Commerce/Events/PromotionShoppingCartEvents.cs:58
-#. newHeaders.Insert(insertIndex, H["Old Price"]);
-msgctxt "OrchardCore.Commerce.Events.PromotionShoppingCartEvents"
-msgid "Old Price"
-msgstr ""
-
-#: OrchardCore.Commerce/Events/TaxShoppingCartEvents.cs:63
-#. .Select(header => header.Name == "Price" ? H["Gross Price"] : header)
-msgctxt "OrchardCore.Commerce.Events.TaxShoppingCartEvents"
-msgid "Gross Price"
-msgstr ""
-
-#: OrchardCore.Commerce/Events/TaxShoppingCartEvents.cs:71
-#. newHeaders.Insert(grossIndex, H["Net Price"]);
-msgctxt "OrchardCore.Commerce.Events.TaxShoppingCartEvents"
-msgid "Net Price"
-msgstr ""
-
 #: OrchardCore.Commerce/Handlers/DiscountPartHandler.cs:68
 #. T["You must either provide only {0}, or {1}, or neither of them.", percentageName, amountName]);
 msgctxt "OrchardCore.Commerce.Handlers.DiscountPartHandler"
@@ -282,37 +264,13 @@ msgctxt "OrchardCore.Commerce.Handlers.TaxPartAndPricePartHandler"
 msgid "You must either provide both {0} and {1}, or neither of them."
 msgstr ""
 
-#: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:104
-#. H["Quantity"],
-msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
-msgid "Quantity"
-msgstr ""
-
-#: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:105
-#. H["Product"],
-msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
-msgid "Product"
-msgstr ""
-
-#: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:106
-#. H["Price"],
-msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
-msgid "Price"
-msgstr ""
-
-#: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:107
-#. H["Action"],
-msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
-msgid "Action"
-msgstr ""
-
-#: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:226
+#: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:229
 #. return H["Product with SKU {0} not found.", sku];
 msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
 msgid "Product with SKU {0} not found."
 msgstr ""
 
-#: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:233
+#: OrchardCore.Commerce/Services/ShoppingCartHelpers.cs:236
 #. : H["Can't add product {0} because it doesn't have a price, or its currency doesn't match the current display currency.", sku];
 msgctxt "OrchardCore.Commerce.Services.ShoppingCartHelpers"
 msgid "Can't add product {0} because it doesn't have a price, or its currency doesn't match the current display currency."
@@ -942,25 +900,13 @@ msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules
 msgid "There are no charges stored in this order."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:6
-#. <label class="custom-control-label" asp-for="UseNetPriceDisplay">@T["Use Net Price Display"]</label>
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
-msgid "Use Net Price Display"
-msgstr ""
-
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:9
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:11
 #. <span class="hint">@T["Turn on to display prices with taxes excluded."]</span>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
 msgid "Turn on to display prices with taxes excluded."
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:13
-#. <label class="custom-control-label" asp-for="UseGrossPriceDisplay">@T["Use Gross Price Display"]</label>
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
-msgid "Use Gross Price Display"
-msgstr ""
-
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:16
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/PriceDisplaySettings.Edit.cshtml:18
 #. <span class="hint">@T["Turn on to display prices with taxes included."]</span>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.PriceDisplaySettings.Edit"
 msgid "Turn on to display prices with taxes included."
@@ -1097,44 +1043,22 @@ msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules
 msgid "Remove"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ShoppingCartTable.cshtml:58
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ShoppingCartTable.cshtml:64
 #. <td class="font-weight-bold">@T["Total"]</td>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.ShoppingCartTable"
 msgid "Total"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ShoppingCartTable.cshtml:0
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.ShoppingCartTable"
-msgid "Net Price: {0}"
-msgstr ""
-
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ShoppingCartTable.cshtml:0
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.ShoppingCartTable"
-msgid "Gross Price: {0}"
-msgstr ""
-
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ShoppingCartTable.cshtml:88
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/ShoppingCartTable.cshtml:94
 #. <button type="submit" class="btn btn-primary">@T["Update"]</button>
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.ShoppingCartTable"
 msgid "Update"
 msgstr ""
 
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/TaxPart_TaxRate_GrossPrice.cshtml:6
+#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/TaxPart_TaxRate_GrossPrice.cshtml:12
 #. title="@T["Estimate, the final value is calculated during checkout."]">
 msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.TaxPart_TaxRate_GrossPrice"
 msgid "Estimate, the final value is calculated during checkout."
-msgstr ""
-
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/TaxPart_TaxRate_GrossPrice.cshtml:7
-#. <strong class="tax-rate-gross-price-title">@T["Gross Price*:"]</strong>
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.TaxPart_TaxRate_GrossPrice"
-msgid "Gross Price*:"
-msgstr ""
-
-#: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/TaxPart-GrossPrice.cshtml:9
-#. <strong class="price-part-price-field-title">@T["Gross Price:"]</strong>
-msgctxt ".home.runner.work.OrchardCore.Commerce.OrchardCore.Commerce.src.Modules.OrchardCore.Commerce.Views.TaxPart-GrossPrice"
-msgid "Gross Price:"
 msgstr ""
 
 #: /home/runner/work/OrchardCore.Commerce/OrchardCore.Commerce/src/Modules/OrchardCore.Commerce/Views/TaxPart-TaxRate.cshtml:8
